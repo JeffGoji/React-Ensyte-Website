@@ -7,8 +7,8 @@ export default class Slide9 extends React.Component {
         return (
             <div className='justify-content-center'>
                 <div className="card text-white lightGradient imgBg8" style={{ minHeight: "700px" }}>
-                    <h1 className="card-title mt-3 lightblue-text">GASTAR-PS Solution for Producer Services
-                    </h1>
+                    <h2 className="card-title mt-3 lightblue-text">GASTAR-PS Solution for Producer Services
+                    </h2>
                     <p className="card-text fs-4">ENSYTE is rolling out enhancements to its GASTAR Producer Services Solution to include:</p>
                     <div className="mt-2 mb-5 text-start fs-5">
                         <div className='text-center fs-5 mb-2'>

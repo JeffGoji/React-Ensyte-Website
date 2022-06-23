@@ -7,9 +7,9 @@ export default class Slide8 extends React.Component {
         return (
             <div className='justify-content-center bg-white'>
                 <div className="card text-black lightGradient imgBg7" style={{ minHeight: "700px" }}>
-                    <h1 className="card-title mt-3 blue-text">ENSYTE Adds GASTAR-LQ, a Liquids Storage Module for
+                    <h2 className="card-title mt-3 blue-text">ENSYTE Adds GASTAR-LQ, a Liquids Storage Module for
                         NGL & LNG Product Management
-                    </h1>
+                    </h2>
                     <p className="card-text fs-4">ENSYTE has recently enhanced GASTAR’s natural gas software solution with a new module to manage Natural Gas Liquids (NGL) and Liquified Natural Gas (LNG).  </p>
                     <div className="mt-4 mb-5 text-center fs-4">
                         <h2>NGL / LNG Module Features:</h2>
