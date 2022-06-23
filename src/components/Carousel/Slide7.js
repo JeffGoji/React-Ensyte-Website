@@ -9,7 +9,7 @@ export default class Slide7 extends React.Component {
                 <div className="card text-black lightGradient imgBg6 mt-0" style={{ minHeight: "700px" }}>
                     <h1 className="card-title mt-3 blue-text">Summer Updates for GASTAR-LDC for Natural Gas Utilities!</h1>
                     <p className="card-text fs-4 mt-4"> The ENSYTE Team has made significant enhancements to the GASTAR-LDC Solution, the industry’s most comprehensive natural gas software for natural gas utilities, including:</p>
-                    <div className='text-center fs-5 mt-5'>
+                    <div className='text-center fs-5 mt-3'>
                         <ul className='no-bullets'>
                             <li>Security Module - Enhanced Flexibility to handle SQL Server, Windows, and Active Directory Authentication</li>
                             <li>Measurement Module - Enhanced Capability to Manage Hourly Read, Daily Read, and Cycle Read Data</li>
