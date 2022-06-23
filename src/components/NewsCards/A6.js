@@ -1,0 +1,21 @@
+
+const A6 = () => {
+    return (
+        <div>
+            <p> ENSYTE understands the enormous challenge our clients have with not only managing data across multiple software systems and data sources, but also transforming this data into useful information that can leveraged for decision making.The GASTAR Data Interfaces provide a fully streamlined and automated process between all related customer systems, giving management and users a central point for decision making.The ENSYTE Team has experience providing integration with a wide variety of systems, including Customer Information Systems(CIS), Measurement, Weather, SCADA, Platt’s pricing, SAP, ORACLE C2M, GL Financial Accounting, Invoicing, and more.
+                < br />
+                <br />
+
+                We recently completed a project to integrate the GASTAR Product with Oracle’s Customer to Meter(C2M) system.The project involved building both an in -bound interface to bring key data points into GASTAR from C2M, as well as an outbound interface to export financial data back to C2M for invoicing and accounting.The in -bound interface automatically imports all relevant data pertaining to Retail Choice Customers, Cycle Read Usage, Daily Read Usage, Weather and SCADA, into GASTAR.The outbound interface automatically exports all invoice data out of GASTAR to the C2M System, which involved database and access screen changes to update the software to GASTAR’s latest standards.
+                < br />
+                <br />
+
+                We also recently completed a data migration and integration project for another client, which involved creating new interface processing to schedule batch jobs.The solution included system generated notifications to users for any issues with the interface processing, which is critical and time sensitive for the business.The system generated notifications contain detailed information about any failures, as well as exceptions, so that the user can troubleshoot as needed.Front end functionality was created for users to manage the interface, inclusive of running them manually if needed.Only designated users with specified roles and permissions are able to run the processes, providing additional layers of security to the system.The combination of the automated interface processes with the option to manage them manually provides significant flexibility and control for GASTAR users.
+                < br />
+                <br />
+                The GASTAR product sets a new standard in data integrity and management, as well as security, for these mission critical processes for our clients, giving management and users a central point for decision making, reducing time for data entry and reconciliation, and eliminating the risk of human error or other exposures caused by manual processes.
+            </p>
+        </div>)
+}
+
+export default A6;

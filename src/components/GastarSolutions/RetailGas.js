@@ -1,0 +1,96 @@
+import { useEffect } from "react";
+import { NavLink } from 'react-router-dom'
+
+
+
+const RetailGas = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    return (
+        <div className="container-fluid bg-white">
+            <div className="row mt-5">
+                <h1 className="text-center mt-5 ">Retail Gas Marketing</h1>
+            </div>
+            <div className="row justify-content-center imgBg12">
+                {/* <div className="col-lg-6 col-sm-12 text-center">
+                    <img src={image1} alt="Product" className=' img-fluid' />
+                </div> */}
+                <div className="col-lg-8 col-md-12 col-sm-12 text-justify text-white mt-3 fs-5">
+
+                    <p>GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
+                    </p>
+                </div>
+            </div>
+            <div className="row justify-content-center">
+                <div className="col-sm-12 col-md-12 col-lg-10">
+                    <div className="card mt-3 mb-3 cardshadow">
+                        <div className="card-header text-center blue-bg text-white"><h2>Oil & Gas Downstream Marketing</h2></div>
+                        <div className="fs-6 p-2">
+                            <h3 className="blue-text text-center mt-4">Contracts & Accounting Management</h3>
+                            <p>GASTAR supports the marketing of natural gas through an integrated set of modules, focused on six core areas:</p>
+                            <ul>
+                                <li>Customer Acquisition</li>
+                                <li>Demand and Sales Forecasting</li>
+                                <li>Gas Supply and Financial Positions</li>
+                                <li>LDC Interface</li>
+                                <li>Invoicing and Collections</li>
+                                <li>Financial Reports.</li>
+                            </ul>
+
+
+
+
+                            <p>For the Retail Marketer, GASTAR manages the attraction and retention of customers through an interactive website (Electronic Bulletin Board), which automates the customer sign up process and ongoing communication. Customers have easy access to daily burn information and other reports without having to rely on staff support. A robust Contracts Module provides the flexibility to manage all business relationships including Suppliers, Pooling Tariff Structures, and Transportation Customers.</p>
+
+                            <p>GASTAR provides a seamless interface to local distribution systems through which marketers can manage physical scheduling, real time demand positioning, management of allocations, and deliveries for accurate imbalance positions (daily and monthly). The solution also manages wholesale supply deals and financial transactions / hedges. Accurate forecasting is essential for the gas marketer, and GASTAR supports this requirement through the integration of load forecasting and weather data into growth forecasts, as well as the calculation of mass-market volumetric positions using standard retail risk factors. The system then aggregates both wholesale and retail physical / financial positions.</p>
+
+
+                            <p>GASTAR’s Accounting Module has the ability to process and distribute thousands of retail invoices, including cycle billing, one bill, and sales bills. Billing information is sent to Accounts Receivable for collections and General Ledger (G/L) reporting. GASTAR tracks imbalance trading and invoicing, and performs final settlement for physical, financial, and other transactions.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row justify-content-center imgBg13">
+                {/* <div className="col-lg-6 col-sm-12 text-center">
+                    <img src={image1} alt="Product" className=' img-fluid' />
+                </div> */}
+                <div className="col-lg-4 col-md-12 col-sm-12 text-justify text-white mt-3">
+
+                    <h2 className="text-center">GASTAR Marketer Features:</h2>
+                    <ul>
+                        <li>Customer Relationship Manager (CRM)</li>
+                        <li>Contracts Management</li>
+                        <li>Demand/Sales Forecasting</li>
+                        <li>Supply Deals</li>
+                        <li>Financial Positioning</li>
+                        <li>LDC Interface</li>
+                        <li>Physical Scheduling</li>
+                        <li>Real Time Demand Positioning</li>
+                        <li>Allocations & Imbalance Positions</li>
+                        <li>Aggregation of Positions</li>
+                        <li>Monthly Demand Profiles</li>
+                        <li>Daily Measurement</li>
+                        <li>Monthly Cycle Measurement</li>
+                        <li>Margin Analysis</li>
+                        <li>Settlement</li>
+                        <li>Invoicing</li>
+                        <li>G/L Reporting</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div className="text-center p-5">
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="/gastar-producer"><h2 className="text-center">GASTAR for Producer/Operator</h2></NavLink>
+            </div>
+
+        </div>
+
+    )
+}
+
+export default RetailGas;

@@ -1,0 +1,17 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="25" width="36" height="16" fill="#404040"/>
+<path d="M41 34.5H56.5V52.5H18C11.6487 52.5 6.5 47.3513 6.5 41V34.5H41Z" fill="#F2F2F2" stroke="#404040" stroke-width="3"/>
+<path d="M39.5 25.5C39.5 27.6445 37.9989 29.8633 34.9721 31.629C31.9822 33.3731 27.7527 34.5 23 34.5C18.2473 34.5 14.0178 33.3731 11.0279 31.629C8.0011 29.8633 6.5 27.6445 6.5 25.5C6.5 23.3555 8.0011 21.1367 11.0279 19.371C14.0178 17.6269 18.2473 16.5 23 16.5C27.7527 16.5 31.9822 17.6269 34.9721 19.371C37.9989 21.1367 39.5 23.3555 39.5 25.5Z" fill="#F2F2F2" stroke="#404040" stroke-width="3"/>
+<rect x="14" y="46" width="3" height="7" rx="1.5" fill="#404040"/>
+<rect x="20" y="43" width="3" height="10" rx="1.5" fill="#404040"/>
+<rect x="26" y="46" width="3" height="6" rx="1.5" fill="#404040"/>
+<rect x="32" y="46" width="3" height="7" rx="1.5" fill="#404040"/>
+<rect x="38" y="43" width="3" height="10" rx="1.5" fill="#404040"/>
+<rect x="44" y="46" width="3" height="7" rx="1.5" fill="#404040"/>
+<rect x="50" y="46" width="3" height="7" rx="1.5" fill="#404040"/>
+<path d="M8 39.5V32C14 36 19.5 36 24 36V39.5H8Z" fill="#F2F2F2"/>
+<ellipse cx="23" cy="25.5" rx="6" ry="3.5" fill="#C59533"/>
+<circle cx="23" cy="9" r="9" fill="#404040"/>
+<path d="M14 10L23 26L32 10H14Z" fill="#404040"/>
+<circle cx="23" cy="9" r="4" fill="#F2F2F2"/>
+</svg>
