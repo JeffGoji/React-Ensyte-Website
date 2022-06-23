@@ -15,7 +15,7 @@ function NewsStand(props) {
                 <img src={image1} className='img-fluid' alt='Ensyte data Releases' />
 
                 {/* <!-- Card 1 --> */}
-                <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-2">
+                <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3 g-0=4 mt-2">
                     {/* <Cards /> */}
 
                     <div className="col">

@@ -2,9 +2,15 @@ import image1 from '../../assets/img/michael.png'
 import image2 from '../../assets/img/marilyn.png'
 import image3 from '../../assets/img/tania-md.jpg'
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 
 
 const Execs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='container-fluid mt-5 text-white imgBg18'>
             <div className="row justify-content-center">

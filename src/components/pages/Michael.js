@@ -1,7 +1,13 @@
 import { NavLink } from "react-router-dom"
+import { useEffect } from "react";
 import image1 from "../../assets/img/michael.png"
 
 const Michael = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="container-fluid imgBg18 mt-5">
             <div className="row">

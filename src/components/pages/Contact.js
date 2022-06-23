@@ -1,9 +1,15 @@
+import { useEffect } from "react";
+
 const Contact = () => {
 
     function handleSubmit(e) {
         e.preventDefault();
         console.log("You clicked Submit");
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="container-fluid bg-white" style={{ marginTop: "5.7rem" }}>

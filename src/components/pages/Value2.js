@@ -1,6 +1,12 @@
 import value1 from '../../assets/img/gastar-overview-01.png'
+import { useEffect } from 'react'
 
 function Value2(props) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='row justify-content-center bg-lighter-blue rounded'>
             <h2 className="card-title mb-4 text-center">GASTAR Value Proposition</h2>

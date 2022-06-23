@@ -1,8 +1,14 @@
 import image1 from '../../assets/img/newsPic.jpg';
 import data from '../../data';
 
+import { useEffect } from 'react';
+
 
 function NewsCards(props) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
 

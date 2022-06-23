@@ -22,7 +22,7 @@ export const Nav = () => {
                 <NavLink className={"navbar-brand"} to="/">
                     <img src={logo1}
                         alt="Company Logo"
-                        className="img-fluid"
+
                         style={{ width: '40%' }}
                     /></NavLink>
                 <button
