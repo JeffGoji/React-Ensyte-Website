@@ -22,7 +22,7 @@ export default class Slide1 extends React.Component {
 
                     </div>
                 </div>
-                <div className="row row-cols-1 row-cols-md-3 g-2 mb-2 fs-5 lightGradient2">
+                <div className="row row-cols-1 row-cols-md-3 g-2 fs-5 lightGradient2">
                     <div className="col">
                         <div className="card h-100 bg-transparent border-0">
 
