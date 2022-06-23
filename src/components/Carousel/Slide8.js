@@ -6,7 +6,7 @@ export default class Slide8 extends React.Component {
 
         return (
             <div className='justify-content-center bg-white'>
-                <div className="card text-black lightGradient imgBg7" style={{ minHeight: "600px" }}>
+                <div className="card text-black lightGradient imgBg7" style={{ minHeight: "700px" }}>
                     <h1 className="card-title mt-5 blue-text">ENSYTE Adds GASTAR-LQ, a Liquids Storage Module for
                         NGL & LNG Product Management
                     </h1>

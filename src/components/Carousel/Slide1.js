@@ -6,7 +6,7 @@ export default class Slide1 extends React.Component {
     render() {
 
         return (
-            <div className='row justify-content-center imgBg14' style={{ minHeight: "600px" }}>
+            <div className='row justify-content-center imgBg14' style={{ minHeight: "700px" }}>
 
                 <div className="text-center" style={{ maxWidth: "50rem" }}>
 
@@ -14,7 +14,7 @@ export default class Slide1 extends React.Component {
 
                     <div style={{ maxWidth: "50rem" }}>
                         <h1 className='blue-text'>ENSYTE Energy Software Int’l, Inc.</h1>
-                        <p className="fs-2">
+                        <p className="fs-5">
                             Comprehensive Software Solutions for the Natural Gas Supply
                             Chain
                         </p>
