@@ -7,7 +7,7 @@ export default class Slide5 extends React.Component {
 
         return (
             <div className='mt-3 justify-content-center'>
-                <div className="card text-white darkGradient imgBg2 p-5" style={{ minHeight: "800px" }}>
+                <div className="card text-white darkGradient imgBg2 p-5" style={{ minHeight: "600px" }}>
                     <h1 className="card-title mt-5">GASTAR Data Integration</h1>
                     <p className="card-text fs-4">The GASTAR Data Interfaces provide a fully streamlined and automated process between all related customer systems, giving management and users a central point for decision making.
                         <br />

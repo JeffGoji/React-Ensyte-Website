@@ -6,7 +6,7 @@ export default class Slide4 extends React.Component {
 
         return (
             <div className='mt-3 justify-content-center'>
-                <div className="card text-white darkGradient imgBg1 p-5" style={{ minHeight: "800px" }}>
+                <div className="card text-white darkGradient imgBg1 p-5" style={{ minHeight: "600px" }}>
                     <h1 className="card-title mt-5">ENSYTE Adds a Liquids Storage Module to GASTAR for
                         NGL & LNG Product Management</h1>
                     <p className="card-text fs-4">ENSYTE has recently enhanced GASTAR’s natural gas software solution with a new module to manage Natural Gas Liquids (NGL) and Liquified Natural Gas (LNG).  </p>
