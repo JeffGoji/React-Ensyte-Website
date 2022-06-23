@@ -25,8 +25,7 @@ export default class Slide8 extends React.Component {
 
                             </ul>
                         </div>
-                        <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal2">Click Here to Learn More</button>
-
+                        {/* <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal2">Click Here to Learn More</button> */}
                     </div>
                 </div >
             </div>
