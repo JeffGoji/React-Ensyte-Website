@@ -1,11 +1,12 @@
 import { useEffect } from "react";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log("You clicked Submit");
-    }
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    //     console.log("You clicked Submit");
+    // }
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -23,9 +24,14 @@ const Contact = () => {
                         <div>
                             <div className="mb-3 card-body">
                                 <p className="text-center">Fill out our contact form below to submit any questions you may have, request a demo of our software, or request customer support.</p>
-                                <form onSubmit={handleSubmit}>
-                                    <div className="mb-3">
-                                        <label htmlFor="firstName" className="form-label">First Name</label>
+                                {/* <form onSubmit={handleSubmit}> */}
+                                <div className="mb-3">
+
+                                    <ContactForm />
+
+                                </div>
+
+                                {/* <label htmlFor="firstName" className="form-label">First Name</label>
                                         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="John"></input>
                                     </div>
                                     <div className="mb-3">
@@ -40,23 +46,18 @@ const Contact = () => {
                                         <label htmlFor="phone" className="form-label">Phone Number</label>
                                         <input className="form-control" id="phone" placeholder="555-555-5555"></input>
                                     </div>
-                                    {/* <div className="mb-3">
-                                        <label htmlFor="phone" className="form-label">Reason for contact</label>
-                                        <select class="form-select" aria-label="Selection">
-                                            <defaultValue selected>Please select a reason</defaultValue>
-                                            <defaultValue value="genInq">General Inquiry</defaultValue>
-                                            <defaultValue value="demo">Request a Demo</defaultValue>
-                                            <defaultValue value="cuspt">Customer Support</defaultValue>
-                                        </select>
-                                    </div> */}
+                                    
                                     <div className="d-grid gap-2 col-6 mx-auto mb-5">
                                         <button className="btn btn-primary" type="submit">Submit</button>
                                     </div>
                                 </form>
+                            </div>*/}
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
                 {/* Address and Information section */}
                 <div className="col-lg-6 col-sm-12 mt-3 mb-3">
