@@ -20,7 +20,8 @@ const ContactForm = () => {
             <p>
                 <button type="submit" className="btn btn-primary">Send</button>
             </p>
-        </form>)
+        </form>
+    )
 }
 
 export default ContactForm
