@@ -1,7 +1,7 @@
 const ContactForm = () => {
     return (
 
-        <form name="contact" method="POST" data-netlify="true" action="./pages/Success">
+        <form name="contact" method="POST" data-netlify="true" action="/success">
             <p>
                 <label>Your Name: <input type="text" name="name" className="form-control" id="exampleFormControlInput1" placeholder="John" /></label>
             </p>

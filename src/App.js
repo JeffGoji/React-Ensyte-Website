@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import { useEffect } from 'react'
 import Nav from './components/Nav'
 import Contact from './components/pages/Contact'
+import Success from './components/pages/Success'
 import Footer from './components/Footer'
 import Intro from './components/pages/Intro'
 import Map from './components/pages/Map'
@@ -32,6 +33,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap'
 import './assets/css/styles.css';
+import ContactForm from './components/pages/ContactForm'
 
 function App() {
 
@@ -52,6 +54,7 @@ function App() {
         <Route path='/michael-smith' element={<Michael />} />
         <Route path='/marilyn-smith' element={<Marilyn />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/success' element={<Success />} />
         <Route path='/newsstand' element={<NewsStand />} />
         <Route path='/gastar-overview' element={<GasStarOverview />} />
         <Route path='/gastar-value' element={<GastarValue />} />
