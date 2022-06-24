@@ -33,7 +33,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap'
 import './assets/css/styles.css';
-import ContactForm from './components/pages/ContactForm'
 
 function App() {
 
