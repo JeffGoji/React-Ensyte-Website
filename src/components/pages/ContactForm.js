@@ -2,7 +2,7 @@ const ContactForm = () => {
     return (
 
         <form name="contact" method="post">
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="/#/index" />
             <p>
                 <label htmlFor="name">Name</label> <br />
                 <input type="text" id="name" name="name" required className="form-control" />
