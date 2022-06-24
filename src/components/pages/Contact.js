@@ -3,11 +3,6 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
 
-    // function handleSubmit(e) {
-    //     e.preventDefault();
-    //     console.log("You clicked Submit");
-    // }
-
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
