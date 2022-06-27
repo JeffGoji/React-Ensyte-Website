@@ -21,7 +21,7 @@ const ContactForm = () => {
                 <input type="text" id="company" name="company" required className="form-control" />
             </p>
             <p>
-                <label htmlFor="position">Company</label> <br />
+                <label htmlFor="position">Position</label> <br />
                 <input type="text" id="position" name="position" required className="form-control" />
             </p>
 
