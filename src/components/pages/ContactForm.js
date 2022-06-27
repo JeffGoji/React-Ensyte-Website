@@ -12,8 +12,22 @@ const ContactForm = () => {
                 <input type="email" id="email" name="email" required className="form-control" />
             </p>
             <p>
+                <label htmlFor="phone">Phone Number</label> <br />
+                <input type="phone" id="phone" name="phone" required className="form-control" />
+            </p>
+
+            <p>
+                <label htmlFor="company">Company</label> <br />
+                <input type="text" id="company" name="company" required className="form-control" />
+            </p>
+            <p>
+                <label htmlFor="position">Company</label> <br />
+                <input type="text" id="position" name="position" required className="form-control" />
+            </p>
+
+            <p>
                 <label htmlFor="message">Message</label> <br />
-                <textarea id="message" name="message" required className="form-control" row="3"></textarea>
+                <textarea id="message" name="message" required className="form-control" row="5"></textarea>
             </p>
             <p>
                 <input type="submit" value="Submit message" />

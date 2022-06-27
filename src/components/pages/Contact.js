@@ -68,6 +68,8 @@ const Contact = () => {
                                     <dt>Fax</dt>
                                     <dd>(713) 622-2876</dd>
                                     <dt>Email</dt>
+                                    <dd><a href="mailto:ensyte@ensyte.com">ensyte@ensyte.com</a></dd>
+                                    <dt>Address</dt>
                                     <dd>ENSYTE Energy Software Int’l, Inc.
                                         <br />
                                         770 S. Post Oak Ln., Suite 330
