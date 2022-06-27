@@ -1,4 +1,22 @@
 const ContactForm = () => {
+
+    (() => {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+
     return (
         <form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
@@ -29,12 +47,15 @@ const ContactForm = () => {
                 <textarea id="message" name="message" required className="form-control" row="5"></textarea>
             </p>
             <p>
-                <input htmlFor="I am not a robot" className="form-check-input m-2" type="checkbox" value="true" id="I am not a robot"></input>
+                <input htmlFor="I am not a robot" required className="form-check-input m-2" type="checkbox" value="true" id="robot"></input>
                 <label className="form-check-label" htmlFor="flexCheckDefault">
                     I am not a Robot
                 </label>
 
             </p>
+            <div class="invalid-feedback">
+                You must agree before submitting.
+            </div>
 
             <p>
                 <input type="submit" value="Submit message" className="btn btn-lg btn-primary" />
