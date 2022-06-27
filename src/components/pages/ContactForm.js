@@ -18,7 +18,7 @@ const ContactForm = () => {
     })()
 
     return (
-        <form name="contact" method="post">
+        <form name="contact" method="post" data-netlify-recaptcha="true">
             <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label htmlFor="name" className="form-label">Name</label> <br />
@@ -53,7 +53,8 @@ const ContactForm = () => {
                 </label>
 
             </p>
-            <div class="invalid-feedback">
+            <div data-netlify-recaptcha="true"></div>
+            <div className="invalid-feedback">
                 You must agree before submitting.
             </div>
 

@@ -38,13 +38,19 @@
     <title>ENSYTE GASTAR Natural Gas Software</title>
   </head>
   <body>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <form
+      name="contact"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+      data-netlify-recaptcha="true"
+    >
       <input type="text" name="name" />
       <input type="email" name="email" />
       <input type="phone" name="phone" />
       <input type="company" name="company" />
       <input type="position" name="position" />
-      <input type="robot" name="robot" />
+      <input type="Not a Robot" name="robot" />
       <textarea name="message"></textarea>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
