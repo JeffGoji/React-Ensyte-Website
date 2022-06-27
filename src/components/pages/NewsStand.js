@@ -8,7 +8,7 @@ function NewsStand(props) {
 
         <div className="container-fluid mb-3 bg-white">
             <div
-                className="text-center text-black justify-content-center"
+                className="text-center text-black justify-content-center pb-5"
             >
                 <h1 className="mt-5">ENSYTE Latest NEWS</h1>
 
@@ -98,6 +98,33 @@ function NewsStand(props) {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                {/************************* ROW 3 ************************* */}
+                <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
+                    {/* CARD 1 */}
+                    <div className="col" >
+                        <div className="card mb-5 h-100">
+                            <div className="card-header">FEATURED / NEWS RELEASE</div>
+                            <div className="card-body">
+                                <img src={data[7].image} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
+                                <h3 className="card-title">{data[7].title}</h3>
+                                <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal7">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CARD 2 */}
+                    <div className="col" >
+                        <div className="card mb-5 h-100">
+                            <div className="card-header">FEATURED / NEWS RELEASE</div>
+                            <div className="card-body">
+                                <img src={data[8].image} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
+                                <h3 className="card-title">{data[8].title}</h3>
+                                <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal7">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* MODAL SECTION FOR ALL ARTICLES */}
 
                     {/* Modal 1*/}
@@ -173,7 +200,7 @@ function NewsStand(props) {
                             </div>
                         </div>
                     </div>
-
+                    {/************** ROW 2 ****************/}
                     {/* MODAL 4 */}
 
                     <div className="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
@@ -251,11 +278,56 @@ function NewsStand(props) {
                     </div>
 
                     {/* End of Row */}
+
+                    {/* ROW 4 */}
+                    {/* MODAL 7 ******* */}
+
+                    <div className="modal fade" id="modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-xl">
+
+                            <div className="modal-content text-center">
+                                <div className="modal-header text-center blue-bg">
+                                    <h3 className="modal-title text-white center" id="staticBackdropLabel">{data[7].title}</h3>
+                                    <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div className="modal-body fs-6 text-wrap">
+                                    <div className="text-center mb-4">
+                                        <img src={data[7].image} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                    </div>
+                                    {data[7].article}
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ******MODAL 8 ********/}
+                    <div className="modal fade" id="modal8" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-xl">
+
+                            <div className="modal-content text-center">
+                                <div className="modal-header text-center blue-bg">
+                                    <h3 className="modal-title text-white center" id="staticBackdropLabel">{data[8].title}</h3>
+                                    <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div className="modal-body fs-6 text-wrap">
+                                    <div className="text-center mb-4">
+                                        <img src={data[8].image} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                    </div>
+                                    {data[8].article}
+                                </div>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                {/* {data.map((data) => ( */}
-
-                {/* ))} */}
             </div>
         </div >
 

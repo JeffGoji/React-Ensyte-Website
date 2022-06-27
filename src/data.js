@@ -8,6 +8,8 @@ import img9 from './assets/img/rig1.jpg'
 import img12 from './assets/img/customized-solutions-02.jpg'
 import img13 from './assets/img/lngTanker.jpg'
 import img14 from './assets/img/DataIntegration.jpg'
+import img15 from './assets/img/linkedinholiday.jpg'
+import img16 from './assets/img/Boston.jpg'
 
 //Import News Articles:
 import A1 from './components/NewsCards/A1'
@@ -17,6 +19,8 @@ import A4 from './components/NewsCards/A4'
 import A5 from './components/NewsCards/A5'
 import A6 from './components/NewsCards/A6'
 import A7 from './components/NewsCards/A7'
+import A8 from './components/NewsCards/A8'
+import A9 from './components/NewsCards/A9'
 //Data to place inside the cards:
 
 const ArticleData = [{
@@ -77,7 +81,24 @@ const ArticleData = [{
     date: "6/10/2022",
     image: img6,
     article: <A7 />
-}];
+},
+{
+
+    id: "a8",
+    title: `Happy Holidays from ENSYTE!`,
+    date: "12/20/2021",
+    image: img15,
+    article: <A8 />
+},
+{
+
+    id: "a9",
+    title: `ENSYTE Signs New Client`,
+    date: "12/20/2021",
+    image: img16,
+    article: <A9 />
+},
+];
 
 
 
