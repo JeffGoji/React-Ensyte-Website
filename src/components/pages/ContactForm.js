@@ -57,7 +57,6 @@ const ContactForm = () => {
             <div className="invalid-feedback">
                 You must agree before submitting.
             </div>
-            <div data-netlify-recaptcha="true">Captcha</div>
             <p>
                 <input type="submit" value="Submit message" className="btn btn-lg btn-primary" />
             </p>
