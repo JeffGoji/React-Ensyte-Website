@@ -149,12 +149,9 @@ export const Nav = () => {
                             <li className={"nav-item ms-lg-3"}>
                                 <NavLink className={"nav-link"} to='contact'>Contact Us</NavLink>
                             </li>
-
-
-
-                            <button type="button" className="btn btn-warning ms-lg-3">
+                            <NavLink className={"nav-link"} to='contact'><button type="button" className="btn btn-warning ms-lg-3">
                                 Request a Demo
-                            </button>
+                            </button></NavLink>
                             <li id=''></li>
                         </div>
                     </ul>
