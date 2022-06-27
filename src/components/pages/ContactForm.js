@@ -47,7 +47,7 @@ const ContactForm = () => {
                 <textarea id="message" name="message" required className="form-control" row="5"></textarea>
             </p>
             <p>
-                <input htmlFor="robot" required className="form-check-input m-2" type="checkbox" value="not a robot" id="robot"></input>
+                <input name="robot" required className="form-check-input m-2" type="checkbox" value="not a robot" id="robot"></input>
                 <label className="form-check-label" htmlFor="flexCheckDefault">
                     I am not a Robot
                 </label>
