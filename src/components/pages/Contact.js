@@ -8,9 +8,9 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className="container-fluid bg-white" style={{ marginTop: "5.7rem" }}>
+        <div className="container-fluid imgBg18" style={{ marginTop: "5.7rem" }}>
             <div className="row align-items-center-top lightblue-bg">
-                <h2 className="text-center mt-3 mb-2 card-title">Contact Us</h2>
+                <h2 className="text-center mt-3 mb-2 card-title text-white">Contact Us</h2>
                 <div className="col-lg-6 col-sm-12 mt-3 mb-3">
                     <div className="card rounded-2">
                         <div className="card-header bg-primary text-white">
@@ -25,28 +25,6 @@ const Contact = () => {
                                     <ContactForm />
 
                                 </div>
-
-                                {/* <label htmlFor="firstName" className="form-label">First Name</label>
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="John"></input>
-                                    </div>
-                                    <div className="mb-3">
-                                        <label htmlFor="lastName" className="form-label">Last Name</label>
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Henry"></input>
-                                    </div>
-                                    <div className="mb-3">
-                                        <label htmlFor="email" className="form-label">Email address</label>
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></input>
-                                    </div>
-                                    <div className="mb-3">
-                                        <label htmlFor="phone" className="form-label">Phone Number</label>
-                                        <input className="form-control" id="phone" placeholder="555-555-5555"></input>
-                                    </div>
-                                    
-                                    <div className="d-grid gap-2 col-6 mx-auto mb-5">
-                                        <button className="btn btn-primary" type="submit">Submit</button>
-                                    </div>
-                                </form>
-                            </div>*/}
                             </div>
                         </div>
                     </div>
