@@ -53,16 +53,17 @@ const ContactForm = () => {
                 </label>
 
             </p>
-            <div data-netlify-recaptcha="true"></div>
+
             <div className="invalid-feedback">
                 You must agree before submitting.
             </div>
-
+            <div data-netlify-recaptcha="true"></div>
             <p>
                 <input type="submit" value="Submit message" className="btn btn-lg btn-primary" />
             </p>
 
         </form>
+
     )
 }
 
