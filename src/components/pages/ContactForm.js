@@ -1,37 +1,38 @@
 const ContactForm = () => {
     return (
-
         <form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
             <p>
-                <label htmlFor="name">Name</label> <br />
+                <label htmlFor="name" className="form-label">Name</label> <br />
                 <input type="text" id="name" name="name" required className="form-control" />
             </p>
             <p>
-                <label htmlFor="email">Email</label> <br />
+                <label htmlFor="email" className="form-label">Email</label> <br />
                 <input type="email" id="email" name="email" required className="form-control" />
             </p>
             <p>
-                <label htmlFor="phone">Phone Number</label> <br />
+                <label htmlFor="phone" className="form-label">Phone Number</label> <br />
                 <input type="phone" id="phone" name="phone" required className="form-control" />
             </p>
 
             <p>
-                <label htmlFor="company">Company</label> <br />
+                <label htmlFor="company" className="form-label">Company</label> <br />
                 <input type="text" id="company" name="company" required className="form-control" />
             </p>
             <p>
-                <label htmlFor="position">Position</label> <br />
+                <label htmlFor="position" className="form-label">Position</label> <br />
                 <input type="text" id="position" name="position" required className="form-control" />
             </p>
 
             <p>
-                <label htmlFor="message">Message</label> <br />
+                <label htmlFor="message" className="form-label">Message</label> <br />
                 <textarea id="message" name="message" required className="form-control" row="5"></textarea>
             </p>
+
             <p>
-                <input type="submit" value="Submit message" />
+                <input type="submit" value="Submit message" className="btn btn-lg btn-primary" />
             </p>
+
         </form>
     )
 }
