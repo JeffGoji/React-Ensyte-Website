@@ -51,9 +51,7 @@ const ContactForm = () => {
                 <label className="form-check-label" htmlFor="flexCheckDefault">
                     I am not a Robot
                 </label>
-
             </p>
-
             <div className="invalid-feedback">
                 You must agree before submitting.
             </div>

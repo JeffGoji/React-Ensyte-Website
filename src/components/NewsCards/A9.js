@@ -1,16 +1,6 @@
 const A9 = () => {
     return (
         <div>
-            <p>Happy Holidays to all our clients, partners, and friends!
-                <br />
-                <br />
-                We wish everyone a Wonderful Holiday Season and New Year.
-                <br />
-                <br />
-                ENSYTE is wrapping up the year with significant enhancements to the GASTAR Suite of Products, as well as continued growth of our client base.
-                <br />
-                <br />
-                We look forward to helping you streamline and automate your energy transactions in the new year.</p>
             <div className="card border-0 mt-5 ">
                 <h2 className="text-center">ENSYTE Signs New Client</h2>
                 <div className="card-body">

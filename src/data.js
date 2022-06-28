@@ -10,6 +10,9 @@ import img13 from './assets/img/lngTanker.jpg'
 import img14 from './assets/img/DataIntegration.jpg'
 import img15 from './assets/img/linkedinholiday.jpg'
 import img16 from './assets/img/Boston.jpg'
+import img17 from './assets/img/gs-online.jpg'
+import img18 from './assets/img/UGI-20-Years-1.jpg'
+import img19 from './assets/img/vista3-1.jpg'
 
 //Import News Articles:
 import A1 from './components/NewsCards/A1'
@@ -21,6 +24,9 @@ import A6 from './components/NewsCards/A6'
 import A7 from './components/NewsCards/A7'
 import A8 from './components/NewsCards/A8'
 import A9 from './components/NewsCards/A9'
+import A10 from './components/NewsCards/A10'
+import A11 from './components/NewsCards/A11'
+import A12 from './components/NewsCards/A12'
 //Data to place inside the cards:
 
 const ArticleData = [{
@@ -97,6 +103,27 @@ const ArticleData = [{
     date: "12/20/2021",
     image: img16,
     article: <A9 />
+},
+{
+
+    id: "a10",
+    title: `Introducing GASTAR Online`,
+    image: img17,
+    article: <A10 />
+},
+{
+
+    id: "a11",
+    title: `ENSYTE Celebrates 20 Years with UGI`,
+    image: img18,
+    article: <A11 />
+},
+{
+
+    id: "a12",
+    title: `New Gas Supply / City Gate Planning Feature`,
+    image: img19,
+    article: <A12 />
 },
 ];
 
