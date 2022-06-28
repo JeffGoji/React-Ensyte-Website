@@ -13,6 +13,10 @@ import img16 from './assets/img/Boston.jpg'
 import img17 from './assets/img/gs-online.jpg'
 import img18 from './assets/img/UGI-20-Years-1.jpg'
 import img19 from './assets/img/vista3-1.jpg'
+import img20 from './assets/img/computers.jpg'
+import img21 from './assets/img/dataCenter.jpg'
+import img22 from './assets/img/Producer-Services-Long.jpg'
+import img23 from './assets/img/pgw-1.jpg'
 
 //Import News Articles:
 import A1 from './components/NewsCards/A1'
@@ -27,6 +31,10 @@ import A9 from './components/NewsCards/A9'
 import A10 from './components/NewsCards/A10'
 import A11 from './components/NewsCards/A11'
 import A12 from './components/NewsCards/A12'
+import A13 from './components/NewsCards/A13'
+import A14 from './components/NewsCards/A14'
+import A15 from './components/NewsCards/A15'
+import A16 from './components/NewsCards/A16'
 //Data to place inside the cards:
 
 const ArticleData = [{
@@ -124,6 +132,31 @@ const ArticleData = [{
     title: `New Gas Supply / City Gate Planning Feature`,
     image: img19,
     article: <A12 />
+},
+{
+
+    id: "a13",
+    title: `Why is GASTAR™ the Preferred Solution?`,
+    image: img20,
+    article: <A13 />
+},
+{
+    id: "a14",
+    title: `ENSYTE Signs First GASTAR Online Client`,
+    image: img21,
+    article: <A14 />
+},
+{
+    id: "a15",
+    title: `ENSYTE Wins Producer Services Client`,
+    image: img22,
+    article: <A15 />
+},
+{
+    id: "a16",
+    title: `ENSYTE Wins Major Philadelphia Utility`,
+    image: img23,
+    article: <A16 />
 },
 ];
 

@@ -160,7 +160,7 @@ function NewsStand(props) {
                             </div>
                         </div>
                     </div>
-                    {/* CARD 3
+                    {/* {/* CARD 3 */}
                     <div className="col" >
                         <div className="card mb-5 h-100">
                             <div className="card-header">FEATURED / NEWS RELEASE</div>
@@ -170,9 +170,43 @@ function NewsStand(props) {
                                 <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal12">Read More</button>
                             </div>
                         </div>
-                    </div> */}
-
-
+                    </div>
+                </div>
+                {/************************* ROW 5 ************************* */}
+                <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
+                    {/* CARD 1 */}
+                    <div className="col" >
+                        <div className="card mb-5 h-100">
+                            <div className="card-header">FEATURED / NEWS RELEASE</div>
+                            <div className="card-body">
+                                <img src={data[13].image} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
+                                <h3 className="card-title">{data[13].title}</h3>
+                                <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal13">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CARD 2 */}
+                    <div className="col" >
+                        <div className="card mb-5 h-100">
+                            <div className="card-header">FEATURED / NEWS RELEASE</div>
+                            <div className="card-body">
+                                <img src={data[14].image} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
+                                <h3 className="card-title">{data[14].title}</h3>
+                                <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal14">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    {/* CARD 3 */}
+                    <div className="col" >
+                        <div className="card mb-5 h-100">
+                            <div className="card-header">FEATURED / NEWS RELEASE</div>
+                            <div className="card-body">
+                                <img src={data[15].image} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
+                                <h3 className="card-title">{data[15].title}</h3>
+                                <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal15">Read More</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 {/* MODAL SECTION FOR ALL ARTICLES */}
@@ -433,6 +467,94 @@ function NewsStand(props) {
                                     <img src={data[11].image} alt="Services Solutions" className='img-fluid' />
                                 </div>
                                 {data[11].article}
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* ******MODAL 12 ********/}
+                <div className="modal fade" id="modal12" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-xl">
+
+                        <div className="modal-content text-center">
+                            <div className="modal-header text-center blue-bg">
+                                <h3 className="modal-title text-white center" id="staticBackdropLabel">{data[12].title}</h3>
+                                <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body fs-6 text-wrap">
+                                <div className="text-center mb-4">
+                                    <img src={data[12].image} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                </div>
+                                {data[12].article}
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* ******MODAL 12 ********/}
+                <div className="modal fade" id="modal13" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-xl">
+
+                        <div className="modal-content text-center">
+                            <div className="modal-header text-center blue-bg">
+                                <h3 className="modal-title text-white center" id="staticBackdropLabel">{data[13].title}</h3>
+                                <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body fs-6 text-wrap">
+                                <div className="text-center mb-4">
+                                    <img src={data[13].image} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                </div>
+                                {data[13].article}
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* ******MODAL 13 ********/}
+                <div className="modal fade" id="modal14" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-xl">
+
+                        <div className="modal-content text-center">
+                            <div className="modal-header text-center blue-bg">
+                                <h3 className="modal-title text-white center" id="staticBackdropLabel">{data[14].title}</h3>
+                                <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body fs-6 text-wrap">
+                                <div className="text-center mb-4">
+                                    <img src={data[14].image} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                </div>
+                                {data[14].article}
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* ******MODAL 14 ********/}
+                <div className="modal fade" id="modal15" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-xl">
+
+                        <div className="modal-content text-center">
+                            <div className="modal-header text-center blue-bg">
+                                <h3 className="modal-title text-white center" id="staticBackdropLabel">{data[15].title}</h3>
+                                <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body fs-6 text-wrap">
+                                <div className="text-center mb-4">
+                                    <img src={data[15].image} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                </div>
+                                {data[15].article}
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
