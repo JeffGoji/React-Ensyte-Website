@@ -6,7 +6,7 @@ export default class Slide1 extends React.Component {
     render() {
 
         return (
-            <div className='row justify-content-center imgBg14' style={{ minHeight: "600px" }}>
+            <div className='row justify-content-center imgBg14 mt-2' style={{ minHeight: "600px" }}>
 
                 <div className="text-center" style={{ maxWidth: "50rem" }}>
 

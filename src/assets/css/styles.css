@@ -112,8 +112,8 @@ li {
 .imgBg6 {
   background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.85),
-      rgba(255, 255, 255, 0.85)
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
     ),
     url(../img/palms.jpg);
   background-size: cover;
@@ -126,8 +126,8 @@ li {
 .imgBg7 {
   background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
     ),
     url(../img/lngTanker.jpg);
   background-size: cover;
@@ -142,7 +142,7 @@ li {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(../img/rig2.jpg);
+    url(../img/rig3flip.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -208,8 +208,8 @@ li {
 .imgBg14 {
   background-image: linear-gradient(
       to top,
-      rgba(255, 255, 255, 0.85),
-      rgba(255, 255, 255, 0.85)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
     ),
     url(../img/rig3.jpg);
   background-size: cover;
