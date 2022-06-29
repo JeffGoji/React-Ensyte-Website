@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import productImg from '../../assets/img/productImage.jpg'
 import devTeam from '../../assets/img/customer-support-02.jpg'
-import gastarLogo from '../../assets/img/gastar-logo-1.png'
+// import gastarLogo from '../../assets/img/gastar-logo-1.png'
 
 const GasSupply = () => {
 
