@@ -18,7 +18,7 @@ const Execs = () => {
                     <h1 className="text-center mt-5">
                         Meet Our Executive Team
                     </h1>
-                    <div className="card bg-white text-black">
+                    <div className="card bg-white text-black mb-5">
                         <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-5 fs-5 text-center">
                             <div className="col-sm-12 col-md-12 col-lg-4">
                                 <div className="card h-100 bg-transparent border-0">

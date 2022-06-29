@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Contact from './components/pages/Contact'
 import Success from './components/pages/Success'
 import Footer from './components/Footer'
+import Privacy from './components/pages/Privacy'
 import Intro from './components/pages/Intro'
 import Map from './components/pages/Map'
 import About from './components/pages/About'
@@ -48,6 +49,7 @@ function App() {
         <Route path='/' element={<Intro />} />
         <Route path='/map' element={<Map />} />
         <Route path='/about' element={<About />} />
+        <Route path='/privacy' element={<Privacy />} />
         <Route path='/executive-team' element={<Execs />} />
         <Route path='/tania-demeris' element={<Tania />} />
         <Route path='/michael-smith' element={<Michael />} />
@@ -71,6 +73,7 @@ function App() {
         <Route path='/gastar-custom-solutions' element={<CustomSolutions />} />
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
+
       </Routes>
       <Footer />
     </div>
