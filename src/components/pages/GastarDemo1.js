@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 // import { NavLink } from 'react-router-dom';
 
 import image1 from '../../assets/img/gastar-logo-1.png';
@@ -18,7 +19,7 @@ const GastarDemo1 = () => {
                 <img src={image2} alt="Schedule a Demo with us!" className='border-0 img-fluid' />
             </div>
             <div className="col-lg-12 col-sm-12 mt-2 mb-3 text-center">
-                <button type="button" className="btn btn-warning btn-lg">SCHEDULE A DEMO</button>
+                <NavLink to="/contact"><button type="button" className="btn btn-warning btn-lg">SCHEDULE A DEMO</button></NavLink>
             </div>
         </div>
     )

@@ -18,10 +18,12 @@ export default class IntroCarousel extends Component {
             infinite: true,
             speed: 2000,
             auto: true,
+            arrows: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 10000,
+            accessibility: true,
             cssEase: "linear",
 
             // appendDots: dots => (
@@ -48,7 +50,7 @@ export default class IntroCarousel extends Component {
             // )
         };
         return (
-            <div className="text-center mt-5" >
+            <div className="text-center justify-content-center" >
                 <div className=" d-none d-sm-block">
                     <Slider {...settings}>
 
