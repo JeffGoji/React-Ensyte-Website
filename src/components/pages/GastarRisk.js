@@ -26,15 +26,14 @@ const GastarRisk = () => {
                 </div>
             </div>
 
-            {/* <div className='row mt-5 mb-5 blue-bg'> */}
             <div className='row justify-content-center mt-0 bg-lighter-blue'>
-                <div className='col-lg-5 col-sm-12 align-self-center'>
-                    <div className="card border-0 mb-3 mt-4 bg-lighter-blue" style={{ maxwidth: "340px" }}>
+                <div className='col-lg-6 col-sm-12 '>
+                    <div className="card border-0 mb-3 mt-4 bg-lighter-blue" style={{ maxwidth: "800px" }}>
                         <div className="row">
                             <div className="col-lg-7 col-md-12 col-sm-12">
                                 <div className="card-body">
                                     <h5 className="card-title">GASTAR Enterprise Risk Management Activities:</h5>
-                                    <ul>
+                                    <ul className='p-2'>
                                         <li>Process Automation</li>
                                         <li>Streamlined Workflow</li>
                                         <li>Business Process Integrity</li>
@@ -60,7 +59,7 @@ const GastarRisk = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 col-md-4 col-sm-12">
-                                <img src={risk2} alt="Product" className="img-fluid rounded-start" />
+                                <img src={risk2} alt="Product" className="img-fluid rounded-end p-5" />
                             </div>
                         </div>
                     </div>
@@ -68,8 +67,8 @@ const GastarRisk = () => {
             </div>
 
             <div className="text-center mt-5">
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-value"><h2 className="text-center">Gastar Value and benefit</h2></NavLink>
-                <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting Options</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-value"><h2 className="text-center">GASTAR Value and benefit</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting Options</h2></NavLink>
             </div>
 
         </div>

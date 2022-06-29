@@ -19,7 +19,7 @@ function GastarSecurity() {
     return (
         <div className="container-fluid bg-white pb-4">
             <div className="row mt-5">
-                <h1 className="text-center mt-5">Gastar Data Security</h1>
+                <h1 className="text-center mt-5">GASTAR Data Security</h1>
             </div>
             <div className="row justify-content-center mt-5 blue-bg">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">
@@ -177,7 +177,7 @@ function GastarSecurity() {
 
             {/* Navigation buttons */}
             <div className="text-center mt-5" >
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting</h2></NavLink>
                 {/* <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting Options</h2></NavLink> */}
             </div >
 

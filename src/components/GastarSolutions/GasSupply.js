@@ -19,7 +19,7 @@ function GasSupply() {
                 <div className="col-lg-6 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid' />
                 </div>
-                <div className="col-lg-6 col-sm-12 text-justify">
+                <div className="col-lg-6 col-sm-12 text-justify mt-5">
                     <h2 className='text-center'>Natural Gas Supply & Gas Acquisition</h2>
                     <p>The Gas Acquisition System manages all business processes associated with the purchase, off-system sales, transportation, storage, and accounting of natural gas for the sales service side of the utility. GASTAR couples NAESB-compliant master purchase and sales contracts with NAESB-compliant nominations and scheduling to support all ‘off-system’ transactions, including storage, related gas accounting, and the interface of General Ledger (GL) data to corporate billing/accounting systems.</p>
                 </div>

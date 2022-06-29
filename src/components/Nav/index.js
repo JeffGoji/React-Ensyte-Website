@@ -37,7 +37,7 @@ export const Nav = () => {
                     <span className={"navbar-toggler-icon"}></span>
                 </button>
                 <div className={"collapse navbar-collapse"} id={"navbarNavDropdown"}>
-                    <ul className={"navbar-nav"}>
+                    <div className={"navbar-nav"}>
                         <li className={"nav-item ms-lg-3"}>
                             <NavLink className={"nav-link active"} aria-current="page" to="/">Home</NavLink>
                         </li>
@@ -117,48 +117,45 @@ export const Nav = () => {
                             </ul>
                         </li>
 
-                        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul className="navbar-nav ms-lg-3">
-                                <li className="nav-item dropdown">
-                                    <div
-                                        className="nav-link dropdown-toggle"
-                                        href="#"
-                                        id="navbarDropdownMenuLink"
-                                        role="button"
-                                        data-bs-toggle="dropdown"
-                                        aria-expanded="false"
-                                    >
-                                        ENSYTE Services
-                                    </div>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li>
-                                            <NavLink className="dropdown-item" to="/gastar-custom-solutions">Customized Solutions</NavLink>
-                                        </li>
-                                        <li>
-                                            <NavLink className="dropdown-item" to="/gastar-consulting">Consulting Services</NavLink>
-                                        </li>
-                                        <li>
-                                            <NavLink className="dropdown-item" to="/gastar-customer-support">Customer Support</NavLink>
-                                        </li>
-                                    </ul>
+                        <li className="nav-item dropdown">
+                            <div
+                                className="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdownMenuLink"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                ENSYTE Services
+                            </div>
+                            <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <NavLink className="dropdown-item" to="/gastar-custom-solutions">Customized Solutions</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className="dropdown-item" to="/gastar-consulting">Consulting Services</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className="dropdown-item" to="/gastar-customer-support">Customer Support</NavLink>
                                 </li>
                             </ul>
-                            <li className={"nav-item ms-lg-3"}>
-                                <NavLink className="dropdown-item" to="newsstand">Latest News</NavLink>
-                            </li>
-                            <li className={"nav-item ms-lg-3"}>
-                                <NavLink className={"nav-link"} to='contact'>Contact Us</NavLink>
-                            </li>
-                            <NavLink className={"nav-link"} to='contact'><button type="button" className="btn btn-warning ms-lg-3">
-                                Request a Demo
-                            </button></NavLink>
-                            <li id=''></li>
-                        </div>
-                    </ul>
-                </div>
+                        </li>
 
+                        <li className={"nav-item ms-lg-3"}>
+                            <NavLink className={"nav-link"} to="newsstand">Latest News</NavLink>
+                        </li>
+                        <li className={"nav-item ms-lg-3"}>
+                            <NavLink className={"nav-link"} to='contact'>Contact Us</NavLink>
+                        </li>
+                        <NavLink className={"nav-link"} to='contact'><button type="button" className="btn btn-warning ms-lg-3">
+                            Request a Demo
+                        </button></NavLink>
+                    </div>
+                </div>
             </div>
         </div>
+
+
 
     )
 }

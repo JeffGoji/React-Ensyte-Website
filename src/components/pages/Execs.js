@@ -22,6 +22,16 @@ const Execs = () => {
                         <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-5 fs-5 text-center">
                             <div className="col-sm-12 col-md-12 col-lg-4">
                                 <div className="card h-100 bg-transparent border-0">
+                                    <div className="card-body">
+                                        <img src={image3} alt="Tania Demeris" className="img-fluid imgShadow rounded" style={{ maxHeight: "264px" }} />
+                                        <h3 className="card-title mt-2">Tania Demeris</h3>
+                                        <p className="card-text">President & CEO</p>
+                                        <NavLink to="/tania-demeris" className="link">Learn more about Ms. Demeris</NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-12 col-md-12 col-lg-4">
+                                <div className="card h-100 bg-transparent border-0">
 
                                     <div className="card-body">
                                         <img src={image1} alt="Michael Smith" className="img-fluid imgShadow rounded" style={{ maxHeight: "264px" }} />
@@ -39,16 +49,6 @@ const Execs = () => {
                                         <h3 className="card-title mt-2">Marilyn Smith</h3>
                                         <p>CFO</p>
                                         <NavLink to="/marilyn-smith" className="link">Learn more about Mrs. Smith</NavLink>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 col-md-12 col-lg-4">
-                                <div className="card h-100 bg-transparent border-0">
-                                    <div className="card-body">
-                                        <img src={image3} alt="Tania Demeris" className="img-fluid imgShadow rounded" style={{ maxHeight: "264px" }} />
-                                        <h3 className="card-title mt-2">Tania Demeris</h3>
-                                        <p className="card-text">President & CEO</p>
-                                        <NavLink to="/tania-demeris" className="link">Learn more about Ms. Demeris</NavLink>
                                     </div>
                                 </div>
                             </div>
