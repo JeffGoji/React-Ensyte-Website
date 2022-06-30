@@ -27,7 +27,7 @@ export default class Slide1 extends React.Component {
                         <div className="card h-100 bg-transparent border-0">
 
                             <div className="card-body">
-                                <h3 className="card-title">Our Mission</h3>
+                                <h4 className="card-title">Our Mission</h4>
                                 <p className="card-text">To create and successfully implement software solutions that optimize performance, provide visibility, and minimize risk.</p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default class Slide1 extends React.Component {
                         <div className="card h-100 bg-transparent border-0">
 
                             <div className="card-body">
-                                <h3 className="card-title">About ENSYTE</h3>
+                                <h4 className="card-title">About ENSYTE</h4>
                                 <p className="card-text">ENSYTE is a Texas-based company with great values and business ethics. We are a leading provider of natural gas management software (GMS) solutions, combining over 35 years of industry knowledge with the latest technology and a user-friendly, customer-focused approach.</p>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export default class Slide1 extends React.Component {
                     <div className="col">
                         <div className="card h-100 bg-transparent border-0">
                             <div className="card-body">
-                                <h3 className="card-title">Our Vision</h3>
+                                <h4 className="card-title">Our Vision</h4>
                                 <p className="card-text">To provide World-Class Software and Services for the Natural Gas Value Chain</p>
                             </div>
                         </div>

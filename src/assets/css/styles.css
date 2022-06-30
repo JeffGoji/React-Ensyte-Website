@@ -360,6 +360,8 @@ li {
   background: #e5edef;
 }
 
+/* List stylings */
+
 .blue-dots li {
   background-color: rgb(232, 232, 232);
   border-radius: 20px;
@@ -369,6 +371,10 @@ li {
 
 .no-bullets {
   list-style-type: none;
+}
+
+.list-padding li {
+  padding: 6px;
 }
 
 /***************** RESPONSIVE section for mobile and tablet and smaller views *****************/
