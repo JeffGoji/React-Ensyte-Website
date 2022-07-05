@@ -13,8 +13,8 @@ const GasSupply = () => {
 
     return (
         <div className="container-fluid bg-white pb-4">
-            <div className="row mt-5 blue-bg">
-                <h1 className="text-center mt-5 text-white">GASTAR Overview</h1>
+            <div className="row mt-3 blue-bg">
+                <h1 className="text-center text-white mt-2 mb-4">GASTAR Overview</h1>
             </div>
             <div className="row mt-5">
                 <div className="col-lg-6 col-sm-12 text-center">

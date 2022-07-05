@@ -4,7 +4,7 @@ import value2 from '../../assets/img/gastar-value.png'
 function Value(props) {
     return (
         <div className="row blue-bg blue-pc text-white justify-content-center align-self-center mt-5">
-            <h2 className='text-center mt-5'>GASTAR Value</h2>
+            <h2 className='text-center'>GASTAR Value</h2>
             <div className="col-lg-3 col-sm-12 text-center">
                 <img src={value2} alt="Product" className='mt-3 img-fluid rounded mb-5' />
             </div>

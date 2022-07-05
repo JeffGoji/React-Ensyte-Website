@@ -11,8 +11,8 @@ const GastarHosting = () => {
 
     return (
         <div className="container-fluid bg-white pb-4">
-            <div className="row justify-content-center mt-5 blue-bg">
-                <h1 className="text-center mt-5 text-white">GASTAR Hosting</h1>
+            <div className="row justify-content-center blue-bg">
+                <h1 className="text-center mt-4 mb-4 text-white">GASTAR Hosting</h1>
             </div>
             <div className="row mt-5 justify-content-center">
                 {/* <div className="col-lg-6 col-sm-12 text-center">

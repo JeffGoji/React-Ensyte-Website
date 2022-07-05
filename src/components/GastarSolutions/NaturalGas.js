@@ -11,8 +11,8 @@ function NaturalGas() {
 
     return (
         <div className="container-fluid bg-white">
-            <div className="row mt-5 blue-bg">
-                <h1 className="text-center mt-5 text-white">GASTAR for Natural Gas Utility</h1>
+            <div className="row blue-bg">
+                <h1 className="text-center mt-3 mb-3 text-white">GASTAR for Natural Gas Utility</h1>
             </div>
             <div className="row justify-content-center blue-bg imgBg4 text-white">
                 {/* <div className="col-lg-6 col-sm-12 text-center">

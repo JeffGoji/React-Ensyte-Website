@@ -18,7 +18,6 @@ const GasSupply = () => {
             <Value2 />
             <Flex />
             <Tech1 />
-
             <div className="row mb-5">
 
                 <div className="text-center mt-5 mb-5">

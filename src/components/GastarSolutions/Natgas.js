@@ -15,7 +15,7 @@ function Natgas() {
                 <h1 className="text-center text-white mt-3 mb-3">Marketing for Natural Gas Producers</h1>
             </div>
             <div className="row justify-content-center imgBg20">
-                <div className="col-lg-8 col-md-12 col-sm-12 text-justify text-white mt-3">
+                <div className="col-lg-8 col-md-12 col-sm-12 text-justify text-white mt-3 blue-shadow">
                     <p>GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
                 </div>
             </div>

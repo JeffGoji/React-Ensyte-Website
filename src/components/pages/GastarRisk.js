@@ -13,10 +13,10 @@ const GastarRisk = () => {
 
     return (
         <div className="container-fluid bg-white pb-4">
-            <div className="row mt-5">
+            <div className="row">
                 <h1 className="text-center mt-5">Enterprise Risk Management</h1>
             </div>
-            <div className="row justify-content-center mt-5 blue-bg">
+            <div className="row justify-content-center mt-3 blue-bg">
                 <div className="col-lg-6 col-sm-12 text-center">
                     <img src={risk} alt="Product" className='mt-0 mb-0 img-fluid' style={{ height: "25rem" }} />
                 </div>

@@ -18,10 +18,10 @@ function GastarSecurity() {
 
     return (
         <div className="container-fluid bg-white pb-4">
-            <div className="row mt-5">
-                <h1 className="text-center mt-5">GASTAR Data Security</h1>
+            <div className="row ">
+                <h1 className="text-center mt-3">GASTAR Data Security</h1>
             </div>
-            <div className="row justify-content-center mt-5 blue-bg">
+            <div className="row justify-content-center mt-3 blue-bg">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">
                     <img src={dataCenter} alt="Product" className='img-fluid' style={{ maxheight: "28rem" }} />
                 </div>
