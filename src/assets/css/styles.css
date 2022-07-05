@@ -180,11 +180,16 @@ li {
 }
 
 .imgBg11 {
-  background-image: url(../img/pipeline-bg.jpg);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/pipes1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
-  background-position: center;
+  background-position: bottom;
   min-height: 16rem;
 }
 
