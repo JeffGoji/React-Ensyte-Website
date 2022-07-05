@@ -29,9 +29,6 @@ import Natgas from './components/GastarSolutions/Natgas'
 import CustomSolutions from './components/Services/Index'
 import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
-//Articles for linking
-import A1 from './components/NewsCards/A1'
-import A6 from './components/NewsCards/A6'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
