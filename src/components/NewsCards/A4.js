@@ -20,7 +20,7 @@ const A4 = () => {
                             <h3 className="modal-title text-white center" id="staticBackdropLabel">ENSYTE Delivers GASTAR for Largest Natural Gas Utility in New Jersey</h3>
                             <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div className="modal-body fs-5">
+                        <div className="modal-body fs-6">
                             <div className="text-center mb-4">
                                 <div className="text-center mb-4">
                                     <img src={img4} alt="Services Solutions" className='imgShadow img-fluid rounded' />

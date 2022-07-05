@@ -76,9 +76,7 @@ function App() {
         <Route path='/gastar-custom-solutions' element={<CustomSolutions />} />
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
-        {/* Article Routes for linking */}
-        <Route path='/articles-a6' element={<A6 />} />
-        <Route path='/articles-a1' element={<A1 />} />
+
 
       </Routes>
       <Footer />
