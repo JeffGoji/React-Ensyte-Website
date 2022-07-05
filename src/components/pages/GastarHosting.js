@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-import img1 from "../../assets/img/server-01.jpg"
+import img1 from "../../assets/img/CloudHosting.jpg"
 import img2 from "../../assets/img/Diamond-mask-1.png"
 
 const GastarHosting = () => {

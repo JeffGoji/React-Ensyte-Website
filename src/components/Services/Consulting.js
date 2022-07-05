@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import image1 from '../../assets/img/hosting-options.png'
+import image1 from '../../assets/img/consulting-2.jpeg'
 import image2 from '../../assets/img/consulting-services-02.jpg'
 
 const Consulting = () => {

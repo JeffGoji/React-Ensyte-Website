@@ -74,7 +74,6 @@ function App() {
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
 
-
       </Routes>
       <Footer />
     </div>

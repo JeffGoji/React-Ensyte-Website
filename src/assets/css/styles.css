@@ -210,10 +210,10 @@ li {
 .imgBg14 {
   background-image: linear-gradient(
       to top,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
     ),
-    url(../img/rig3.jpg);
+    url(../img/BurningGasStove.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -222,12 +222,12 @@ li {
 }
 
 .imgBg15 {
-  background-image: url(../img/upstream-cta.jpg);
+  background-image: url(../img/rig3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
-  background-position: justify;
-  min-height: 25rem;
+  background-position: center;
+  min-height: 28rem;
 }
 
 .imgBg16 {
@@ -272,6 +272,19 @@ li {
   background-position: start;
   min-height: 25rem;
 }
+.imgBg20 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/oilfield-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 20rem;
+}
 
 /* Background gradient colors for masking */
 
@@ -306,6 +319,10 @@ li {
 
 .blue-text {
   color: #004b8d;
+}
+
+.blue-shadow {
+  text-shadow: 2px 2px 5px #004b8d;
 }
 
 .lightblue-text {
