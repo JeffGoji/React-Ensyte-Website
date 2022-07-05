@@ -1,7 +1,5 @@
 import image1 from '../../assets/img/newsPic.jpg';
 
-import Slider from "react-slick";
-
 import A2 from '../NewsCards/A2';
 import A3 from '../NewsCards/A3';
 import A4 from '../NewsCards/A4';
