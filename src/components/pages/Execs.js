@@ -12,7 +12,7 @@ const Execs = () => {
     }, []);
 
     return (
-        <div className='container-fluid mt-5 text-white imgBg18'>
+        <div className='container-fluid text-white imgBg18'>
             <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-8 mt-5 mb-5">
                     <h1 className="text-center mt-5">

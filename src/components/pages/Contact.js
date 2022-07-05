@@ -8,9 +8,9 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className="container-fluid imgBg18" style={{ marginTop: "5.7rem" }}>
+        <div className="container-fluid imgBg18">
             <div className="row align-items-center-top lightblue-bg">
-                <h2 className="text-center mt-3 mb-2 card-title text-white">Contact Us</h2>
+                <h2 className="text-center mt-5 mb-2 card-title text-white">Contact Us</h2>
                 <div className="col-lg-6 col-sm-12 mt-3 mb-3">
                     <div className="card rounded-2">
                         <div className="card-header bg-primary text-white">

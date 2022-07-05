@@ -9,7 +9,7 @@ const Marilyn = () => {
     }, []);
 
     return (
-        <div className="container-fluid imgBg18 mt-5">
+        <div className="container-fluid imgBg18">
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5 d-flex justify-content-center">
                     <div className="card bg-white text-black mt-5 mb-5" style={{ maxWidth: "1200px" }}>

@@ -19,7 +19,7 @@ import A16 from '../NewsCards/A16';
 function NewsStand(props) {
 
     return (
-        <div className="container-fluid mb-3 bg-white">
+        <div className="container-fluid bg-white">
             <div
                 className="text-center text-black justify-content-center pb-5">
                 <h1 className="mt-5">ENSYTE Latest NEWS</h1>

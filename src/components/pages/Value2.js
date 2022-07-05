@@ -9,7 +9,7 @@ function Value2(props) {
 
     return (
         <div className='row justify-content-center bg-lighter-blue rounded'>
-            <h2 className="card-title mb-4 text-center">GASTAR Value Proposition</h2>
+            <h2 className="card-title mb-4 mt-2 text-center">GASTAR Value Proposition</h2>
             <div className="col-lg-4 col-sm-12 mt-2 order-last justify-content-start">
 
 

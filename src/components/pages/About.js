@@ -11,10 +11,10 @@ const About = () => {
     }, []);
 
     return (
-        <div className='container-fluid mt-5 text-white imgBg18'>
-            <div className="row justify-content-center mt-5">
+        <div className='container-fluid text-white imgBg18'>
+            <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
-                    <h1 className="text-center mt-5">
+                    <h1 className="text-center mt-3">
                         Who We Are
                     </h1>
                     <div className="card bg-white text-black">
@@ -92,7 +92,7 @@ const About = () => {
                     </div>
                 </div>
             </div >
-            <div className="row justify-content-center bg-white text-center">
+            <div className="row justify-content-center text-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-5">
                     <NavLink to="/executive-team"><button className="btn btn-lg btn-primary text-center">
                         Meet our Executive Team
