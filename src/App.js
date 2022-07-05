@@ -31,6 +31,7 @@ import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
 //Articles for linking
 import A1 from './components/NewsCards/A1'
+import A6 from './components/NewsCards/A6'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -76,7 +77,9 @@ function App() {
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
         {/* Article Routes for linking */}
+        <Route path='/articles-a6' element={<A6 />} />
         <Route path='/articles-a1' element={<A1 />} />
+
       </Routes>
       <Footer />
     </div>
