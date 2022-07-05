@@ -286,6 +286,20 @@ li {
   min-height: 20rem;
 }
 
+.imgBg21 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 75, 141, 0.85),
+      rgba(0, 75, 141, 0.85)
+    ),
+    url(../img/valves1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 25rem;
+}
+
 /* Background gradient colors for masking */
 
 .darkGradient {

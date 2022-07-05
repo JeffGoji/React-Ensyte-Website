@@ -14,7 +14,7 @@ const Midstream = () => {
             <div className="row mt-5">
                 <h1 className="text-center mt-5 ">GASTAR for Midstream</h1>
             </div>
-            <div className="row justify-content-center imgBg17">
+            <div className="row justify-content-center imgBg21">
                 {/* <div className="col-lg-6 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid' />
                 </div> */}
