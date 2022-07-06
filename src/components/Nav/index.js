@@ -14,19 +14,21 @@ export const Nav = () => {
     // };
 
 
+
+
     return (
 
-        <div className={"navbar navbar-expand-lg navbar-light bg-light fixed-top"} >
+        <div className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container-fluid">
 
-                <NavLink className={"navbar-brand"} to="/">
+                <NavLink className="navbar-brand" to="/">
                     <img src={logo1}
                         alt="Company Logo"
 
                         style={{ width: '40%' }}
                     /></NavLink>
                 <button
-                    className={"navbar-toggler"}
+                    className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
@@ -34,14 +36,14 @@ export const Nav = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className={"navbar-toggler-icon"}></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className={"collapse navbar-collapse"} id={"navbarNavDropdown"}>
-                    <div className={"navbar-nav"}>
-                        <li className={"nav-item ms-lg-3"}>
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div className="navbar-nav">
+                        <li className="nav-item ms-lg-3">
                             <NavLink className={"nav-link active"} aria-current="page" to="/">Home</NavLink>
                         </li>
-                        <li className={"nav-item dropdown ms-lg-3"}>
+                        <li className="nav-item dropdown ms-lg-3">
                             <div
                                 className="nav-link dropdown-toggle"
                                 href="#"
@@ -153,7 +155,7 @@ export const Nav = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
 
 

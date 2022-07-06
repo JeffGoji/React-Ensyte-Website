@@ -122,6 +122,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
+  border-radius: 0;
   min-height: 100%;
 }
 
@@ -136,6 +137,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
+  border-radius: 0;
   min-height: 100%;
 }
 .imgBg8 {
@@ -149,6 +151,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
+  border-radius: 0;
   min-height: 100%;
 }
 .imgBg9 {
@@ -515,8 +518,8 @@ li {
 /**********Footer section*************************************/
 
 footer {
-  margin-top: 5rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
   background-color: #004b8d;
 }

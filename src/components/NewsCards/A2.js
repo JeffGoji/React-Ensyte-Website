@@ -25,7 +25,7 @@ const A2 = () => {
                         </div>
                         <div className="modal-body fs-6 text-wrap">
                             <div className="text-center mb-4">
-                                <img src={img13} alt="Services Solutions" className='imgShadow img-fluid rounded' />
+                                <img src={img13} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxHeight: "35rem" }} />
 
                             </div>
                             <p>ENSYTE has recently enhanced GASTAR’s natural gas software solution with a new module to manage Natural Gas Liquids (NGL) and Liquified Natural Gas (LNG), called GASTAR-LQ. The enhancement was implemented to support a client who had a business requirement to offer a portion of their physical storage facility to suppliers under an Asset Management Agreement (AMA), now retitled an LNG Pool Management Agreement, and to setup a physical gas exchange program.

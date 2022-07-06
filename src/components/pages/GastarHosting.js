@@ -23,7 +23,7 @@ const GastarHosting = () => {
                         <div className="card-header blue-bg"><h3 className="card-title text-center text-white">GASTAR Hosting Options</h3></div>
                         <div className="card-body bg-white">
                             <div className="text-center">
-                                <img src={img1} alt="Hosting Options" className='img-fluid rounded-3 mb-5 imgShadow' style={{ maxWidth: "90%" }} />
+                                <img src={img1} alt="Hosting Options" className='img-fluid' style={{ maxWidth: "90%" }} />
                             </div>
                             <p>ENSYTE offers flexible options with regards to hosting environments for GASTAR. We have clients who house GASTAR on their own environment, as well as clients that host the solution using other services such as Amazon Web Services (AWS). ENSYTE also partners with Cyberlink ASP to provide a hosted environment for GASTAR for a monthly fee.</p>
                             <ul className="list justify-content-center">
