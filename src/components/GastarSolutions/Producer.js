@@ -25,12 +25,12 @@ const Producer = () => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-sm-12 col-md-12 col-lg-6">
+                <div className="col-sm-12 col-md-12 col-lg-3">
                     <div className="mt-3 mb-3">
-                        <div className="text-center"><h2>Oil & Gas Downstream Marketing</h2></div>
+                        <div className="text-center mb-4"><h2>Oil & Gas Downstream Marketing</h2></div>
                         <div className="fs-6 p-2">
-                            <h2 className="text-center">Producer / Operator features include:</h2>
-                            <ul>
+
+                            <ul><h4 className="">Producer / Operator features include:</h4>
                                 <li>Supply Forecasting</li>
                                 <li>Wellhead Purchase Contracts</li>
                                 <li>Lease Management</li>

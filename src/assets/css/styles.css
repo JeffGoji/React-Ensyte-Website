@@ -193,16 +193,21 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: bottom;
-  min-height: 16rem;
+  min-height: 28rem;
 }
 
 .imgBg12 {
-  background-image: url(../img/retail-marketing.jpg);
-  background-size: contain;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85)
+    ),
+    url(../img/retail-marketing.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
-  background-position: justify;
-  min-height: 20rem;
+  background-position: center;
+  min-height: 28rem;
   background-color: #004b8d;
 }
 
@@ -249,7 +254,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
-  min-height: 25rem;
+  min-height: 28rem;
 }
 
 .imgBg17 {
@@ -291,7 +296,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
-  min-height: 20rem;
+  min-height: 28rem;
 }
 
 .imgBg21 {
@@ -305,7 +310,21 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
-  min-height: 25rem;
+  min-height: 28rem;
+}
+
+.imgBg22 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/solutions-lp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 28rem;
 }
 
 /* Background gradient colors for masking */

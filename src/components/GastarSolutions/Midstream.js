@@ -25,11 +25,11 @@ const Midstream = () => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-sm-12 col-md-12 col-lg-4">
+                <div className="col-sm-12 col-md-12 col-lg-3">
                     <div className="mt-3 mb-3">
-                        <div className="text-center"><h2>Midstream Features:</h2></div>
-                        <div className="fs-6 p-2">
-                            <ul>
+
+                        <div className="fs-6">
+                            <ul className="list-padding"><h2>Midstream Features:</h2>
                                 <li>Supply Sales</li>
                                 <li>Transportation Contracts</li>
                                 <li>Plant Measurement</li>
@@ -48,7 +48,7 @@ const Midstream = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-8">
+                <div className="col-sm-12 col-md-12 col-lg-6">
                     <div className="mt-3 mb-3">
                         <div className="text-center"><h2>Natural Gas Gathering, Treatment, and Processing</h2></div>
                         <div className="fs-6 p-2">

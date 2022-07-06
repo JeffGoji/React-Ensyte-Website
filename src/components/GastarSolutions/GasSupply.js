@@ -16,7 +16,7 @@ function GasSupply() {
                 <h1 className="text-center mt-3 mb-3 text-white">GASTAR Overview</h1>
             </div>
             <div className="row">
-                <div className="col-lg-6 col-sm-12 text-center">
+                <div className="col-lg-5 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid' />
                 </div>
                 <div className="col-lg-6 col-sm-12 text-justify mt-5">

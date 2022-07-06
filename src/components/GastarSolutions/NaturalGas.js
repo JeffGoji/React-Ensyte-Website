@@ -41,7 +41,7 @@ function NaturalGas() {
             </div>
             <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-8">
-                    <div className="card mt-5 mb-3 border-0">
+                    <div className="card mt-5 mb-3 border-1 imgShadow">
                         <div className="card-header text-center bg-white"><h2>GASTAR LDC Value Points</h2></div>
                         <div className="card-body fs-5">
                             <ul className="blue-dots">
