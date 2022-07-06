@@ -31,7 +31,7 @@ const A15 = (props) => {
                                         <div className="col-sm-12 col-md-12 col-lg-12">
                                             <p>January 12, 2016 (Houston, TX) – ENSYTE has won a contract with a Houston-based company to implement a Producer Gas Marketing and Well Meter Netback Solution, offered as a hosted software package to capitalize on the business advantages of an online subscription service, as opposed to a traditional in-house implementation.</p>
 
-                                            <ul>
+                                            <ul className="list-padding">
                                                 <li><strong>Producer Gas Supply</strong> – A connected gathering system network of producer supply and central delivery point (CDP) meters to delivery pre-month supply forecasts, daily CDP measurement updates and end of month settlement data. For actual measurement, the solution will accept EFM interfaces, CSV/text files, and manual screen input. The CDP measurement is updated daily with field estimates, uploaded from the IHS Production Explorer software, which is used to update the supply pool on the pipeline.</li>
 
 

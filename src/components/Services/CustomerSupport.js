@@ -18,8 +18,8 @@ const CustomerSupport = () => {
                 <div className="col">
                     <div className="card h-100 bg-transparent border-0 text-center">
                         <div className="card-body">
-                            <h3 className="card-title">Project Management</h3>
-                            <p className="card-text">ENSYTE utilizes Scrum Methodology to manage all implementations. The ENSYTE project team works very closely with the client team to ensure full understanding of all requirements and successful delivery of all functionality.</p>
+                            <h4 className="card-title">Project Management</h4>
+                            <p className="card-text fs-5">ENSYTE utilizes Scrum Methodology to manage all implementations. The ENSYTE project team works very closely with the client team to ensure full understanding of all requirements and successful delivery of all functionality.</p>
                         </div>
                     </div>
                 </div>
@@ -28,16 +28,16 @@ const CustomerSupport = () => {
                     <div className="card h-100 bg-transparent border-0 text-center">
 
                         <div className="card-body">
-                            <h3 className="card-title">Niche Natural Gas Expertise</h3>
-                            <p className="card-text">ENSYTE is highly specialized in the natural gas business and especially natural gas utilities, giving the ENSYTE team a unique set of expertise and focus. The GASTAR solution is able to handle the natural gas business processes better than any other system on the market today.</p>
+                            <h4 className="card-title">Niche Natural Gas Expertise</h4>
+                            <p className="card-text fs-5">ENSYTE is highly specialized in the natural gas business and especially natural gas utilities, giving the ENSYTE team a unique set of expertise and focus. The GASTAR solution is able to handle the natural gas business processes better than any other system on the market today.</p>
                         </div>
                     </div>
                 </div>
                 <div className="col">
                     <div className="card h-100 bg-transparent border-0 text-center">
                         <div className="card-body">
-                            <h3 className="card-title">Client Relationship</h3>
-                            <p className="card-text">ENSYTE prides itself on having flourishing long-term relationships with clients, some for over 25 years. We work very closely with our client teams and in essence become an extension of their internal teams. We complete enhancements and projects for our clients every year, and our relationships with our clients are continually growing and improving.</p>
+                            <h4 className="card-title">Client Relationship</h4>
+                            <p className="card-text fs-5">ENSYTE prides itself on having flourishing long-term relationships with clients, some for over 25 years. We work very closely with our client teams and in essence become an extension of their internal teams. We complete enhancements and projects for our clients every year, and our relationships with our clients are continually growing and improving.</p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const CustomerSupport = () => {
             {/* Second Row */}
             <div className='row bg-white text-center'>
                 <div className='col-lg-4 col-md-12 col-sm-12'>
-                    <img src={image1} alt='Solutions' className='img-fluid rounded imgShadow mt-3 mb-3 d-none d-lg-block' />
+                    <img src={image1} alt='Solutions' className='img-fluid rounded mt-3 mb-3 d-none d-lg-block' />
                 </div>
                 <div className='col-lg-8 col-md-12 col-sm-12 text-start p-2'>
                     <h2 className='text-center'>We Are Here To Support You</h2>
