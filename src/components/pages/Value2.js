@@ -34,7 +34,7 @@ function Value2(props) {
             </div>
 
             <div className="col-lg-4 col-sm-12 mt-3">
-                <img src={value1} alt="Product" className="img-fluid rounded mb-3 order-first" />
+                <img src={value1} alt="Product" className="img-fluid rounded imgShadow mb-3 order-first" />
             </div>
 
 
