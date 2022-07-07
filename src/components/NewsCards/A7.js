@@ -11,8 +11,8 @@ const A7 = () => {
                     <div className="card-body">
                         <img src={img6} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">ENSYTE Enhances Producer Services Solution</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal6">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

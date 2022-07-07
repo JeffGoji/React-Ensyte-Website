@@ -8,8 +8,8 @@ const A4 = () => {
                     <div className="card-body">
                         <img src={img4} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">ENSYTE Delivers GASTAR for Largest Natural Gas Utility in New Jersey</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal4">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

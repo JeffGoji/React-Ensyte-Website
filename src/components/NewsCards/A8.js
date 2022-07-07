@@ -7,10 +7,10 @@ const A8 = () => {
                 <div className="card mb-5 h-100">
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img15} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
+                        <img src={img15} alt='data Article' className='rounded img-fluid imgShadow' style={{ maxHeight: "15rem", marginBottom: "5.625rem" }} />
                         <h3 className="card-title">Happy Holidays from ENSYTE!</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal7">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal7">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

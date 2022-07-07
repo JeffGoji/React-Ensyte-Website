@@ -9,8 +9,8 @@ const A14 = (props) => {
                     <div className="card-body">
                         <img src={img21} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">ENSYTE Signs First GASTAR Online Client</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal13">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal13">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal13" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

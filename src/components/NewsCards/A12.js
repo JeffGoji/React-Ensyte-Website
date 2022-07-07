@@ -9,8 +9,8 @@ const A12 = (props) => {
                     <div className="card-body">
                         <img src={img19} alt='data Article' className='img-fluid mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">New Gas Supply / City Gate Planning Feature</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal11">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal11" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

@@ -9,8 +9,8 @@ const A10 = () => {
                     <div className="card-body">
                         <img src={img17} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">Introducing GASTAR Online</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal9">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal9">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal9" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

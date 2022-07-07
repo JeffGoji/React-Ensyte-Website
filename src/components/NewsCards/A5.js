@@ -9,8 +9,9 @@ const A5 = () => {
                     <div className="card-body">
                         <img src={img5} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">ENSYTE Wins Project with a Large Natural Gas Utility</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">Read More</button>
+
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal5">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">

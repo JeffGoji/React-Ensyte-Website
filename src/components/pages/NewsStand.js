@@ -1,5 +1,6 @@
 import image1 from '../../assets/img/newsPic.jpg';
 
+import A1 from '../NewsCards/A1';
 import A2 from '../NewsCards/A2';
 import A3 from '../NewsCards/A3';
 import A4 from '../NewsCards/A4';
@@ -16,7 +17,7 @@ import A14 from '../NewsCards/A14';
 import A15 from '../NewsCards/A15';
 import A16 from '../NewsCards/A16';
 
-function NewsStand(props) {
+function NewsStand() {
 
     return (
         <div className="container-fluid bg-white">
@@ -36,39 +37,44 @@ function NewsStand(props) {
                 {/************************ ROW 2 ******************/}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* Card 1 */}
-                    <A4 />
+                    <A1 />
                     {/* Card 2 */}
-                    <A5 />
+                    <A4 />
                     {/* Card 3 */}
-                    <A7 />
+                    <A5 />
                 </div>
 
                 {/************************* ROW 3 ************************* */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* CARD 1 */}
-                    <A8 />
+                    <A7 />
                     {/* CARD 2 */}
-                    <A9 />
+                    <A8 />
                     {/* CARD 3 */}
-                    <A10 />
+                    <A9 />
                 </div>
                 {/************************* ROW 4 ************************* */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* CARD 1 */}
-                    <A11 />
+                    <A10 />
                     {/* CARD 2 */}
-                    <A12 />
+                    <A11 />
                     {/* {/* CARD 3 */}
-                    <A13 />
+                    <A12 />
                 </div>
                 {/************************* ROW 5 ************************* */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* CARD 1 */}
-                    <A14 />
+                    <A13 />
                     {/* CARD 2 */}
-                    <A15 />
+                    <A14 />
                     {/* CARD 3 */}
+                    <A15 />
+                </div>
+                <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
+                    {/* CARD 1 */}
                     <A16 />
+
                 </div>
             </div>
         </div>

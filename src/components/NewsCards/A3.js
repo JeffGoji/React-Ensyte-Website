@@ -8,8 +8,8 @@ const A3 = () => {
                     <div className="card-body">
                         <img src={img12} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">ENSYTE Enriches GASTAR User Interface and Dashboards</h3>
-                        <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Read More</button>
                     </div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal3">Read More</button></div>
                 </div>
             </div>
             <div className="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
