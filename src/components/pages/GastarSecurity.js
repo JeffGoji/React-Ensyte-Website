@@ -48,7 +48,7 @@ function GastarSecurity() {
                                 <div className="col-md-8 col-sm-12">
                                     <div className="card-body">
                                         <h5 className="card-title">Overlapping Layers of Protection</h5>
-                                        <p className="card-text">AirDesk systems monitor many facets of infrastructure and operations</p>
+                                        <p className="card-text">Cyberlink ASP systems monitor many facets of infrastructure and operations</p>
 
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ function GastarSecurity() {
                 <div className='row justify-content-center g-0 mt-3'>
                     <h3 className='text-center blue-bg rounded-2 text-white p-1'>Physical Operations</h3>
                     <div className='col-lg-12 col-md-12 col-sm-12'>
-                        <p>If an infrastructure is not physically secure, neither is the enterprise. Physical and operational security is the foundation of the AirDesk infrastructure. No other measures matter without it. Every AirDesk data center is fully audited based on SSAE 16 reporting on controls to meet industry-recognized requirements for security—no exceptions.</p>
+                        <p>If an infrastructure is not physically secure, neither is the enterprise. Physical and operational security is the foundation of the Cyberlink ASP infrastructure. No other measures matter without it. Every Cyberlink ASP data center is fully audited based on SSAE 16 reporting on controls to meet industry-recognized requirements for security—no exceptions.</p>
 
                         <h4 className='mt-4'>Data Center and Server Room Measures</h4>
 
