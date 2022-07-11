@@ -93,7 +93,7 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: right;
-  min-height: 13rem;
+  min-height: 28rem;
 }
 
 .imgBg5 {
@@ -207,8 +207,8 @@ li {
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
-  min-height: 28rem;
   background-color: #004b8d;
+  min-height: 28rem;
 }
 
 .imgBg13 {
