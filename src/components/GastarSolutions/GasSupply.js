@@ -29,7 +29,7 @@ function GasSupply() {
                     <div className="card mt-5 mb-3">
                         <div className="card-header text-center text-white blue-bg"><h2>GASTAR Features for Gas Supply & Gas Acquisition</h2></div>
                         <div className="card-body fs-5">
-                            <ul className="blue-dots">
+                            <ul className="blue-dots check">
                                 <span><li>Counter Parties & Contracts</li></span>
                                 <li>Gas Purchases & Sales</li>
                                 NAESB Compliant Gas Purchases / Sales with WACOG Cost Tracking & Platt’s Interface

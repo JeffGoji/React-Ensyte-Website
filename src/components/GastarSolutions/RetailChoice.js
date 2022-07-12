@@ -30,7 +30,7 @@ function RetailChoice() {
                     <div className="card mt-5 mb-3 cardshadow">
                         <div className="card-header text-center blue-bg text-white"><h2>GASTAR Features for Retail Choice</h2></div>
                         <div className="card-body fs-5">
-                            <ul className="blue-dots">
+                            <ul className="blue-dots check">
                                 <li>BA-CIS Sub-Module</li>
                                 This Retail Choice business practices sub-module is to centralize the information for transportation customers and to formalize the links between GASTAR and the Client’s CIS system.The BA-CIS module is dedicated to managing transportation customers with any of the recognized Customer Roles, such as Direct Read, Cycle Read,Hourly Read, Fossil Generators, etc. For Retail Choice, the solution isolates business functions and directs the User to the proper set of features and functions while operating out of a dedicated and integrated database. On-System shippers and marketers are managed in GASTAR with a transaction interface setup to update the SAP CRM as necessary.
 

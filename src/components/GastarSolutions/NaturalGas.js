@@ -11,8 +11,8 @@ function NaturalGas() {
 
     return (
         <div className="container-fluid bg-white">
-            <div className="row blue-bg">
-                <h1 className="text-center mt-3 mb-3 text-white">GASTAR for Natural Gas Utility</h1>
+            <div className="row">
+                <h1 className="text-center mt-3 mb-3 text-black">GASTAR for Natural Gas Utility</h1>
             </div>
             <div className="row justify-content-center blue-bg imgBg4 text-white">
                 {/* <div className="col-lg-6 col-sm-12 text-center">
@@ -44,7 +44,7 @@ function NaturalGas() {
                     <div className="card mt-5 mb-3 border-1 imgShadow">
                         <div className="card-header text-center bg-white"><h2>GASTAR LDC Value Points</h2></div>
                         <div className="card-body fs-5">
-                            <ul className="blue-dots">
+                            <ul className="blue-dots check">
                                 <li>Long-term, successful product with an established LDC footprint</li>
                                 20+ years serving LDC clients in the United States
 

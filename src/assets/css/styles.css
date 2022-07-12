@@ -319,7 +319,7 @@ li {
       rgba(0, 0, 0, 0.65),
       rgba(0, 0, 0, 0.65)
     ),
-    url(../img/solutions-lp.jpg);
+    url(../img/burnerLg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -430,6 +430,10 @@ li {
 
 .no-bullets {
   list-style-type: none;
+}
+
+.check li {
+  list-style-image: url("../img/icons2/check-icon.svg");
 }
 
 .list-padding li {
