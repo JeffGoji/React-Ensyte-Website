@@ -19,7 +19,7 @@ const RetailGas = () => {
                 <div className="col-lg-2 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid m-2 rounded imgShadow' style={{ maxHeight: "300px" }} />
                 </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 text-justify">
+                <div className="col-lg-8 col-md-12 col-sm-12 text-justify mt-5">
                     <p>GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
                     </p>
                 </div>

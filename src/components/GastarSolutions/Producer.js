@@ -12,17 +12,14 @@ const Producer = () => {
     return (
         <div className="container-fluid">
             <div className="row">
-                <h1 className="text-center mt-5 mb-5 ">GASTAR for Upstream Production</h1>
+                <h1 className="text-center mt-5 mb-5">GASTAR for Upstream Production</h1>
             </div>
             <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
                 <div className="col-lg-3 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid rounded imgShadow mb-3 mt-2' />
                 </div>
-
-
-                <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-3">
-
-                    <p>ENSYTE supports major oil and natural gas producers in their upstream processes with our comprehensive GASTAR management software. From search and discovery to estimations and extractions, our user-focused software solution aims to provide natural gas producers with functional tools and management resources to streamline their upstream processes saving time and money.
+                <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-5">
+                    <p className="mt-5">ENSYTE supports major oil and natural gas producers in their upstream processes with our comprehensive GASTAR management software. From search and discovery to estimations and extractions, our user-focused software solution aims to provide natural gas producers with functional tools and management resources to streamline their upstream processes saving time and money.
                     </p>
                 </div>
             </div>

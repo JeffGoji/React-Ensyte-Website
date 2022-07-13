@@ -13,7 +13,7 @@ const GasSupply = () => {
     }, []);
 
     return (
-        <div className="container-fluid bg-white">
+        <div className="container-fluid">
             <Value />
             <Value2 />
             <Flex />

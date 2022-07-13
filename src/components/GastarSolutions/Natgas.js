@@ -10,16 +10,16 @@ function Natgas() {
     }, []);
 
     return (
-        <div className="container-fluid bg-white">
+        <div className="container-fluid">
             <div className="row blue-bg">
                 <h1 className="text-center text-white mt-5 mb-5">Marketing for Natural Gas Producers</h1>
             </div>
-            <div className="row justify-content-center mt-5 mb-5">
+            <div className="row justify-content-center mt-5 mb-5 bg-lighter-grey">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">
-                    <img src={image1} alt="Product" className=' img-fluid mt-2 mb-3 rounded imgShadow' />
+                    <img src={image1} alt="Product" className=' img-fluid mt-3 mb-3 rounded imgShadow' />
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-5 text-center">
-                    <p>GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
+                    <p className="mt-5">GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
                 </div>
             </div>
             <div className="row justify-content-center mt-5 mb-5">

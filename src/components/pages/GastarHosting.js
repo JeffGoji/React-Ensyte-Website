@@ -18,7 +18,7 @@ const GastarHosting = () => {
                 {/* <div className="col-lg-6 col-sm-12 text-center">
                     <img src={img1} alt="Hosting Options" className='img-fluid rounded-3 mb-5 imgShadow' style={{ maxWidth: "90%" }} />
                 </div> */}
-                <div className="col-lg-10 col-sm-12 text-justify">
+                <div className="col-lg-10 col-sm-12 text-justify mb-5">
                     <div className="card border-2 mb-3 cardshadow rounded-4">
                         <div className="card-header blue-bg"><h3 className="card-title text-center text-white">GASTAR Hosting Options</h3></div>
                         <div className="card-body bg-white">
@@ -82,7 +82,7 @@ const GastarHosting = () => {
                 <h2 className="text-center text-white mt-2 mb-2">ENSYTE Hosted Environment Security Protocols</h2>
             </div>
 
-            <div className='row justify-content-center bg-lighter-grey'>
+            <div className='row justify-content-center bg-lighter-grey mb-5'>
 
                 <div className="col-lg-6 col-sm-12 text-center">
                     <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid' style={{ maxWidth: "90%" }} />

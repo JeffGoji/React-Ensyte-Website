@@ -21,7 +21,7 @@ function GastarSecurity() {
             <div className="row ">
                 <h1 className="text-center mt-3">GASTAR Data Security</h1>
             </div>
-            <div className="row justify-content-center mt-3 blue-bg">
+            <div className="row justify-content-center mt-3 mb-5 blue-bg">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">
                     <img src={dataCenter} alt="Product" className='img-fluid' style={{ maxheight: "28rem" }} />
                 </div>
@@ -37,13 +37,13 @@ function GastarSecurity() {
 
             {/* Safegaurding data layer card */}
 
-            <div className="container-md border rounded-4 mt-4 bg-lighter-grey cardshadow">
-                <div className='row justify-content-center'><h2 className='text-center mb-5'>Safeguarding Data, Layer By Layer</h2>
+            <div className="container-fluid border rounded-4 mt-5 mb-5 bg-lighter-grey cardshadow">
+                <div className='row justify-content-center mt-4'><h2 className='text-center mb-5'>Safeguarding Data, Layer By Layer</h2>
                     <div className='col-md-6 col-sm-12'>
                         <div className="card mb-3">
                             <div className="row justify-content-center g-0">
                                 <div className="col-md-2 col-sm-12 text-center">
-                                    <img src={database} className="img-fluid rounded-start mt-2 mb-2" alt="..."></img>
+                                    <img src={database} className="img-fluid rounded-start mt-4 mb-2" alt="..."></img>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <div className="card-body">
@@ -55,7 +55,7 @@ function GastarSecurity() {
                             </div>
                             <div className="row justify-content-center g-0 mt-5">
                                 <div className="col-md-2 col-sm-12 text-center">
-                                    <img src={connection} className="img-fluid rounded-start mt-2 mb-2" alt="..."></img>
+                                    <img src={connection} className="img-fluid rounded-start mt-4 mb-2" alt="..."></img>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <div className="card-body">
@@ -67,7 +67,7 @@ function GastarSecurity() {
                             </div>
                             <div className="row justify-content-center g-0 mt-5 mb-5">
                                 <div className="col-md-2 col-sm-12 text-center">
-                                    <img src={lock2} className="img-fluid rounded-start mt-2 mb-2" alt="..."></img>
+                                    <img src={lock2} className="img-fluid rounded-start mt-4 mb-2" alt="..."></img>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <div className="card-body">
@@ -83,7 +83,7 @@ function GastarSecurity() {
                         <div className="card mb-3">
                             <div className="row justify-content-center g-0 ">
                                 <div className="col-md-2 col-sm-12 text-center">
-                                    <img src={shield} className="img-fluid rounded-start mt-2 mb-2" alt="..."></img>
+                                    <img src={shield} className="img-fluid rounded-start mt-4 mb-2" alt="..."></img>
                                 </div>
                                 <div className="col-lg-8 col-md-8 col-sm-12">
                                     <div className="card-body">
@@ -95,7 +95,7 @@ function GastarSecurity() {
                             </div>
                             <div className="row justify-content-center g-0 mt-3">
                                 <div className="col-md-2 col-sm-12 text-center">
-                                    <img src={lock} className="img-fluid rounded-start mt-2 mb-2" alt="..."></img>
+                                    <img src={lock} className="img-fluid rounded-start mt-4 mb-2" alt="..."></img>
                                 </div>
                                 <div className="col-lg-8 col-md-8 col-sm-12">
                                     <div className="card-body">
@@ -111,11 +111,11 @@ function GastarSecurity() {
                 </div>
             </div >
 
-            <div className='container-md border rounded-4 mt-4 bg-white cardshadow'>
-                <div className='row justify-content-center g-0 mt-3'>
+            <div className='container-fluid border rounded-4 mt-5 cardshadow'>
+                <div className='row justify-content-center g-0 mt-3 mb-5'>
                     <h3 className='text-center blue-bg rounded-2 text-white p-1'>Physical Operations</h3>
                     <div className='col-lg-12 col-md-12 col-sm-12'>
-                        <p>If an infrastructure is not physically secure, neither is the enterprise. Physical and operational security is the foundation of the Cyberlink ASP infrastructure. No other measures matter without it. Every Cyberlink ASP data center is fully audited based on SSAE 16 reporting on controls to meet industry-recognized requirements for security—no exceptions.</p>
+                        <p className="mt-4">If an infrastructure is not physically secure, neither is the enterprise. Physical and operational security is the foundation of the Cyberlink ASP infrastructure. No other measures matter without it. Every Cyberlink ASP data center is fully audited based on SSAE 16 reporting on controls to meet industry-recognized requirements for security—no exceptions.</p>
 
                         <h4 className='mt-4'>Data Center and Server Room Measures</h4>
 
