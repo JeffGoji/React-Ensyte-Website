@@ -14,10 +14,10 @@ function RetailChoice() {
 
     return (
         <div className="container-fluid">
-            <div className="row bg-lighter-grey">
-                <h1 className="text-center mt-3 mb-3">Retail Choice & End User Transportation</h1>
+            <div className="row">
+                <h1 className="text-center mt-5 mb-5">Retail Choice & End User Transportation</h1>
             </div>
-            <div className="row justify-content-center bg-lighter-grey">
+            <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
 
                 <div className="col-lg-2 col-md-12 col-sm-12 text-justify mt-2">
                     <img src={img1} alt="Retail choice" className="img-fluid rounded imgShadow mb-2" style={{ maxHeight: "300px" }} />
@@ -29,9 +29,9 @@ function RetailChoice() {
                         GASTAR’s on-system modules handle interface to SCADA or other EFM devices, transportation customer contracts, residential pool balancing, industrial & commercial pool balances, and a nominations and scheduling module for workstations and EBB for internal and external communication.</p>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-5 mb-5">
                 <div className="col-sm-12 col-md-12 col-lg-10">
-                    <div className="card mt-5 mb-3 cardshadow">
+                    <div className="card mt-5 mb-5 cardshadow">
                         <div className="card-header text-center blue-bg text-white"><h2>GASTAR Features for Retail Choice</h2></div>
                         <div className="card-body fs-5">
                             <ul className="blue-dots check">

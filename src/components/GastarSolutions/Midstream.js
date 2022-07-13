@@ -13,23 +13,23 @@ const Midstream = () => {
     return (
         <div className="container-fluid">
             <div className="row">
-                <h1 className="text-center mt-3 mb-5">GASTAR for Midstream</h1>
+                <h1 className="text-center mt-5 mb-5">GASTAR for Midstream</h1>
             </div>
-            <div className="row justify-content-center bg-lighter-grey">
+            <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
                 <div className="col-lg-3 col-sm-12 text-center">
-                    <img src={image1} alt="Product" className='img-fluid rounded imgShadow mb-3 mt-2' style={{ maxHeight: "300px" }} />
+                    <img src={image1} alt="Product" className='img-fluid' style={{ maxHeight: "300px" }} />
                 </div>
 
-                <div className="col-lg-5 col-md-12 col-sm-12 text-justify">
-                    <p className="mt-3">ENSYTE supports major oil and natural gas Midstreams in their upstream processes with our comprehensive GASTAR management software. From search and discovery to estimations and extractions, our user-focused software solution aims to provide natural gas Midstreams with functional tools and management resources to streamline their upstream processes saving time and money.
+                <div className="col-lg-8 col-md-12 col-sm-12 text-justify">
+                    <p className="mt-5">ENSYTE supports major oil and natural gas Midstreams in their upstream processes with our comprehensive GASTAR management software. From search and discovery to estimations and extractions, our user-focused software solution aims to provide natural gas Midstreams with functional tools and management resources to streamline their upstream processes saving time and money.
                     </p>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-5 mb-5">
                 <div className="col-lg-10 col-md-12 col-sm-12">
                     <div className="card imgShadow mt-5">
-                        <div className="card-header text-center blue-bg text-white"><h4>Natural Gas Gathering, Treatment, and Processing</h4></div>
-                        <div className="card-body row justify-content-center">
+                        <div className="card-header text-center blue-bg text-white"><h3>Natural Gas Gathering, Treatment, and Processing</h3></div>
+                        <div className="card-body row justify-content-center mt-5 mb-5">
                             <div className="col-sm-12 col-md-12 col-lg-10">
 
                                 <div className="p-2">
@@ -43,9 +43,9 @@ const Midstream = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card-body row justify-content-center">
+                        <div className="card-body row justify-content-center m-1 bg-lighter-grey rounded">
                             <div className="col-sm-12 col-md-12 col-lg-3">
-                                <div className="mt-3 mb-3">
+                                <div className="mt-5 mb-5">
                                     <div>
                                         <ul className="list-padding"><h4>Midstream Features:</h4>
                                             <li>Supply Sales</li>

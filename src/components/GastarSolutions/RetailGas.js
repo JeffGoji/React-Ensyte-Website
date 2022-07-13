@@ -13,9 +13,9 @@ const RetailGas = () => {
     return (
         <div className="container-fluid bg-white">
             <div className="row">
-                <h1 className="text-center mt-3 mb-3">Retail Gas Marketing</h1>
+                <h1 className="text-center mt-5 mb-5">Retail Gas Marketing</h1>
             </div>
-            <div className="row justify-content-center bg-lighter-grey">
+            <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
                 <div className="col-lg-2 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid m-2 rounded imgShadow' style={{ maxHeight: "300px" }} />
                 </div>
@@ -24,9 +24,9 @@ const RetailGas = () => {
                     </p>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-5 mb-5">
                 <div className="col-sm-12 col-md-12 col-lg-10">
-                    <div className="card mt-3 mb-3 cardshadow">
+                    <div className="card mt-5 mb-5 cardshadow">
                         <div className="card-header text-center blue-bg text-white"><h2>Oil & Gas Downstream Marketing</h2></div>
                         <div className="fs-6 p-2">
                             <h3 className="blue-text text-center mt-4">Contracts & Accounting Management</h3>
@@ -52,7 +52,7 @@ const RetailGas = () => {
                             {/* <div className="col-lg-6 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid' />
                 </div> */}
-                            <div className="row mt-5 justify-content-center">
+                            <div className="row mt-5 mb-5 justify-content-center m-1 bg-lighter-grey rounded">
 
 
                                 <div className="col-lg-3">

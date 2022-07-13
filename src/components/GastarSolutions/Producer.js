@@ -12,9 +12,9 @@ const Producer = () => {
     return (
         <div className="container-fluid">
             <div className="row">
-                <h1 className="text-center mt-3 mb-3 ">GASTAR for Upstream Production</h1>
+                <h1 className="text-center mt-5 mb-5 ">GASTAR for Upstream Production</h1>
             </div>
-            <div className="row justify-content-center bg-lighter-grey ">
+            <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
                 <div className="col-lg-3 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid rounded imgShadow mb-3 mt-2' />
                 </div>
@@ -26,7 +26,7 @@ const Producer = () => {
                     </p>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mt-5 mb-5">
                 <div className="col-lg-10 col-md-12 col-sm-12 text-justify mt-3">
                     <div className="card rounded imgShadow mt-5">
                         <div className="card-header text-center mb-2 blue-bg text-white"><h2>Oil & Gas Downstream Marketing</h2>
@@ -45,7 +45,7 @@ const Producer = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="row justify-content-center">
+                                <div className="row justify-content-center mt-5 mb-5 m-1 bg-lighter-grey rounded">
                                     <div className="col-sm-12 col-md-12 col-lg-5">
                                         <div className="mt-3 mb-3">
                                             <div className="p-2">
