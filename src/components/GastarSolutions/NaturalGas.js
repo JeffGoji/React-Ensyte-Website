@@ -16,7 +16,7 @@ function NaturalGas() {
             </div>
             <div className="row justify-content-center bg-lighter-grey mb-5">
                 <div className="col-lg-4 col-sm-12 text-center">
-                    <img src={image1} alt="Gas Utility" className=' img-fluid rounded imgShadow mt-5' style={{ maxHeight: "400px" }} />
+                    <img src={image1} alt="Gas Utility" className=' img-fluid rounded imgShadow mt-3 mb-3' style={{ maxHeight: "400px" }} />
                 </div>
                 <div className="col-lg-7 col-md-12 col-sm-12 text-justify">
                     <p className="mt-5">GASTAR is a fully integrated software solution for Gas Supply/Acquisition, Retail Customer Choice, Gas Control processes, and LNG/Propane peaking services. The product is the preferred natural gas management software for some of the largest natural gas utilities in the United States. GASTAR has been designed and refined over 35 years of working with Local Distribution Companies (LDCs). ENSYTE’s primary focus is the LDC market, and that concentration permeates through our entire corporate strategy, from hiring talent to investment in product development.
