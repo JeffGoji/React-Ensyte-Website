@@ -22,7 +22,7 @@ const GastarRisk = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-5 text-white">
 
-                    <p>GASTAR falls into the Enterprise Risk Management (ERM) classification of business systems with components of the software falling into all areas of risk management for an organization, from Operations Monitoring to Reporting, Compliance, and Communication. GASTAR gives full control, as well as transparency, of the company’s natural gas position at any time to enable better decision making and optimize the company’s business practices.</p>
+                    <p className='mt-5'>GASTAR falls into the Enterprise Risk Management (ERM) classification of business systems with components of the software falling into all areas of risk management for an organization, from Operations Monitoring to Reporting, Compliance, and Communication. GASTAR gives full control, as well as transparency, of the company’s natural gas position at any time to enable better decision making and optimize the company’s business practices.</p>
                 </div>
             </div>
 

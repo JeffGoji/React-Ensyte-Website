@@ -40,7 +40,7 @@ const GastarHosting = () => {
                                 <li>Advisors to the early adopters</li>
                                 <li>Partners with primary software vendors</li>
                             </ul>
-                            <h4 className="card-title text-center mt-3">Experience</h4>
+                            <h4 className="card-title text-center mt-5">Experience</h4>
 
                             <ul>
                                 <li>
@@ -49,24 +49,24 @@ const GastarHosting = () => {
                                 <li>Valued partner with certified independent consultants who advise on cloud technology</li>
                                 <li>Access to cloud security teams at datacenters worldwide</li>
                             </ul>
-                            <h3 className="text-center mt-3">Systems</h3>
+                            <h3 className="text-center mt-5">Systems</h3>
                             <ul>
                                 <li>Leading edge proprietary technology tuned to the paperless office</li>
                                 <li>State-of-the-art security defenses</li>
                                 <li>Service delivery engines optimized for the fastest user experience</li>
                                 <li>Fast anywhere anytime access to applications and data for mobile devices</li>
                             </ul>
-                            <h3 className="text-center mt-3">Processes</h3>
+                            <h3 className="text-center mt-5">Processes</h3>
                             <ul>
                                 <li>Proprietary workflow software</li>
                                 <li>Streamlined onboarding processes for seamless migration</li>
                                 <li>All customer data is replicated to geo-redundant data centers and is encrypted in transit and at rest.</li>
                             </ul>
-                            <h3 className="text-center mt-3">Customer Service</h3>
+                            <h3 className="text-center mt-5">Customer Service</h3>
                             <ul>
                                 <li>CLE-accredited instruction on cloud security and paperless workflow</li>
                             </ul>
-                            <h3 className="text-center mt-3">Cost Savings</h3>
+                            <h3 className="text-center mt-5">Cost Savings</h3>
                             <ul>
                                 <li>Unique services strategy lowers customer costs and improves customer profitability</li>
                             </ul>
