@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 
 // import img1 from '../../assets/img/retail-choice.jpg'
+import img1 from '../../assets/img/retail-marketing.jpg'
 
 
 function RetailChoice() {
@@ -12,13 +13,16 @@ function RetailChoice() {
     }, []);
 
     return (
-        <div className="container-fluid bg-white">
-            <div className="row">
+        <div className="container-fluid">
+            <div className="row bg-lighter-grey">
                 <h1 className="text-center mt-3 mb-3">Retail Choice & End User Transportation</h1>
             </div>
-            <div className="row justify-content-center imgBg22">
+            <div className="row justify-content-center bg-lighter-grey">
 
-                <div className="col-lg-8 col-md-12 col-sm-12 text-justify text-white mt-5 fs-5">
+                <div className="col-lg-2 col-md-12 col-sm-12 text-justify mt-2">
+                    <img src={img1} alt="Retail choice" className="img-fluid rounded imgShadow mb-2" style={{ maxHeight: "300px" }} />
+                </div>
+                <div className="col-lg-7 col-md-12 col-sm-12 text-justify">
                     <p className="p-2">The Retail Choice System supports transportation customers in the acquisition of gas supply from third-party marketers. There are two components to this program: (1) customers that are aggregated into a marketer choice pool and (2) customers that are large enough to acquire gas supply directly or engage an agent/marketer to provide the supply. GASTAR’s ‘on-system’ functionality supports daily read and cycle read data for meter points and includes procedures for rolling up the data to determine imbalance positions. The solution calculates the allocation of capacity for each customer to the marketer pool, as well as imbalance and settlement information for transfer to the Accounting and Invoicing Modules.
                         <br />
                         <br />

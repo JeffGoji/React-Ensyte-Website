@@ -1,7 +1,7 @@
 
 import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
-// import image1 from '../../assets/img/gas-supply.png';
+import image1 from '../../assets/img/gas-supply.png';
 
 
 function GasSupply() {
@@ -15,16 +15,16 @@ function GasSupply() {
             <div className="row blue-bg">
                 <h1 className="text-center mt-3 mb-3 text-white">GASTAR Overview</h1>
             </div>
-            <div className="row justify-content-center imgBg1">
-                {/* <div className="col-lg-5 col-sm-12 text-center">
-                    <img src={image1} alt="Product" className=' img-fluid' />
-                </div> */}
-                <div className="col-lg-8 col-md-12 col-sm-12 mt-5 text-white">
+            <div className="row justify-content-center">
+                <div className="col-lg-4 col-sm-12 text-center">
+                    <img src={image1} alt="Product" className=' img-fluid imgShadow rounded m-2' style={{ maxHeight: "300px" }} />
+                </div>
+                <div className="col-lg-8 col-md-12 col-sm-12 mt-5 ">
                     <h2 className='text-center'>Natural Gas Supply & Gas Acquisition</h2>
                     <p className="fs-5">The Gas Acquisition System manages all business processes associated with the purchase, off-system sales, transportation, storage, and accounting of natural gas for the sales service side of the utility. GASTAR couples NAESB-compliant master purchase and sales contracts with NAESB-compliant nominations and scheduling to support all ‘off-system’ transactions, including storage, related gas accounting, and the interface of General Ledger (GL) data to corporate billing/accounting systems.</p>
                 </div>
             </div>
-            <div className="row justify-content-center blue-bg">
+            <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-10">
                     <div className="card mt-5 mb-3">
                         <div className="card-header text-center text-white blue-bg"><h2>GASTAR Features for Gas Supply & Gas Acquisition</h2></div>

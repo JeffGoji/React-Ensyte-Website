@@ -82,14 +82,14 @@ const GastarHosting = () => {
                 <h2 className="text-center text-white mt-2 mb-2">ENSYTE Hosted Environment Security Protocols</h2>
             </div>
 
-            <div className='row justify-content-center bg-lighter-blue'>
+            <div className='row justify-content-center bg-lighter-grey'>
 
                 <div className="col-lg-6 col-sm-12 text-center">
                     <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid' style={{ maxWidth: "90%" }} />
                 </div>
-                <div className='col-lg-6 col-md-12 col-sm-12 bg-lighter-blue'>
+                <div className='col-lg-6 col-md-12 col-sm-12 bg-lighter-grey'>
 
-                    <div className='card border-0 bg-lighter-blue' style={{ justifyContent: "center" }}>
+                    <div className='card border-0 bg-lighter-grey' style={{ justifyContent: "center" }}>
 
                         <ul>
                             <li>Dedicated facilities</li>

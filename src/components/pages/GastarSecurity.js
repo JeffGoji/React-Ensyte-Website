@@ -37,7 +37,7 @@ function GastarSecurity() {
 
             {/* Safegaurding data layer card */}
 
-            <div className="container-md border rounded-4 mt-4 bg-lighter-blue cardshadow">
+            <div className="container-md border rounded-4 mt-4 bg-lighter-grey cardshadow">
                 <div className='row justify-content-center'><h2 className='text-center mb-5'>Safeguarding Data, Layer By Layer</h2>
                     <div className='col-md-6 col-sm-12'>
                         <div className="card mb-3">

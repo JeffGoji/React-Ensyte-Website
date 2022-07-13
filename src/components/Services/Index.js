@@ -9,7 +9,7 @@ const CustomSolutions = () => {
     }, []);
     return (
         <main className='container-fluid'>
-            <h1 className='text-center p-4 text-white'>ENSYTE Customized Solutions</h1>
+            <h1 className='text-center p-4'>ENSYTE Customized Solutions</h1>
             <div className='row bg-white text-center'>
 
                 <div className='col-lg-4 col-md-12 col-sm-12'>

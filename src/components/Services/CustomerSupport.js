@@ -9,12 +9,12 @@ const CustomerSupport = () => {
     }, []);
     return (
         <main className='container-fluid'>
-            <h1 className='text-center p-4 text-white'>ENSYTE Customer Support</h1>
+            <h1 className='text-center p-4 mb-5'>ENSYTE Customer Support</h1>
             {/* First Row */}
 
 
-            <h2 className='text-center mb-3 text-white'>Why Are We The Best?</h2>
-            <div className="row row-cols-1 row-cols-md-3  mb-5 fs-5 bg-white text-black">
+            <h2 className='text-center mb-5s'>Why Are We The Best?</h2>
+            <div className="row row-cols-1 row-cols-md-3  mb-5 fs-5 bg-lighter-grey text-black">
                 <div className="col">
                     <div className="card h-100 bg-transparent border-0 text-center">
                         <div className="card-body">
@@ -56,7 +56,7 @@ const CustomerSupport = () => {
             </div>
 
             {/* Third Row */}
-            <div className='row bg-white text-center mt-5'>
+            <div className='row bg-lighter-grey text-center mt-5'>
                 <div className='col-lg-8 col-md-12 col-sm-12 text-start p-2'>
                     <h2 className='text-center'>HelpDesk</h2>
                     <p>ENSYTE offers help desk support services during normal business hours (9AM to 5PM) Central Standard Time, as well as 24-hour support as a premium option to our annual maintenance fee. The ENSYTE team provides support through a collaborative online helpdesk portal that tracks support tickets and allows users to monitor progress of support ticket resolution. The portal fosters interaction with other users and IT managers to effectively resolve issues and streamline workflow.</p>

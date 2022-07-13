@@ -10,8 +10,8 @@ const Consulting = () => {
 
     return (
         <main className='container-fluid'>
-            <h1 className='text-center p-4 text-white'>ENSYTE Consulting Services</h1>
-            <div className='row bg-white text-center'>
+            <h1 className='text-center p-4'>ENSYTE Consulting Services</h1>
+            <div className='row bg-lighter-grey text-center'>
                 <div className='col-lg-8 col-md-12 col-sm-12 text-start p-2'>
                     <h2 className='text-center'>NatGas Industry Experts</h2>
                     <p>As energy companies look at upgrading their software systems, the ENSYTE team lends its expertise to help analyze existing infrastructures and create go-forward strategies. Leveraging over 30 years of experience in natural gas supply, transportation, gathering, storage, marketing, and trading; the ENSYTE team identifies business processes early on to establish system requirements. From preliminary scoping and system reviews to comprehensive system implementation and project management, ENSYTE offers a range of services to companies looking at making a change.</p>

@@ -30,9 +30,9 @@ const GasSupply = () => {
             </div>
 
             {/* <div className='row mt-5 mb-5 blue-bg'> */}
-            {/* <div className='row justify-content-center mt-4 bg-lighter-blue'>
+            {/* <div className='row justify-content-center mt-4 bg-lighter-grey'>
                 <div className='col-lg-5 col-md-12 col-sm-12 align-self-center'>
-                    <div className="card border-0 mb-3 mt-4 bg-lighter-blue" style={{ maxwidth: "340px" }}>
+                    <div className="card border-0 mb-3 mt-4 bg-lighter-grey" style={{ maxwidth: "340px" }}>
                         <div className="row g-0">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <img src={gastarLogo} alt="Product" className="img-fluid rounded-start" />

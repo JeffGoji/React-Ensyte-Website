@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 
-
+import image1 from '../../assets/img/oilfield-1.jpeg'
 
 function Natgas() {
 
@@ -14,8 +14,11 @@ function Natgas() {
             <div className="row blue-bg">
                 <h1 className="text-center text-white mt-3 mb-3">Marketing for Natural Gas Producers</h1>
             </div>
-            <div className="row justify-content-center imgBg20">
-                <div className="col-lg-8 col-md-12 col-sm-12 text-justify text-white mt-3 fs-5 text-center">
+            <div className="row justify-content-center bg-lighter-grey mt-2">
+                <div className="col-lg-4 col-md-12 col-sm-12 text-center">
+                    <img src={image1} alt="Product" className=' img-fluid mt-2 mb-3 rounded imgShadow' />
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-3 fs-5 text-center">
                     <p>GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
                 </div>
             </div>

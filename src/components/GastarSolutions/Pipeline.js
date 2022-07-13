@@ -14,12 +14,12 @@ function RetailChoice() {
             <div className="row blue-bg">
                 <h1 className="text-center mt-3 mb-3 text-white">GASTAR for Pipeline Transportation</h1>
             </div>
-            <div className="row justify-content-center imgBg11">
+            <div className="row justify-content-center  bg-lighter-grey">
                 {/* <div className="col-lg-6 col-sm-12 text-center">
                     <img src={image1} alt="Product" className=' img-fluid' />
                 </div> */}
-                <div className="col-lg-10 col-md-12 col-sm-12 text-center text-white mt-5">
-                    <p className="mt-3 fs-4">GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
+                <div className="col-lg-10 col-md-12 col-sm-12 text-center mt-2">
+                    <p className="mt-3">GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
                     </p>
                 </div>
             </div>
@@ -38,34 +38,34 @@ function RetailChoice() {
                             <p>Another important feature for our pipeline customers is the GASTAR’s Capacity Release Management, which handles daily, monthly, yearly, and permanent activity with the ability to display Capacity Release by requester. Marketers can post capacity to the EBB in compliance with NAESB standards.</p>
 
                         </div>
+                        <div className="row justify-content-center">
+                            {/* <div className="col-lg-6 col-sm-12 text-center">
+                    <img src={image1} alt="Product" className=' img-fluid' />
+                </div> */}
+                            <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-3 mb-3 bg-lighter-grey rounded">
+                                <h2 className="text-center">GASTAR Pipeline features include:</h2>
+                                <ul className="check">
+                                    <li>Customer Relationship Manager (CRM)</li>
+                                    <li>Security</li>
+                                    <li>NAESB Compliant</li>
+                                    <li>Pipeline / Points Network</li>
+                                    <li>SCADA / Measurement Interface</li>
+                                    <li>Nominations & Scheduling</li>
+                                    <li>Electronic Bulletin Board (EBB)</li>
+                                    <li>Energy EDI</li>
+                                    <li>Capacity Release</li>
+                                    <li>Storage Tracking</li>
+                                    <li>Pipeline System Balancing</li>
+                                    <li>Purchase Pathing</li>
+                                    <li>Gas Accounting</li>
+                                    <li>Reporting & Dashboards</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center imgBg11">
-                {/* <div className="col-lg-6 col-sm-12 text-center">
-                    <img src={image1} alt="Product" className=' img-fluid' />
-                </div> */}
-                <div className="col-lg-4 col-md-12 col-sm-12 text-justify text-white mt-3 fs-5">
 
-                    <h2 className="text-center">GASTAR Pipeline features include:</h2>
-                    <ul>
-                        <li>Customer Relationship Manager (CRM)</li>
-                        <li>Security</li>
-                        <li>NAESB Compliant</li>
-                        <li>Pipeline / Points Network</li>
-                        <li>SCADA / Measurement Interface</li>
-                        <li>Nominations & Scheduling</li>
-                        <li>Electronic Bulletin Board (EBB)</li>
-                        <li>Energy EDI</li>
-                        <li>Capacity Release</li>
-                        <li>Storage Tracking</li>
-                        <li>Pipeline System Balancing</li>
-                        <li>Purchase Pathing</li>
-                        <li>Gas Accounting</li>
-                        <li>Reporting & Dashboards</li>
-                    </ul>
-                </div>
-            </div>
 
 
             <div className="text-center p-5">

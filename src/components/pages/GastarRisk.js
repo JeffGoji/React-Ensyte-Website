@@ -26,9 +26,9 @@ const GastarRisk = () => {
                 </div>
             </div>
 
-            <div className='row justify-content-center mt-0 bg-lighter-blue'>
+            <div className='row justify-content-center mt-0 bg-lighter-grey'>
                 <div className='col-lg-6 col-sm-12 '>
-                    <div className="card border-0 mb-3 mt-4 bg-lighter-blue" style={{ maxwidth: "800px" }}>
+                    <div className="card border-0 mb-3 mt-4 bg-lighter-grey" style={{ maxwidth: "800px" }}>
                         <div className="row">
                             <div className="col-lg-7 col-md-12 col-sm-12">
                                 <div className="card-body">
