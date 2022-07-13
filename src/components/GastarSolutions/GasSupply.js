@@ -26,7 +26,7 @@ function GasSupply() {
             </div>
             <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-10">
-                    <div className="card mt-5 mb-3">
+                    <div className="card mt-5 mb-5 imgShadow">
                         <div className="card-header text-center text-white blue-bg"><h2>GASTAR Features for Gas Supply & Gas Acquisition</h2></div>
                         <div className="card-body fs-5">
                             <ul className="blue-dots check">

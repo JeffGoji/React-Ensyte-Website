@@ -20,7 +20,7 @@ function RetailChoice() {
             <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
 
                 <div className="col-lg-2 col-md-12 col-sm-12 text-justify mt-2">
-                    <img src={img1} alt="Retail choice" className="img-fluid rounded imgShadow mb-2" style={{ maxHeight: "300px" }} />
+                    <img src={img1} alt="Retail choice" className="img-fluid rounded imgShadow mb-5 mt-5" />
                 </div>
                 <div className="col-lg-7 col-md-12 col-sm-12 text-justify">
                     <p className="p-2">The Retail Choice System supports transportation customers in the acquisition of gas supply from third-party marketers. There are two components to this program: (1) customers that are aggregated into a marketer choice pool and (2) customers that are large enough to acquire gas supply directly or engage an agent/marketer to provide the supply. GASTAR’s ‘on-system’ functionality supports daily read and cycle read data for meter points and includes procedures for rolling up the data to determine imbalance positions. The solution calculates the allocation of capacity for each customer to the marketer pool, as well as imbalance and settlement information for transfer to the Accounting and Invoicing Modules.
