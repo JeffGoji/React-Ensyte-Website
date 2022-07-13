@@ -12,8 +12,8 @@ const Midstream = () => {
 
     return (
         <div className="container-fluid">
-            <div className="row">
-                <h1 className="text-center mt-5 mb-5">GASTAR for Midstream</h1>
+            <div className="row blue-bg">
+                <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Midstream</h1>
             </div>
             <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
                 <div className="col-lg-3 col-sm-12 text-center">

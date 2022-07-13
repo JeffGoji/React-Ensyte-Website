@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 
-
+import image1 from '../../assets/img/pipes1.jpg'
 
 function RetailChoice() {
 
@@ -15,11 +15,12 @@ function RetailChoice() {
                 <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Pipeline Transportation</h1>
             </div>
             <div className="row justify-content-center mt-5 mb-5">
-                {/* <div className="col-lg-6 col-sm-12 text-center">
-                    <img src={image1} alt="Product" className=' img-fluid' />
-                </div> */}
-                <div className="col-lg-10 col-md-12 col-sm-12 text-center mt-2">
-                    <p className="mt-3">GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
+
+                <div className="col-lg-3 col-sm-12 text-center">
+                    <img src={image1} alt="Product" className=' img-fluid rounded imgShadow' />
+                </div>
+                <div className="col-lg-7 col-md-12 col-sm-12 text-center mt-2">
+                    <p className="mt-5 text-start">GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
                     </p>
                 </div>
             </div>
@@ -39,11 +40,11 @@ function RetailChoice() {
 
                         </div>
                         <div className="row justify-content-center mt-5 mb-5 m-1 bg-lighter-grey rounded">
-                            {/* <div className="col-lg-6 col-sm-12 text-center">
-                    <img src={image1} alt="Product" className=' img-fluid' />
-                </div> */}
+                            <div className="col-lg-6 col-sm-12 text-center">
+                                <img src={image1} alt="Product" className=' img-fluid' />
+                            </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-3 mb-3">
-                                <h2 className="text-center">GASTAR Pipeline features include:</h2>
+                                <h2 className="text-center">GASTAR Pipeline Features Include:</h2>
                                 <ul className="check">
                                     <li>Customer Relationship Manager (CRM)</li>
                                     <li>Security</li>

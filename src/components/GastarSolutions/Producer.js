@@ -11,7 +11,7 @@ const Producer = () => {
 
     return (
         <div className="container-fluid">
-            <div className="row">
+            <div className="row blue-bg text-white">
                 <h1 className="text-center mt-5 mb-5">GASTAR for Upstream Production</h1>
             </div>
             <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">

@@ -109,7 +109,7 @@ export const Nav = () => {
                                 <li>
                                     <NavLink className="dropdown-item" to="/gastar-producer">Producer/Operator</NavLink>
                                 </li>
-                                <li><NavLink className="dropdown-item" to="/gastar-midstream">Mid Stream</NavLink></li>
+                                <li><NavLink className="dropdown-item" to="/gastar-midstream">Midstream</NavLink></li>
                                 <li>
                                     <NavLink className="dropdown-item" to="/gastar-natgas-producer">Producer Marketing</NavLink>
                                 </li>

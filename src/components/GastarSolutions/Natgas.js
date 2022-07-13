@@ -19,7 +19,7 @@ function Natgas() {
                     <img src={image1} alt="Product" className=' img-fluid mt-3 mb-3 rounded imgShadow' />
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-5 text-center">
-                    <p className="mt-5">GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
+                    <p className="mt-5 text-start">GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
                 </div>
             </div>
             <div className="row justify-content-center mt-5 mb-5">

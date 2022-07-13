@@ -14,8 +14,8 @@ function RetailChoice() {
 
     return (
         <div className="container-fluid">
-            <div className="row">
-                <h1 className="text-center mt-5 mb-5">Retail Choice & End User Transportation</h1>
+            <div className="row blue-bg">
+                <h1 className="text-center mt-5 mb-5 text-white">Retail Choice & End User Transportation</h1>
             </div>
             <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
 
