@@ -12,7 +12,7 @@ function Natgas() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center text-white mt-5 mb-5">Marketing for Natural Gas Producers</h1>
+                <h1 className="text-center text-white mt-5 mb-5">GASTAR for Marketing for Natural Gas Producers</h1>
             </div>
             <div className="row justify-content-center mt-5 mb-5 bg-lighter-grey">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">

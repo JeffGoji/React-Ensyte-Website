@@ -13,7 +13,7 @@ const RetailGas = () => {
     return (
         <div className="container-fluid bg-white">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">Retail Gas Marketing</h1>
+                <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Retail Gas Marketing</h1>
             </div>
             <div className="row justify-content-center bg-lighter-grey mt-5 mb-5">
                 <div className="col-lg-3 col-sm-12 text-center">
