@@ -40,9 +40,9 @@ function RetailChoice() {
 
                         </div>
                         <div className="row justify-content-center mt-5 mb-5 m-1 bg-lighter-grey rounded">
-                            <div className="col-lg-6 col-sm-12 text-center">
+                            {/* <div className="col-lg-6 col-sm-12 text-center">
                                 <img src={image1} alt="Product" className=' img-fluid' />
-                            </div>
+                            </div> */}
                             <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-3 mb-3">
                                 <h2 className="text-center">GASTAR Pipeline Features Include:</h2>
                                 <ul className="check">
