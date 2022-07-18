@@ -16,7 +16,7 @@ function NaturalGas() {
             </div>
             <div className="row justify-content-center imgBg26 mb-5">
                 <div className="col-lg-7 col-md-12 col-sm-12 text-justify">
-                    <p className="mt-5 text-white">GASTAR is a fully integrated software solution for Gas Supply/Acquisition, Retail Customer Choice, Gas Control processes, and LNG/Propane peaking services. The product is the preferred natural gas management software for some of the largest natural gas utilities in the United States. GASTAR has been designed and refined over 35 years of working with Local Distribution Companies (LDCs). ENSYTE’s primary focus is the LDC market, and that concentration permeates through our entire corporate strategy, from hiring talent to investment in product development.
+                    <p className="mt-6 text-white">GASTAR is a fully integrated software solution for Gas Supply/Acquisition, Retail Customer Choice, Gas Control processes, and LNG/Propane peaking services. The product is the preferred natural gas management software for some of the largest natural gas utilities in the United States. GASTAR has been designed and refined over 35 years of working with Local Distribution Companies (LDCs). ENSYTE’s primary focus is the LDC market, and that concentration permeates through our entire corporate strategy, from hiring talent to investment in product development.
                     </p>
                 </div>
                 <div className="row justify-content-center">
