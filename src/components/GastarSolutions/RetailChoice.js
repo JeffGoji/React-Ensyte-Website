@@ -34,7 +34,6 @@ function RetailChoice() {
                         <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Learn More</button>
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-2 text-center mb-2" data-bs-toggle="modal" data-bs-target="#modal169"><button className="btn btn-warning btn-lg">Schedule a Demo</button>
-                        {/* <NavLink className={"nav-link"} to='../contact'></NavLink> */}
                     </div>
                 </div>
             </div>
