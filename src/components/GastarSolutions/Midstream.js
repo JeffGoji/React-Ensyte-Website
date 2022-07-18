@@ -15,7 +15,7 @@ const Midstream = () => {
             <div className="row blue-bg">
                 <h1 className="text-center mt-5 mb-5 text-white">GASTAR For Midstream</h1>
             </div>
-            <div className="row justify-content-center imgBg28 mb-5">
+            <div className="row justify-content-center imgBg28">
                 <div className="col-lg-8 col-md-12 col-sm-12 text-justify">
                     <p className="mt-6 text-white">ENSYTE supports major oil and natural gas Midstreams in their upstream processes with our comprehensive GASTAR management software. From search and discovery to estimations and extractions, our user-focused software solution aims to provide natural gas Midstreams with functional tools and management resources to streamline their upstream processes saving time and money.
                     </p>

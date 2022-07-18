@@ -15,7 +15,7 @@ function RetailChoice() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Retail Choice & End User Transportation</h1>
+                <h1 className="text-center mt-5 mb-5 text-white">GASTAR For Retail Choice & End User Transportation</h1>
             </div>
             {/* <div className="row justify-content-center bg-lighter-grey mt-5 mb-5"> */}
             <div className="row justify-content-center imgBg25 text-white">

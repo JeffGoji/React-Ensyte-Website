@@ -3,6 +3,7 @@ body {
   background-color: #fff;
   font-size: 1rem;
   padding-top: 5.2rem;
+  height: 100%;
 }
 
 /***************** Navigation styling********************************/
@@ -653,4 +654,8 @@ footer {
   padding-bottom: 0.5rem;
   color: white;
   background-color: #004b8d;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

@@ -13,9 +13,9 @@ const RetailGas = () => {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Retail Gas Marketing</h1>
+                <h1 className="text-center mt-5 mb-5 text-white">GASTAR For Retail Gas Marketing</h1>
             </div>
-            <div className="row justify-content-center mb-5 imgBg24">
+            <div className="row justify-content-center imgBg24">
                 <div className="col-lg-7 col-md-12 col-sm-12 text-justify mt-5">
                     <p className="mt-5 text-white">GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
                     </p>

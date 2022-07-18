@@ -12,9 +12,9 @@ function RetailChoice() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h2 className="text-center mt-5 mb-5 text-white">GASTAR for Pipeline Transportation</h2>
+                <h2 className="text-center mt-5 mb-5 text-white">GASTAR For Pipeline Transportation</h2>
             </div>
-            <div className="row justify-content-center imgBg11 mb-5">
+            <div className="row justify-content-center imgBg11 ">
                 <div className="col-lg-7 col-md-12 col-sm-12 text-center">
                     <p className="mt-6 text-start text-white">GASTAR provides an integrated pipeline transportation solution to support all transaction-related aspects of Shipper/Transporter business practices in compliance with NAESB standards. The solution includes a Customer Relationship Management (CRM) Module, which houses all customer information and works in tandem with a Contracts Management Module to manage all city gate suppliers, marketers, pooling tariff structures, LDC transportation customers, and any other business parties.
                     </p>
