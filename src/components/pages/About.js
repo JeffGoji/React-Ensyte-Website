@@ -1,8 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import { useEffect } from 'react';
 
-import image1 from '../../assets/img/michael.png'
+import Execs from './Execs'
+
+
+// import image1 from '../../assets/img/michael.png'
 import image2 from '../../assets/img/buildingexterior-1.jpg'
+import image4 from '../../assets/img/logo.png'
 
 const About = () => {
 
@@ -11,7 +15,7 @@ const About = () => {
     }, []);
 
     return (
-        <div className='container-fluid text-white imgBg18'>
+        <div className='container-fluid text-white imgBg18 blue-bg'>
             <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
                     <h1 className="text-center mt-3">
@@ -20,8 +24,8 @@ const About = () => {
                     <div className="card bg-white text-black">
                         <div className="card-body">
                             <div className='row'>
-                                <div className="col-sm-12 col-md-12 col-lg-4">
-                                    <img src={image1} alt="Michael Smith" className='rounded imgShadow img-fluid mb-4' />
+                                <div className="col-sm-12 col-md-12 col-lg-4 text-center">
+                                    <img src={image4} alt="Michael Smith" className='img-fluid mt-5' style={{ maxHeight: "400px" }} />
                                 </div>
                                 <div className="col-sm-12 col-md-12 col-lg-8">
                                     <p>ENSYTE is a Texas-based company with great values and business ethics. We are a leading provider of natural gas management software (GMS) solutions, combining over 35 years of industry knowledge with the latest technology and a user-friendly, customer-focused approach.</p>
@@ -34,7 +38,7 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
+                    <div className="col-sm-12 col-md-12 col-lg-12 mt-6">
                         <h1 className="text-center">
                             Our History
                         </h1>
@@ -54,7 +58,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-5 fs-5 text-center">
+                    <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-6 fs-5 text-center">
                         <div className="col-sm-12 col-md-12 col-lg-4">
                             <div className="card h-100 bg-transparent border-0">
 
@@ -92,13 +96,14 @@ const About = () => {
                     </div>
                 </div>
             </div >
-            <div className="row justify-content-center text-center">
+            <Execs />
+            {/* <div className="row justify-content-center text-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-5">
                     <NavLink to="/executive-team"><button className="btn btn-lg btn-primary text-center">
                         Meet our Executive Team
                     </button></NavLink>
                 </div>
-            </div>
+            </div> */}
         </div >
     )
 }

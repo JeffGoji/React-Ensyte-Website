@@ -9,9 +9,9 @@ const Contact = () => {
 
     return (
         <div className="container-fluid imgBg18">
-            <div className="row align-items-center-top lightblue-bg">
+            <div className="row align-items-center-top justify-content-center lightblue-bg">
                 <h2 className="text-center mt-5 mb-2 card-title text-white">Contact Us</h2>
-                <div className="col-lg-6 col-sm-12 mt-3 mb-3">
+                <div className="col-lg-4 col-sm-12 mt-3 mb-3">
                     <div className="card rounded-2">
                         <div className="card-header bg-primary text-white">
                             <h2 className="text-center card-title">Contact Form</h2>
@@ -33,7 +33,7 @@ const Contact = () => {
 
 
                 {/* Address and Information section */}
-                <div className="col-lg-6 col-sm-12 mt-3 mb-3">
+                <div className="col-lg-4 col-sm-12 mt-3 mb-3">
                     <div className="card rounded-2">
                         <div className="card-header bg-primary text-white"><h2 className="card-title text-center">Contact Information</h2></div>
                         <div className="card-body">

@@ -7,7 +7,7 @@ const A8 = () => {
                 <div className="card mb-5 h-100">
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img15} alt='data Article' className='rounded img-fluid imgShadow' style={{ maxHeight: "15rem", marginBottom: "5.625rem" }} />
+                        <img src={img15} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "15rem" }} />
                         <h3 className="card-title">Happy Holidays from ENSYTE!</h3>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal7">Read More</button></div>

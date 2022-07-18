@@ -1,6 +1,7 @@
 import image1 from '../../assets/img/michael.png'
 import image2 from '../../assets/img/marilyn.png'
 import image3 from '../../assets/img/tania-md.jpg'
+
 import { NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
 
@@ -13,9 +14,9 @@ const Execs = () => {
 
     return (
         <div className='container-fluid text-white imgBg18'>
-            <div className="row justify-content-center">
-                <div className="col-sm-12 col-md-12 col-lg-8 mt-5">
-                    <h1 className="text-center mt-5">
+            <div className="row justify-content-center mt-6">
+                <div className="col-sm-12 col-md-12 col-lg-8">
+                    <h1 className="text-center">
                         Meet Our Executive Team
                     </h1>
                     <div className="card bg-white text-black mb-5">
