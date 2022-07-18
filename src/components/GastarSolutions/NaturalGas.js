@@ -12,7 +12,7 @@ function NaturalGas() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Natural Gas Utility</h1>
+                <h1 className="text-center mt-5 mb-5 text-white">GASTAR For Natural Gas Utility</h1>
             </div>
             <div className="row justify-content-center imgBg26 mb-5">
                 <div className="col-lg-7 col-md-12 col-sm-12 text-justify">
@@ -33,7 +33,7 @@ function NaturalGas() {
 
                     <div className="modal-content">
                         <div className="modal-header text-center blue-bg">
-                            <h3 className="modal-title text-white center" id="staticBackdropLabel">GASTAR Features for Natural Gas Utility</h3>
+                            <h3 className="modal-title text-white center" id="staticBackdropLabel">GASTAR Features For Natural Gas Utility</h3>
                             <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body text-wrap">

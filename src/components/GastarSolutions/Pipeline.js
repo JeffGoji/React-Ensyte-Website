@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 
-import image1 from '../../assets/img/pipes1.jpg'
+// import image1 from '../../assets/img/pipes1.jpg'
 
 function RetailChoice() {
 
@@ -12,7 +12,7 @@ function RetailChoice() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">GASTAR for Pipeline Transportation</h1>
+                <h2 className="text-center mt-5 mb-5 text-white">GASTAR for Pipeline Transportation</h2>
             </div>
             <div className="row justify-content-center imgBg11 mb-5">
                 <div className="col-lg-7 col-md-12 col-sm-12 text-center">

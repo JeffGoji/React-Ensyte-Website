@@ -20,7 +20,7 @@ function GasSupply() {
             <div className="row imgBg23 darkGradient justify-content-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 text-white text-center mt-6 rounded">
                     <h2 className='text-center mb-4'>Natural Gas Supply & Gas Acquisition</h2>
-                    <p className='mb-5'>The Gas Acquisition System manages all business processes associated with the purchase, off-system sales, transportation, storage, and accounting of natural gas for the sales service side of the utility. GASTAR couples NAESB-compliant master purchase and sales contracts with NAESB-compliant nominations and scheduling to support all ‘off-system’ transactions, including storage, related gas accounting, and the interface of General Ledger (GL) data to corporate billing/accounting systems.</p>
+                    <p>The Gas Acquisition System manages all business processes associated with the purchase, off-system sales, transportation, storage, and accounting of natural gas for the sales service side of the utility. GASTAR couples NAESB-compliant master purchase and sales contracts with NAESB-compliant nominations and scheduling to support all ‘off-system’ transactions, including storage, related gas accounting, and the interface of General Ledger (GL) data to corporate billing/accounting systems.</p>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-2 col-md-2 col-sm-8 text-center mb-2">

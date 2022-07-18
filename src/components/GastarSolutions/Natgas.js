@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 
-import image1 from '../../assets/img/oilfield-1.jpeg'
+// import image1 from '../../assets/img/oilfield-1.jpeg'
 
 function Natgas() {
 
