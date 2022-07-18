@@ -14,10 +14,11 @@ const About = () => {
     }, []);
 
     return (
-        <div className='container-fluid text-white imgBg18 blue-bg'>
+        <div className='container-fluid text-white imgBg18'>
+            <Execs />
             <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
-                    <h1 className="text-center mt-3">
+                    <h1 className="text-center mt-3 mb-3">
                         Who We Are
                     </h1>
                     <div className="card bg-white text-black">
@@ -36,9 +37,45 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-6 fs-5 text-center">
+                    <div className="col-sm-12 col-md-12 col-lg-4">
+                        <div className="card h-100 bg-transparent border-0">
+
+                            <div className="card-body">
+                                <h3 className="card-title mb-3">Our Mission</h3>
+                                <p className="card-text">To create and successfully implement software solutions that optimize performance, provide visibility, and minimize risk.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-4">
+                        <div className="card h-100 bg-transparent border-0">
+
+                            <div className="card-body">
+                                <h3 className="card-title mb-3">ENSYTE Values</h3>
+                                <ul className='no-bullets'>
+                                    <li>We Value Truth and Transparency</li>
+                                    <li>We Value Doing the Right Thing</li>
+                                    <li>We Value Fulfilling Our Commitments</li>
+                                    <li>We Value Fairness</li>
+                                    <li>We Value Diversity</li>
+                                    <li>We Value Gratitude</li>
+                                    <li>We Value Having Fun</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-12 col-lg-4">
+                        <div className="card h-100 bg-transparent border-0">
+                            <div className="card-body">
+                                <h3 className="card-title mb-3">Our Vision</h3>
+                                <p className="card-text">To provide World-Class Software and Services for the Natural Gas Value Chain</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div>
-                    <div className="col-sm-12 col-md-12 col-lg-12 mt-6">
-                        <h1 className="text-center">
+                    <div className="col-sm-12 col-md-12 col-lg-12 mt-6 mb-6">
+                        <h1 className="text-center mb-3">
                             Our History
                         </h1>
                         <div className="card bg-white text-black">
@@ -56,46 +93,9 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-6 fs-5 text-center">
-                        <div className="col-sm-12 col-md-12 col-lg-4">
-                            <div className="card h-100 bg-transparent border-0">
-
-                                <div className="card-body">
-                                    <h3 className="card-title">Our Mission</h3>
-                                    <p className="card-text">To create and successfully implement software solutions that optimize performance, provide visibility, and minimize risk.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4">
-                            <div className="card h-100 bg-transparent border-0">
-
-                                <div className="card-body">
-                                    <h3 className="card-title">ENSYTE Values</h3>
-                                    <ul className='no-bullets'>
-                                        <li>We Value Truth and Transparency</li>
-                                        <li>We Value Doing the Right Thing</li>
-                                        <li>We Value Fulfilling Our Commitments</li>
-                                        <li>We Value Fairness</li>
-                                        <li>We Value Diversity</li>
-                                        <li>We Value Gratitude</li>
-                                        <li>We Value Having Fun</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4">
-                            <div className="card h-100 bg-transparent border-0">
-                                <div className="card-body">
-                                    <h3 className="card-title">Our Vision</h3>
-                                    <p className="card-text">To provide World-Class Software and Services for the Natural Gas Value Chain</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div >
-            <Execs />
+
             {/* <div className="row justify-content-center text-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-5">
                     <NavLink to="/executive-team"><button className="btn btn-lg btn-primary text-center">

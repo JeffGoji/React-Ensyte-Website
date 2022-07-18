@@ -31,7 +31,7 @@ function RetailChoice() {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-2 col-md-2 col-sm-8 text-center mb-2">
-                        <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Learn More</button>
+                        <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Features</button>
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-2 text-center mb-2" data-bs-toggle="modal" data-bs-target="#modal169"><button className="btn btn-warning btn-lg">Schedule a Demo</button>
                     </div>
@@ -47,7 +47,7 @@ function RetailChoice() {
                             <h3 className="modal-title text-white center" id="staticBackdropLabel">GASTAR Features for Retail Choice</h3>
                             <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div className="modal-body fs-6 text-wrap">
+                        <div className="modal-body text-wrap">
                             <ul className="blue-dots check">
                                 <li>BA-CIS Sub-Module</li>
                                 This Retail Choice business practices sub-module is to centralize the information for transportation customers and to formalize the links between GASTAR and the Client’s CIS system.The BA-CIS module is dedicated to managing transportation customers with any of the recognized Customer Roles, such as Direct Read, Cycle Read,Hourly Read, Fossil Generators, etc. For Retail Choice, the solution isolates business functions and directs the User to the proper set of features and functions while operating out of a dedicated and integrated database. On-System shippers and marketers are managed in GASTAR with a transaction interface setup to update the SAP CRM as necessary.

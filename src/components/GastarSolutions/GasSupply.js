@@ -24,7 +24,7 @@ function GasSupply() {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-2 col-md-2 col-sm-8 text-center mb-2">
-                        <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Learn More</button>
+                        <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Features</button>
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-2 text-center mb-2" data-bs-toggle="modal" data-bs-target="#modal169"><button className="btn btn-warning btn-lg">Schedule a Demo</button>
                     </div>
@@ -43,7 +43,7 @@ function GasSupply() {
                             <div className="row justify-content-center mb-5 ">
                                 <div className="col-sm-12 col-md-12 col-lg-12">
                                     <div className="card border-0">
-                                        <div className="card-body fs-5">
+                                        <div className="card-body">
                                             <ul className="blue-dots check">
                                                 <span><li>Counter Parties & Contracts</li></span>
                                                 <li>Gas Purchases & Sales</li>

@@ -14,9 +14,9 @@ const Execs = () => {
 
     return (
         <div className='container-fluid text-white imgBg18'>
-            <div className="row justify-content-center mt-6">
+            <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-8">
-                    <h1 className="text-center">
+                    <h1 className="text-center mt-6 mb-3">
                         Meet Our Executive Team
                     </h1>
                     <div className="card bg-white text-black mb-5">
