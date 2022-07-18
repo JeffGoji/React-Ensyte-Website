@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { NavLink } from 'react-router-dom'
 // import image1 from '../../assets/img/gas-supply.png';
 
-import image1 from '../../assets/img/CustomerRetailChoice.jpg'
+// import image1 from '../../assets/img/CustomerRetailChoice.jpg'
 
 
 function GasSupply() {
@@ -98,10 +98,6 @@ function GasSupply() {
                 </div>
             </div>
             {/* Modal End */}
-
-
-
-
 
             {/* Original below:
             <div className="row justify-content-center mt-5 mb-5">
