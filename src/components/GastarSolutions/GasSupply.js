@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom'
 
 // import image1 from '../../assets/img/CustomerRetailChoice.jpg'
 
-
 function GasSupply() {
 
     useEffect(() => {

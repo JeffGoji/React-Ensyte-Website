@@ -6,8 +6,8 @@ const A16 = (props) => {
                 <div className="card mb-5 h-100">
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img23} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
-                        <h3 className="card-title">ENSYTE Wins Major Philadelphia Utility</h3>
+                        <img src={img23} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "14rem" }} />
+                        <h4 className="card-title">ENSYTE Wins Major Philadelphia Utility</h4>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal15">Read More</button></div>
                 </div>

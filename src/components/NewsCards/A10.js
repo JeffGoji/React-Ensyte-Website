@@ -7,8 +7,8 @@ const A10 = () => {
                 <div className="card mb-5 h-100">
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img17} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "15rem" }} />
-                        <h3 className="card-title">Introducing GASTAR Online</h3>
+                        <img src={img17} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "14rem" }} />
+                        <h4 className="card-title">Introducing GASTAR Online</h4>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal9">Read More</button></div>
                 </div>
