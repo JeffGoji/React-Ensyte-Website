@@ -417,6 +417,20 @@ li {
   min-height: 30rem;
 }
 
+.imgBg29 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/gasDist.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
 /* Background gradient colors for masking */
 
 .darkGradient {
@@ -526,6 +540,13 @@ li {
 }
 .mb-6 {
   margin-bottom: 6rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* List stylings */
@@ -658,4 +679,5 @@ footer {
   left: 0;
   bottom: 0;
   right: 0;
+  font-size: 1rem;
 }

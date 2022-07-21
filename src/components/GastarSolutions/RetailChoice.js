@@ -15,7 +15,7 @@ function RetailChoice() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">GASTAR For Retail Choice & End User Transportation</h1>
+                <h1 className="text-center mt-3 mb-3 text-white">GASTAR For Retail Choice & End User Transportation</h1>
             </div>
             {/* <div className="row justify-content-center bg-lighter-grey mt-5 mb-5"> */}
             <div className="row justify-content-center imgBg25 text-white">
@@ -23,7 +23,7 @@ function RetailChoice() {
                 {/* <div className="col-lg-2 col-md-12 col-sm-12 text-justify mt-2">
                     <img src={img1} alt="Retail choice" className="img-fluid rounded imgShadow mb-5 mt-5" />
                 </div> */}
-                <div className="col-lg-7 col-md-12 col-sm-12 text-justify">
+                <div className="col-lg-7 col-md-12 col-sm-12 text-center">
                     <p className="p-2 mt-6">The Retail Choice System supports transportation customers in the acquisition of gas supply from third-party marketers. There are two components to this program: (1) customers that are aggregated into a marketer choice pool and (2) customers that are large enough to acquire gas supply directly or engage an agent/marketer to provide the supply. GASTAR’s ‘on-system’ functionality supports daily read and cycle read data for meter points and includes procedures for rolling up the data to determine imbalance positions. The solution calculates the allocation of capacity for each customer to the marketer pool, as well as imbalance and settlement information for transfer to the Accounting and Invoicing Modules.
                         <br />
                         <br />
@@ -115,7 +115,7 @@ function RetailChoice() {
                 </div>
             </div> */}
             <div className="text-center p-5">
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="/gastar-natural-gas"><h2 className="text-center">GASTAR Features for Natural Gas Utility</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-overview"><h2 className="text-center">About GASTAR</h2></NavLink>
             </div>
 
         </div>

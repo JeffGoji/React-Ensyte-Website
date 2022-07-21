@@ -8,7 +8,7 @@ const A6 = () => {
                 <div className="card text-center h-100" >
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body justify-content-center">
-                        <img src={image} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "14rem" }} />
+                        <img src={image} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">GASTAR Sets New Standard in Data Integrity & Management</h4>
 
                     </div>

@@ -12,11 +12,11 @@ function Natgas() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center text-white mt-5 mb-5">GASTAR For Marketing for Natural Gas Producers</h1>
+                <h1 className="text-center text-white mt-3 mb-3">GASTAR For Marketing for Natural Gas Producers</h1>
             </div>
             <div className="row justify-content-center imgBg20">
                 <div className="col-lg-8 col-md-12 col-sm-12 text-justify mt-5 text-center">
-                    <p className="mt-5 text-start text-white">GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
+                    <p className="mt-5 text-center text-white">GASTAR provides an integrated approach to computing producer netback settlements to well working interest owners, complete with a Sales Module. The complete system handles natural gas, oil, and Natural Gas Liquids (NGLs).</p>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-2 col-md-2 col-sm-8 text-center mb-2">
@@ -67,9 +67,10 @@ function Natgas() {
                 </div>
             </div>
             <div className="text-center p-5">
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="/gastar-retail-gas"><h2 className="text-center">GASTAR for Retail Gas Marketing</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-overview"><h2 className="text-center">About GASTAR</h2></NavLink>
             </div>
         </div>
+
 
 
     )

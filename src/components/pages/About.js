@@ -14,7 +14,7 @@ const About = () => {
     }, []);
 
     return (
-        <div className='container-fluid text-white imgBg18'>
+        <div className='container-fluid text-white blue-bg'>
             <Execs />
             <div className="row justify-content-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5">

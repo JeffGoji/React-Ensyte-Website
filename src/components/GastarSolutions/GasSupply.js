@@ -14,12 +14,12 @@ function GasSupply() {
     return (
         <div className="container-fluid">
             <div className="row blue-bg">
-                <h1 className="text-center mt-5 mb-5 text-white">GASTAR Overview</h1>
+                <h1 className="text-center mt-3 mb-3 text-white">GASTAR Gas Supply</h1>
             </div>
             <div className="row imgBg23 darkGradient justify-content-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 text-white text-center mt-6 rounded">
                     <h2 className='text-center mb-4'>Natural Gas Supply & Gas Acquisition</h2>
-                    <p>The Gas Acquisition System manages all business processes associated with the purchase, off-system sales, transportation, storage, and accounting of natural gas for the sales service side of the utility. GASTAR couples NAESB-compliant master purchase and sales contracts with NAESB-compliant nominations and scheduling to support all ‘off-system’ transactions, including storage, related gas accounting, and the interface of General Ledger (GL) data to corporate billing/accounting systems.</p>
+                    <p className="text-center">The Gas Acquisition System manages all business processes associated with the purchase, off-system sales, transportation, storage, and accounting of natural gas for the sales service side of the utility. GASTAR couples NAESB-compliant master purchase and sales contracts with NAESB-compliant nominations and scheduling to support all ‘off-system’ transactions, including storage, related gas accounting, and the interface of General Ledger (GL) data to corporate billing/accounting systems.</p>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-2 col-md-2 col-sm-8 text-center mb-2">
@@ -208,7 +208,7 @@ function GasSupply() {
                 </div>
             </div> */}
             <div className="text-center p-5">
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-retail-choice"><h2 className="text-center">GASTAR Features for Retail Choice</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-overview"><h2 className="text-center">About GASTAR</h2></NavLink>
             </div>
 
         </div >

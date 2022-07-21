@@ -59,7 +59,7 @@ const GasSupply = () => {
             {/* </div> */}
 
 
-            <div className="row mt-5 bg-lighter-grey">
+            <div className="row mt-5 blue-bg text-white">
                 <div className="col-lg-6 col-sm-12 text-center">
                     <img src={devTeam} alt="Dev Support" className='mt-5 mb-5 rounded img-fluid imgShadow' style={{ maxHeight: "300px" }} />
                 </div>

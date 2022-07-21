@@ -7,7 +7,7 @@ const A1 = () => {
                 <div className="card mb-5 h-100">
                     <div className="card-header text-center blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img13} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "14rem" }} />
+                        <img src={img13} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Enhances Producer Services Solution</h4>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal16">Read More</button></div>

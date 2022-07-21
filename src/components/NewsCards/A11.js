@@ -6,7 +6,7 @@ const A10 = () => {
                 <div className="card mb-5 h-100">
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img18} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "14rem" }} />
+                        <img src={img18} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Celebrates 20 Years with UGI</h4>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal10">Read More</button></div>

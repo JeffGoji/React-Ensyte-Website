@@ -7,7 +7,7 @@ const A5 = () => {
                 <div className="card mb-5 h-100" >
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img5} alt='data Article' className='rounded img-fluid imgShadow mb-2' style={{ maxHeight: "14rem" }} />
+                        <img src={img5} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Wins Project with a Large Natural Gas Utility</h4>
 
                     </div>

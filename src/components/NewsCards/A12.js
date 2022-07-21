@@ -7,7 +7,7 @@ const A12 = (props) => {
                 <div className="card mb-5 h-100">
                     <div className="card-header blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
-                        <img src={img19} alt='data Article' className='img-fluid mb-2' style={{ maxHeight: "14rem" }} />
+                        <img src={img19} alt='data Article' className='img-fluid mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">New Gas Supply / City Gate Planning Feature</h4>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Read More</button></div>

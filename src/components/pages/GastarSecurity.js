@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 // import img1 from '../../assets/img/Diamond-mask-2.png'
-import dataCenter from '../../assets/img/dataCenter.jpg'
+import dataCenter from '../../assets/img/web-security-2.jpeg'
 import database from '../../assets/img/icons2/database.svg'
 import shield from '../../assets/img/icons2/shield.svg'
 import lock from '../../assets/img/icons2/lock.svg'
@@ -18,14 +18,14 @@ function GastarSecurity() {
 
     return (
         <div className="container-fluid bg-white pb-4">
-            <div className="row ">
-                <h1 className="text-center mt-3">GASTAR Data Security</h1>
+            <div className="row blue-bg">
+                <h1 className="text-center text-white mt-3 mb-3">GASTAR Data Security</h1>
             </div>
-            <div className="row justify-content-center mt-3 mb-5 blue-bg">
+            <div className="row justify-content-center mt-5 mb-5">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">
-                    <img src={dataCenter} alt="Product" className='img-fluid' style={{ maxheight: "28rem" }} />
+                    <img src={dataCenter} alt="Product" className='img-fluid rounded imgShadow' style={{ maxheight: "28rem" }} />
                 </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 text-justify mt-2 text-white">
+                <div className="col-lg-8 col-md-12 col-sm-12 text-center mt-2">
 
                     <p>ENSYTE’s hosting business processes are structured to preserve and protect information handled on the customer’s behalf. ENSYTE’s Hosting Partners, CyberLink Solutions, uses respected enterprise partners for network and infrastructure services who have certified their services with compliancy agencies, such as AICPA/SOC, SAS 70 Type II, SSAE 16, PCI, SOX, HIPPA, and GLBA compliance.
                         <br />
@@ -49,7 +49,6 @@ function GastarSecurity() {
                                     <div className="card-body">
                                         <h5 className="card-title">Overlapping Layers of Protection</h5>
                                         <p className="card-text">Cyberlink ASP systems monitor many facets of infrastructure and operations</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +60,6 @@ function GastarSecurity() {
                                     <div className="card-body">
                                         <h5 className="card-title">Wide Selection of Upgrade Options</h5>
                                         <p className="card-text">Individual protection profiles can be tailored to meet unique needs through a variety of hardware and software security options.</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -73,12 +71,12 @@ function GastarSecurity() {
                                     <div className="card-body">
                                         <h5 className="card-title">Unique, Highly Secure Network Design</h5>
                                         <p className="card-text">A Network-Within-a-Network topology provides out-of-band management for remote access with reduced exposure to external threats.</p>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <div className="card mb-3">
                             <div className="row justify-content-center g-0 ">
@@ -89,7 +87,6 @@ function GastarSecurity() {
                                     <div className="card-body">
                                         <h5 className="card-title">Exceptional Standard Security Offering</h5>
                                         <p className="card-text">CyberLink services come standard with one of the industry’s most comprehensive sets of security features.</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -101,17 +98,15 @@ function GastarSecurity() {
                                     <div className="card-body">
                                         <h5 className="card-title">Latest Security Technologies</h5>
                                         <p className="card-text">Data is protected by industry-leading systems offering comprehensive defenses.</p>
-
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div >
 
-            <div className='container-fluid border rounded-4 mt-5 cardshadow'>
+            <div className='container-fluid mt-5'>
                 <div className='row justify-content-center g-0 mt-3 mb-5'>
                     <h3 className='text-center blue-bg rounded-2 text-white p-1'>Physical Operations</h3>
                     <div className='col-lg-12 col-md-12 col-sm-12'>
@@ -172,17 +167,11 @@ function GastarSecurity() {
                         </p>
                     </div>
                 </div>
-            </div>
-
-
-            {/* Navigation buttons */}
-            <div className="text-center mt-5" >
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting</h2></NavLink>
+                <div className="text-center mt-5" >
+                    <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting</h2></NavLink></div>
                 {/* <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting Options</h2></NavLink> */}
-            </div >
-
-        </div >
-
+            </div>
+        </div>
 
     )
 }
