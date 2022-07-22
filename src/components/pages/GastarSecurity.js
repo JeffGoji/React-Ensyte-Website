@@ -137,7 +137,7 @@ function GastarSecurity() {
                     </ul>
                 </div>
                 <div className='row justify-content-center blue-bg text-white mt-6'>
-                    <div className='col-lg-8 col-md-12 col-sm-12 text-center'>
+                    <div className='col-lg-5 col-md-12 col-sm-12 text-center'>
                         <h3 className='text-center mt-3 blue-bg rounded-2 text-white p-1'>System, Application & Data Security</h3>
                         <p>Beneath the layers of physical and network protection, individual computing systems, applications, and data are further safeguarded by several tiers of comprehensive, standard security features. A dynamic range of security options ensure an enterprise’s security profile.</p>
                         <h4 className='mt-4'>Standard Services</h4>
@@ -171,6 +171,7 @@ function GastarSecurity() {
                             The SSL certificates are backed by respected providers. Every SSL Certificate is signed with a reliable and ubiquitous root so customers don’t have to worry.
                         </p>
                     </div>
+
                 </div>
             </div>
             <div className="text-center mt-5" >

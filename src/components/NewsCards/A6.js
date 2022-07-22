@@ -15,10 +15,6 @@ const A6 = () => {
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal1">Read More</button></div>
                 </div>
             </div>
-
-
-
-
             <div className="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
 
