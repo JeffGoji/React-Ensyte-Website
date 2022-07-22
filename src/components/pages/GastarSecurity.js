@@ -37,7 +37,7 @@ function GastarSecurity() {
 
             {/* Safegaurding data layer card */}
 
-            <div className="container-fluid border rounded-4 mt-5 mb-5 bg-lighter-grey cardshadow">
+            <div className="container-fluid border rounded-4 mt-6 mb-5 bg-lighter-grey cardshadow">
                 <div className='row justify-content-center mt-4'><h2 className='text-center mb-5'>Safeguarding Data, Layer By Layer</h2>
                     <div className='col-md-6 col-sm-12'>
                         <div className="card mb-3">
@@ -106,34 +106,39 @@ function GastarSecurity() {
                 </div>
             </div >
 
-            <div className='container-fluid mt-5'>
-                <div className='row justify-content-center g-0 mt-3 mb-5'>
+
+            <div className='row justify-content-center mt-6'>
+                <div className='col-lg-6 col-md-12 col-sm-12'>
                     <h3 className='text-center blue-bg rounded-2 text-white p-1'>Physical Operations</h3>
-                    <div className='col-lg-12 col-md-12 col-sm-12'>
-                        <p className="mt-4">If an infrastructure is not physically secure, neither is the enterprise. Physical and operational security is the foundation of the Cyberlink ASP infrastructure. No other measures matter without it. Every Cyberlink ASP data center is fully audited based on SSAE 16 reporting on controls to meet industry-recognized requirements for security—no exceptions.</p>
+                    <p className="mt-4">If an infrastructure is not physically secure, neither is the enterprise. Physical and operational security is the foundation of the Cyberlink ASP infrastructure. No other measures matter without it. Every Cyberlink ASP data center is fully audited based on SSAE 16 reporting on controls to meet industry-recognized requirements for security—no exceptions.</p>
 
-                        <h4 className='mt-4'>Data Center and Server Room Measures</h4>
+                    <h4 className='mt-4'>Data Center and Server Room Measures</h4>
 
-                        <ul>
-                            <li>Data centers have controlled access and 24-hour security</li>
-                            <li>No server room doors are public-facing</li>
-                            <li>Server rooms are staffed 24/7</li>
-                            <li>Un-marked entry and exit doors</li>
-                            <li>Digital security video surveillance</li>
-                            <li>Biometric security systems</li>
-                            <li>Server room access strictly limited to data center employees and escorted contractors or visitors</li>
-                            <li>Barcode-only identification on hardware; no customer markings of any type on the servers themselves</li>
-                        </ul>
+                    <ul>
+                        <li>Data centers have controlled access and 24-hour security</li>
+                        <li>No server room doors are public-facing</li>
+                        <li>Server rooms are staffed 24/7</li>
+                        <li>Un-marked entry and exit doors</li>
+                        <li>Digital security video surveillance</li>
+                        <li>Biometric security systems</li>
+                        <li>Server room access strictly limited to data center employees and escorted contractors or visitors</li>
+                        <li>Barcode-only identification on hardware; no customer markings of any type on the servers themselves</li>
+                    </ul>
+                </div>
 
-                        <h3 className='text-center mt-5 blue-bg rounded-2 text-white p-1'>Network Security</h3>
-                        <h4 className='mt-4'>The Network-Within-a-Network</h4>
+                <div className='col-lg-6 col-md-12 col-sm-12'>
+                    <h3 className='text-center blue-bg rounded-2 text-white p-1'>Network Security</h3>
+                    <h4 className='mt-4'>The Network-Within-a-Network</h4>
 
-                        <ul>
-                            <li>Public Network handles public traffic to hosted websites or online resources</li>
-                            <li>Private Network allows for out-of-band management through a distinct stand-alone third carrier over SSL, PPTP, or IPSEC VPN gateways</li>
-                            <li>Data Center to Data Center Network provides secure connectivity between servers housed in separate facilities</li>
-                        </ul>
-                        <h3 className='text-center mt-5 blue-bg rounded-2 text-white p-1'>System, Application & Data Security</h3>
+                    <ul>
+                        <li>Public Network handles public traffic to hosted websites or online resources</li>
+                        <li>Private Network allows for out-of-band management through a distinct stand-alone third carrier over SSL, PPTP, or IPSEC VPN gateways</li>
+                        <li>Data Center to Data Center Network provides secure connectivity between servers housed in separate facilities</li>
+                    </ul>
+                </div>
+                <div className='row justify-content-center blue-bg text-white mt-6'>
+                    <div className='col-lg-8 col-md-12 col-sm-12 text-center'>
+                        <h3 className='text-center mt-3 blue-bg rounded-2 text-white p-1'>System, Application & Data Security</h3>
                         <p>Beneath the layers of physical and network protection, individual computing systems, applications, and data are further safeguarded by several tiers of comprehensive, standard security features. A dynamic range of security options ensure an enterprise’s security profile.</p>
                         <h4 className='mt-4'>Standard Services</h4>
 
@@ -167,11 +172,12 @@ function GastarSecurity() {
                         </p>
                     </div>
                 </div>
-                <div className="text-center mt-5" >
-                    <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting</h2></NavLink></div>
-                {/* <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting Options</h2></NavLink> */}
             </div>
+            <div className="text-center mt-5" >
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting</h2></NavLink></div>
+            {/* <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting Options</h2></NavLink> */}
         </div>
+
 
     )
 }
