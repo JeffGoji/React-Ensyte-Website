@@ -29,10 +29,9 @@ const GastarHosting = () => {
                     </ul>
                 </div>
             </div>
-            <div className="row mt-5 justify-content-center blue-bg text-white">
+            <div className="d-flex justify-content-evenly mt-5 blue-bg text-white">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-justify mb-5 mt-4">
                     <h3 className="text-center">ENSYTE Hosted Environment Value</h3>
-
                     <h5 className=" mt-5 text-center">Expertise</h5>
                     <ul>
                         <li>Foundational leaders in establishing cloud service technology</li>
@@ -74,23 +73,24 @@ const GastarHosting = () => {
                 <div className="col-lg-3 col-md-12 col-sm-12 text-justify mb-5">
                     {/* <div className='row mt-5 mb-5 blue-bg'> */}
 
-                    <h3 className="text-center text-white mt-3 mb-2">ENSYTE Hosted Environment Security Protocols</h3>
-                    <div className="text-center">
-                        <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid mt-5' style={{ maxWidth: "100%" }} />
+                    <h3 className="text-center text-white mt-4 mb-2">ENSYTE Hosted Environment Security Protocols</h3>
+                    <div className="">
+                        <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid mt-5' style={{ maxWidth: "90%" }} />
+
+                        <ul className="check mt-5">
+                            <li>Dedicated facilities</li>
+                            <li>2 Factor Authentication access</li>
+                            <li>Security officer and team</li>
+                            <li>Public facing attack detection and prevention</li>
+                            <li>American Institute of CPAs</li>
+                            <li>(AICPA) Certified</li>
+                            <li>Cloud Security Alliance (CSA)</li>
+                            <li>Cloud Controls Matrix (CCM)</li>
+                            <li>Service Organization Control</li>
+                            <li>(SOC) AICPA SOC 2</li>
+                            <li>PCI, HIPAA, SOX Audited</li>
+                        </ul>
                     </div>
-                    <ul className="check mt-5">
-                        <li>Dedicated facilities</li>
-                        <li>2 Factor Authentication access</li>
-                        <li>Security officer and team</li>
-                        <li>Public facing attack detection and prevention</li>
-                        <li>American Institute of CPAs</li>
-                        <li>(AICPA) Certified</li>
-                        <li>Cloud Security Alliance (CSA)</li>
-                        <li>Cloud Controls Matrix (CCM)</li>
-                        <li>Service Organization Control</li>
-                        <li>(SOC) AICPA SOC 2</li>
-                        <li>PCI, HIPAA, SOX Audited</li>
-                    </ul>
                 </div>
             </div>
             <div className="text-center mt-5">

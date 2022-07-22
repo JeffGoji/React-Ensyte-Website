@@ -23,7 +23,7 @@ function GastarSecurity() {
             </div>
             <div className="row justify-content-center mt-5 mb-5">
                 <div className="col-lg-4 col-md-12 col-sm-12 text-center">
-                    <img src={dataCenter} alt="Product" className='img-fluid rounded imgShadow' style={{ maxheight: "28rem" }} />
+                    <img src={dataCenter} alt="Product" className='img-fluid rounded imgShadow mt-2' style={{ maxHeight: "20rem" }} />
                 </div>
                 <div className="col-lg-8 col-md-12 col-sm-12 text-center mt-2">
 
