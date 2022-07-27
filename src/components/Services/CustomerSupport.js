@@ -16,7 +16,7 @@ const CustomerSupport = () => {
 
 
             <h2 className='text-center mb-5 mt-5'>Why Are We The Best?</h2>
-            <div className="row row-cols-1 row-cols-md-3  mb-5 fs-5 blue-bg text-white">
+            <div className="row row-cols-1 row-cols-md-3  mb-5 blue-bg text-white">
                 <div className="col">
                     <div className="card h-100 bg-transparent border-0 text-center">
                         <div className="card-body">
@@ -53,7 +53,7 @@ const CustomerSupport = () => {
                     <img src={image1} alt='Solutions' className='img-fluid rounded mt-3 mb-3 d-none d-lg-block' />
                 </div>
                 <div className='col-lg-8 col-md-12 col-sm-12 text-center p-2'>
-                    <h2 className='text-center'>We Are Here To Support You</h2>
+                    <h2 className='text-center mb-5'>We Are Here To Support You</h2>
                     <p>ENSYTE utilizes a team approach to support client implementations and ongoing needs after implementation. The ENSYTE team consists of technically trained and experienced professionals who provide clients with focused analysis and recommendations – professionals with diverse backgrounds in natural gas business processes, project management, software development, programming, design, testing, and customer support. The support team is made up of in-house staff, affiliate staff and independent consultants with specialty expertise in specific subject matters. The goal of ENSYTE’s Client Support Team is to help our clients receive the most effective and efficient use of their ENSYTE software applications.</p>
                 </div>
             </div>
@@ -62,7 +62,7 @@ const CustomerSupport = () => {
             <div className='row blue-bg text-center mt-5 mb-5'>
                 <div className='col-lg-8 col-md-12 col-sm-12 text-center p-2 text-white'>
                     <h2 className='text-center mt-5 mb-5'>HelpDesk</h2>
-                    <p>ENSYTE offers help desk support services during normal business hours (9AM to 5PM) Central Standard Time, as well as 24-hour support as a premium option to our annual maintenance fee. The ENSYTE team provides support through a collaborative online helpdesk portal that tracks support tickets and allows users to monitor progress of support ticket resolution. The portal fosters interaction with other users and IT managers to effectively resolve issues and streamline workflow.</p>
+                    <p>ENSYTE offers help desk support services during normal business hours (7AM to 5PM) Central Standard Time, as well as 24-hour support as a premium option to our annual maintenance fee. The ENSYTE team provides support through a collaborative online helpdesk portal that tracks support tickets and allows users to monitor progress of support ticket resolution. The portal fosters interaction with other users and IT managers to effectively resolve issues and streamline workflow.</p>
                 </div>
                 <div className='col-lg-4 col-md-12 col-sm-12'>
                     <img src={image2} alt='Solutions' className='img-fluid rounded imgShadow mt-3 mb-3 d-none d-lg-block' />

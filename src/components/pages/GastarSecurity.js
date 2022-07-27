@@ -137,30 +137,30 @@ function GastarSecurity() {
                     </ul>
                 </div>
                 <div className='row justify-content-center blue-bg text-white mt-6'>
-                    <div className='col-lg-5 col-md-12 col-sm-12 text-center'>
-                        <h3 className='text-center mt-3 blue-bg rounded-2 text-white p-1'>System, Application & Data Security</h3>
+                    <div className='col-lg-10 col-md-12 col-sm-12 text-center'>
+                        <h3 className='text-center mt-3 blue-bg rounded-2 text-white p-2'>System, Application & Data Security</h3>
                         <p>Beneath the layers of physical and network protection, individual computing systems, applications, and data are further safeguarded by several tiers of comprehensive, standard security features. A dynamic range of security options ensure an enterprise’s security profile.</p>
                         <h4 className='mt-4'>Standard Services</h4>
 
-                        <p><b>Private Network Windows and Red Hat Update Servers</b>
+                        <p className='mb-4'><b>Private Network Windows and Red Hat Update Servers</b>
                             <br />
                             Servers within the Private Network receive the latest operating system security patches and upgrades, allowing initiation and installation of patches and updates on-demand.</p>
-                        <p>
+                        <p className='mb-4'>
                             <b>Virus Scan and Host Intrusion Servers</b>
                             <br />
                             These systems combine antivirus, anti-spyware, firewall, and intrusion prevention technologies to stop and remove malicious software from the infrastructure.
                         </p>
-                        <p>
+                        <p className='mb-4'>
                             <b>Network IDS/IPS Protection</b>
                             <br />
                             Through partnerships with leading hardware and software vendors, a complete array of intrusion protection and assessment options are offered at both the network and host level.
                         </p>
-                        <p>
+                        <p className='mb-4'>
                             <b>Vulnerability Assessment and Reporting</b>
                             <br />
                             Providing active scanners, featuring high speed discovery, configuration auditing, asset profiling, sensitive data discovery, and vulnerability analysis of security posture.
                         </p>
-                        <p>
+                        <p className='mb-4'>
                             <b>Virus Scan and Host Intrusion Servers</b>
                             <br />
                             Delivers always-on, real-time anti-virus protection of core Linux and Windows environments to monitor systems for potential attacks.

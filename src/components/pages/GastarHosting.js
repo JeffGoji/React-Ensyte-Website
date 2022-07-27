@@ -29,70 +29,80 @@ const GastarHosting = () => {
                     </ul>
                 </div>
             </div>
-            <div className="d-flex justify-content-evenly mt-5 blue-bg text-white">
-                <div className="col-lg-4 col-md-12 col-sm-12 text-justify mb-5 mt-4">
-                    <h3 className="text-center">ENSYTE Hosted Environment Value</h3>
-                    <h5 className=" mt-5 text-center">Expertise</h5>
-                    <ul>
-                        <li>Foundational leaders in establishing cloud service technology</li>
-                        <li>Advisors to the early adopters</li>
-                        <li>Partners with primary software vendors</li>
-                    </ul>
-                    <h5 className="mt-5 text-center">Experience</h5>
-
-                    <ul>
-                        <li>
-                            Broad experience with a gamut of business applications and processes
-                        </li>
-                        <li>Valued partner with certified independent consultants who advise on cloud technology</li>
-                        <li>Access to cloud security teams at datacenters worldwide</li>
-                    </ul>
-                    <h5 className="mt-5 text-center">Systems</h5>
-                    <ul>
-                        <li>Leading edge proprietary technology tuned to the paperless office</li>
-                        <li>State-of-the-art security defenses</li>
-                        <li>Service delivery engines optimized for the fastest user experience</li>
-                        <li>Fast anywhere anytime access to applications and data for mobile devices</li>
-                    </ul>
-                    <h5 className="mt-5 text-center">Processes</h5>
-                    <ul>
-                        <li>Proprietary workflow software</li>
-                        <li>Streamlined onboarding processes for seamless migration</li>
-                        <li>All customer data is replicated to geo-redundant data centers and is encrypted in transit and at rest.</li>
-                    </ul>
-                    <h5 className=" mt-5 text-center">Customer Service</h5>
-                    <ul>
-                        <li>CLE-accredited instruction on cloud security and paperless workflow</li>
-                    </ul>
-                    <h5 className=" mt-5 text-center">Cost Savings</h5>
-                    <ul>
-                        <li>Unique services strategy lowers customer costs and improves customer profitability</li>
-                    </ul>
-                </div>
-
-                <div className="col-lg-3 col-md-12 col-sm-12 text-justify mb-5">
-                    {/* <div className='row mt-5 mb-5 blue-bg'> */}
-
-                    <h3 className="text-center text-white mt-4 mb-2">ENSYTE Hosted Environment Security Protocols</h3>
-                    <div className="">
-                        <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid mt-5' style={{ maxWidth: "90%" }} />
-
-                        <ul className="check mt-5">
-                            <li>Dedicated facilities</li>
-                            <li>2 Factor Authentication access</li>
-                            <li>Security officer and team</li>
-                            <li>Public facing attack detection and prevention</li>
-                            <li>American Institute of CPAs</li>
-                            <li>(AICPA) Certified</li>
-                            <li>Cloud Security Alliance (CSA)</li>
-                            <li>Cloud Controls Matrix (CCM)</li>
-                            <li>Service Organization Control</li>
-                            <li>(SOC) AICPA SOC 2</li>
-                            <li>PCI, HIPAA, SOX Audited</li>
-                        </ul>
+            <div className="row blue-bg justify-content-center">
+                <div className="card blue-bg border-0 mt-4 text-white" style={{ maxWidth: "60rem" }}>
+                    <div className="row justify-content-center">
+                        <div className="col-lg-10 col-md-12 col-sm-12 text-justify mb-5 mt-2">
+                            <h3 className="text-center">ENSYTE Hosted Environment Value</h3>
+                            <h5 className=" mt-5 text-center">Expertise</h5>
+                            <ul>
+                                <li>Foundational leaders in establishing cloud service technology</li>
+                                <li>Advisors to the early adopters</li>
+                                <li>Partners with primary software vendors</li>
+                            </ul>
+                            <h5 className="mt-5 text-center">Experience</h5>
+                            <ul>
+                                <li>
+                                    Broad experience with a gamut of business applications and processes
+                                </li>
+                                <li>Valued partner with certified independent consultants who advise on cloud technology</li>
+                                <li>Access to cloud security teams at datacenters worldwide</li>
+                            </ul>
+                            <h5 className="mt-5 text-center">Systems</h5>
+                            <ul>
+                                <li>Leading edge proprietary technology tuned to the paperless office</li>
+                                <li>State-of-the-art security defenses</li>
+                                <li>Service delivery engines optimized for the fastest user experience</li>
+                                <li>Fast anywhere anytime access to applications and data for mobile devices</li>
+                            </ul>
+                            <h5 className="mt-5 text-center">Processes</h5>
+                            <ul>
+                                <li>Proprietary workflow software</li>
+                                <li>Streamlined onboarding processes for seamless migration</li>
+                                <li>All customer data is replicated to geo-redundant data centers and is encrypted in transit and at rest.</li>
+                            </ul>
+                            <h5 className=" mt-5 text-center">Customer Service</h5>
+                            <ul>
+                                <li>CLE-accredited instruction on cloud security and paperless workflow</li>
+                            </ul>
+                            <h5 className=" mt-5 text-center">Cost Savings</h5>
+                            <ul>
+                                <li>Unique services strategy lowers customer costs and improves customer profitability</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div className="row justify-content-center bg-lighter-grey">
+                <h3 className="text-center mt-4 mb-2">ENSYTE Hosted Environment Security Protocols</h3>
+                <div className="col-lg-12 col-md-12 col-sm-12 mb-5">
+                    <div className="card border-0 bg-lighter-grey">
+                        <div className="card-body">
+                            <div className="row justify-content-center">
+                                <div className="col-lg-3 col-md-12 col-sm-12 text-justify mb-5">
+                                    <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid mt-5' style={{ maxWidth: "100%" }} />
+                                </div>
+                                <div className="col-lg-3 col-md-12 col-sm-12 text-justify mb-5">
+                                    <ul className="check mt-5">
+                                        <li>Dedicated facilities</li>
+                                        <li>2 Factor Authentication access</li>
+                                        <li>Security officer and team</li>
+                                        <li>Public facing attack detection and prevention</li>
+                                        <li>American Institute of CPAs</li>
+                                        <li>(AICPA) Certified</li>
+                                        <li>Cloud Security Alliance (CSA)</li>
+                                        <li>Cloud Controls Matrix (CCM)</li>
+                                        <li>Service Organization Control</li>
+                                        <li>(SOC) AICPA SOC 2</li>
+                                        <li>PCI, HIPAA, SOX Audited</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="text-center mt-5">
                 <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-risk"><h2 className="text-center">Risk Management</h2></NavLink>
                 <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-security"><h2 className="text-center">Data Security</h2></NavLink>
