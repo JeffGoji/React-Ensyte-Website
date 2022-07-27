@@ -27,43 +27,43 @@ const GastarRisk = () => {
             </div>
 
             <div className='row justify-content-center mt-0 blue-bg text-white'>
-                <div className='col-lg-6 col-sm-12 '>
-                    <div className="card border-0 mb-3 mt-4 blue-bg" style={{ maxwidth: "800px" }}>
-                        <div className="row">
-                            <div className="col-lg-6 col-md-12 col-sm-12">
-                                <div className="card-body">
-                                    <h5 className="card-title">GASTAR Enterprise Risk Management Activities:</h5>
-                                    <ul className='p-2'>
-                                        <li>Process Automation</li>
-                                        <li>Streamlined Workflow</li>
-                                        <li>Business Process Integrity</li>
-                                        <li>Data Integrity</li>
-                                        <li>Cyber Security / Data Security</li>
-                                        <li>Full Visibility into Operations</li>
-                                        <li>Daily View of Natural Gas Position</li >
-                                        <li>Gas Supply Optimization & Forecasting</li>
-                                        <li>Control of All Contract Terms with Suppliers / Marketers</li>
-                                        <li>Nomination & Confirmation Process</li>
-                                        <li>Daily Reconciliation</li>
-                                        <li>Weather Forecasting & Target Generation</li>
-                                        <li>Minimization of Weather-Related Impact</li>
-                                        <li>Monthly Settlement Process</li>
-                                        <li>Accurate & Auditable Financial Reporting</li>
-                                        <li>Accounting Integrity</li>
-                                        <li>User Logging and Auditing</li>
-                                        <li>Reduction of Errors caused by Manual Entry</li>
-                                        <li>Minimization of Credit Risk</li>
-                                        <li>Minimization of Product Life Cycle Risk</li>
+                {/* <div className='col-lg-8 col-sm-12 '> */}
+                <div className="card border-0 mb-3 mt-4 blue-bg" style={{ maxwidth: "1000px" }}>
+                    <div className="row justify-content-center">
+                        <div className="col-lg-7 col-md-12 col-sm-12">
+                            <div className="card-body">
+                                <h5 className="card-title">GASTAR Enterprise Risk Management Activities:</h5>
+                                <ul className='p-2'>
+                                    <li>Process Automation</li>
+                                    <li>Streamlined Workflow</li>
+                                    <li>Business Process Integrity</li>
+                                    <li>Data Integrity</li>
+                                    <li>Cyber Security / Data Security</li>
+                                    <li>Full Visibility into Operations</li>
+                                    <li>Daily View of Natural Gas Position</li >
+                                    <li>Gas Supply Optimization & Forecasting</li>
+                                    <li>Control of All Contract Terms with Suppliers / Marketers</li>
+                                    <li>Nomination & Confirmation Process</li>
+                                    <li>Daily Reconciliation</li>
+                                    <li>Weather Forecasting & Target Generation</li>
+                                    <li>Minimization of Weather-Related Impact</li>
+                                    <li>Monthly Settlement Process</li>
+                                    <li>Accurate & Auditable Financial Reporting</li>
+                                    <li>Accounting Integrity</li>
+                                    <li>User Logging and Auditing</li>
+                                    <li>Reduction of Errors caused by Manual Entry</li>
+                                    <li>Minimization of Credit Risk</li>
+                                    <li>Minimization of Product Life Cycle Risk</li>
 
-                                    </ul>
-                                </div>
+                                </ul>
                             </div>
-                            <div className="col-lg-6 col-md-4 col-sm-12">
-                                <img src={risk2} alt="Product" className="img-fluid rounded-end p-5" />
-                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-12">
+                            <img src={risk2} alt="Product" className="img-fluid  p-5" />
                         </div>
                     </div>
                 </div>
+                {/* </div> */}
             </div>
 
             <div className="text-center mt-5">
