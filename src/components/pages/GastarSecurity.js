@@ -178,8 +178,6 @@ function GastarSecurity() {
                 <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-hosting"><h2 className="text-center">GASTAR Hosting</h2></NavLink></div>
             {/* <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-hosting"><h2 className="text-center">Gastar Hosting Options</h2></NavLink> */}
         </div>
-
-
     )
 }
 

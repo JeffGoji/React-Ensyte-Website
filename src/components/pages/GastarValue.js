@@ -21,7 +21,7 @@ const GasSupply = () => {
             <div className="row mb-5">
 
                 <div className="text-center mt-5 mb-5">
-                    <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-overview"><h2 className="text-center">Gastar Overview</h2></NavLink>
+                    <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-overview"><h2 className="text-center">GASTAR Overview</h2></NavLink>
                     <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-risk"><h2 className="text-center">Risk Management</h2></NavLink>
                 </div>
             </div>

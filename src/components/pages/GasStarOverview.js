@@ -72,7 +72,7 @@ const GasSupply = () => {
 
 
             <div className="text-center mt-5">
-                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-value"><h2 className="text-center">Gastar Value and benefit</h2></NavLink>
+                <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-value"><h2 className="text-center">GASTAR Value and benefit</h2></NavLink>
             </div>
 
         </div>
