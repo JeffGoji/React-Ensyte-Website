@@ -498,7 +498,11 @@ li {
 }
 
 .blue-shadow {
-  text-shadow: 2px 2px 5px #004b8d;
+  text-shadow: 1px 1px 4px #004b8d;
+}
+
+.blue-shadow-2 {
+  text-shadow: 1px 1px 0px #000000, 3px 3px 4px #004b8d;
 }
 
 .lightblue-text {

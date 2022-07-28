@@ -13,11 +13,11 @@ export default class Slide1 extends React.Component {
                     <img src={logo} className=" rounded mx-auto d-block" alt="Company Logo" style={{ maxWidth: "50rem" }} />
 
                     <div style={{ maxWidth: "50rem" }}>
-                        <h1 className='text-white blue-shadow'>ENSYTE Energy Software Int’l, Inc.</h1>
-                        <p className="fs-5 text-white blue-shadow">
+                        <h1 className='text-white blue-shadow-2'>ENSYTE Energy Software Int’l, Inc.</h1>
+                        <h4 className="text-white blue-shadow-2">
                             Comprehensive Software Solutions for the Natural Gas Supply
                             Chain
-                        </p>
+                        </h4>
                         {/* <button className="btn btn-lg btn-primary" href="#">Learn More</button> */}
 
                     </div>
