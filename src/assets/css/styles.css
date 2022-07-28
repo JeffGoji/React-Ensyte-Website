@@ -442,6 +442,21 @@ li {
   min-height: 30rem;
 }
 
+.imgBg31 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/NaturalGasStorage2.jpg);
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
+
 /* Background gradient colors for masking */
 
 .bg-opacity-85 {
@@ -592,6 +607,17 @@ h4 {
 
 .list-padding li {
   padding: 6px;
+}
+
+/* .dropdown-item:hover {
+  background-color: rgba(0, 75, 141, 0.8);
+  color: white;
+} */
+
+.nav-item,
+.dropdown-item,
+.nav-link {
+  color: #004b8d;
 }
 
 /***************** RESPONSIVE section for mobile and tablet and smaller views *****************/

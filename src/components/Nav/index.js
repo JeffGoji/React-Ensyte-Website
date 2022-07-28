@@ -113,12 +113,11 @@ export const Nav = () => {
                                         <NavLink className="dropdown-item" to="/gastar-producer">Producer/Operator</NavLink>
                                     </li>
                                     <li><NavLink className="dropdown-item" to="/gastar-midstream">Midstream</NavLink></li>
-                                    <li>
-                                        <NavLink className="dropdown-item" to="/gastar-natgas-producer">Producer Marketing</NavLink>
+                                    <li><NavLink className="dropdown-item" to="/gastar-natgas-producer">Producer Marketing</NavLink>
                                     </li>
-                                    <li className="dropdown-item disabled" >Liquids Storage Inventory Mgmt</li>
-                                    <li className="dropdown-item disabled" >Gas Accounting
-                                    </li>
+                                    <li><NavLink className="dropdown-item" to="/gastar-liquid-storage">Liquids Storage Inventory Mgmt</NavLink></li>
+                                    <li className="dropdown-item disabled" >Gas Accounting</li>
+
                                 </ul>
                             </li>
 
@@ -179,7 +178,9 @@ export const Nav = () => {
                     </div>
                 </div>
             </div>
+
         </>
+
 
 
     )

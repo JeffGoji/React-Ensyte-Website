@@ -8,7 +8,7 @@ export default class Slide7 extends React.Component {
             <div className='justify-content-center bg-white mt-2'>
                 <div className="card text-black text-center imgBg6 mt-0" style={{ minHeight: "600px" }}>
                     <div className='row justify-content-center'>
-                        <div className='card bg-light bg-opacity-75 mt-6' style={{ maxWidth: "65rem" }}>
+                        <div className='card bg-light bg-opacity-85 mt-6' style={{ maxWidth: "65rem" }}>
                             <h3 className="card-title blue-text">Summer Updates for GASTAR-LDC for Natural Gas Utilities!</h3>
                             <h4 className="card-text mt-4"> The ENSYTE Team has made significant enhancements to the GASTAR-LDC Solution, the industry’s most comprehensive natural gas software for natural gas utilities, including:</h4>
                             <div className='text-center fs-6 mt-3'>

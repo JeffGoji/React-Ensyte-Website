@@ -8,7 +8,7 @@ export default class Slide9 extends React.Component {
             <div className='justify-content-center mt-2'>
                 <div className="card lightGradient imgBg8" style={{ minHeight: "600px" }}>
                     <div className='row justify-content-center'>
-                        <div className='card bg-white bg-opacity-75 mt-7 border-0 rounded' style={{ maxWidth: "65rem" }}>
+                        <div className='card bg-white bg-opacity-85 mt-7 border-0 rounded' style={{ maxWidth: "65rem" }}>
                             <h3 className="card-title blue-text">GASTAR-PS Solution for Producer Services
                             </h3>
                             <h4>ENSYTE is rolling out enhancements to its GASTAR Producer Services Solution to include:</h4>

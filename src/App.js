@@ -31,6 +31,7 @@ import RetailGas from './components/GastarSolutions/RetailGas'
 import Producer from './components/GastarSolutions/Producer'
 import Midstream from './components/GastarSolutions/Midstream'
 import Natgas from './components/GastarSolutions/Natgas'
+import LiquidGas from './components/pages/LiquidGas'
 import CustomSolutions from './components/Services/Index'
 import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
@@ -39,6 +40,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap'
 import './assets/css/styles.css';
+
 
 function App() {
 
@@ -83,6 +85,7 @@ function App() {
         <Route path='/gastar-custom-solutions' element={<CustomSolutions />} />
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
+        <Route path='/gastar-liquid-storage' element={<LiquidGas />} />
 
       </Routes>
       <Footer />
