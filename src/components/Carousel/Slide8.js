@@ -12,9 +12,9 @@ export default class Slide8 extends React.Component {
                             <h3 className="card-title blue-text p-2 bg-opacity-75 blue-text">ENSYTE Adds GASTAR-LQ, a Liquids Storage Module for
                                 NGL & LNG Product Management
                             </h3>
-                            <p className="card-text">ENSYTE has recently enhanced GASTAR’s natural gas software solution with a new module to manage Natural Gas Liquids (NGL) and Liquified Natural Gas (LNG).</p>
-                            <div className="mt-3 text-center fs-5">
-                                <h5 className='mt-2'>NGL / LNG Module Features:</h5>
+                            <h4 className="card-text">ENSYTE has recently enhanced GASTAR’s natural gas software solution with a new module to manage Natural Gas Liquids (NGL) and Liquified Natural Gas (LNG).</h4>
+                            <div className="text-center fs-5">
+                                <h5 className='mt-3'>NGL / LNG Module Features:</h5>
                                 <div className='fs-6'>
                                     <ul className='no-bullets list-padding'>
                                         <li>Daily Update of total Liquefaction, Vaporization and Gauged Ending Inventory with daily Boil-Off calculated.</li>
