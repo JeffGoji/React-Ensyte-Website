@@ -6,14 +6,14 @@ export default class Slide9 extends React.Component {
 
         return (
             <div className='justify-content-center mt-2'>
-                <div className="card text-white lightGradient imgBg8" style={{ minHeight: "600px" }}>
+                <div className="card lightGradient imgBg8" style={{ minHeight: "600px" }}>
                     <div className='row justify-content-center'>
-                        <div className='card bg-black bg-opacity-50 m-2 w-75 border-0 rounded'>
-                            <h3 className="card-title mt-5 lightblue-text">GASTAR-PS Solution for Producer Services
+                        <div className='card bg-white bg-opacity-75 mt-7 border-0 rounded' style={{ maxWidth: "65rem" }}>
+                            <h3 className="card-title blue-text">GASTAR-PS Solution for Producer Services
                             </h3>
                             <h4>ENSYTE is rolling out enhancements to its GASTAR Producer Services Solution to include:</h4>
-                            <div className="mt-3 mb-5 text-start fs-6">
-                                <div className='text-center fs-6 mb-5'>
+                            <div className="mt-3 text-start fs-6">
+                                <div className='text-center fs-6'>
                                     <ul className='no-bullets list-padding'>
                                         <li>Better Logic for Capturing Natural Gas Sales Netback Quantity and Value.</li>
                                         <li>Better Identification of Imbalances at Interconnect Points between Pipelines and Gathering Systems.</li>
