@@ -18,7 +18,7 @@ const GastarRisk = () => {
             </div>
             <div className="row justify-content-center mt-3 mb-3">
                 <div className="col-lg-4 col-sm-12 text-center">
-                    <img src={risk} alt="Product" className='mt-0 mb-0 img-fluid rounded' style={{ height: "25rem" }} />
+                    <img src={risk} alt="Product" className='mt-0 mb-0 img-fluid rounded' style={{ height: "20rem" }} />
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 text-justify mt-5">
 
