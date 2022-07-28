@@ -17,7 +17,7 @@ export default class IntroCarousel extends Component {
             dots: true,
             infinite: true,
             speed: 2000,
-            auto: false,
+            auto: true,
             arrows: false,
             slidesToShow: 1,
             slidesToScroll: 1,
