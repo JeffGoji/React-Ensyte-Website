@@ -25,7 +25,7 @@ export default class Slide7 extends React.Component {
                             </div>
                         </div>
                         <div className='text-center'>
-                            <NavLink to="/gastar-solutions-gas-supply">
+                            <NavLink to="/gastar-natural-gas">
                                 <button className='btn btn-primary btn-small mt-3 mb-2'>Click Here to Learn More</button>
                             </NavLink>
                         </div>

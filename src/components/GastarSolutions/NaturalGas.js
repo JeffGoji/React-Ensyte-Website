@@ -38,21 +38,21 @@ function NaturalGas() {
                         </div>
                         <div className="modal-body text-wrap">
                             <div className="row justify-content-center">
-                                <div className=" col-lg-12 col-md-12 col-sm-12 text-justify p-3 mb-5">
+                                <div className=" col-lg-12 col-md-12 col-sm-12 text-justify p-3">
 
                                     <h3 className="text-center">Integrated Natural Gas Management Software</h3>
                                     <p>GASTAR is specifically designed with the concerns and priorities of the utility at the forefront – both from an upper management view and a user perspective. The outcome of that strategy is a solution that presents management with a high level summary of the key business issues, such as Cost of Gas Sold and Gas Value, and allows users to make quick decisions in terms of purchases, sales, scheduling, storage, and asset management. All GASTAR functionality is wrapped tightly with security and internal controls that have passed multiple audits from the most stringent audit firms.</p>
 
                                 </div>
                             </div>
-                            <div className="row justify-content-center bg-lighter-grey mb-5 mt-5">
+                            <div className="row justify-content-center bg-lighter-grey mt-3">
                                 <div className="col-sm-12 col-md-12 col-lg-12 p-3">
 
                                     <h3 className="text-center">Multi-Utility Operations</h3>
                                     <p>One of the key differentiators ENSYTE hears from our customers after the selection process is the flexibility of the software to handle different business practices, rather than forcing the customer to adapt business processes to the software, as is the case in so many competing software packages. The flexible architecture of the software has been of particular interest to our multi-company clients who need single instance support for multiple assets with differing business practices. There are no two utilities that have the same exact business practices, and GASTAR’s deployment experiences assure the client with multiple utilities or other assets that each can be effectively supported from the same platform.</p>
                                 </div>
                             </div>
-                            <div className="row justify-content-center mt-5 mb-5">
+                            <div className="row justify-content-center mt-3">
                                 <div className="col-sm-12 col-md-12 col-lg-12">
                                     <div className="card mt-5 mb-5 border-1 imgShadow">
                                         <div className="card-header text-center text-white blue-bg"><h3>GASTAR LDC Value Points</h3></div>

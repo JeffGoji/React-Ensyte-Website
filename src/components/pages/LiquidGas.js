@@ -10,7 +10,7 @@ class LiquidGas extends React.Component {
                         NGL & LNG Product Management</h1>
                 </div>
                 <div className='row justify-content-center imgBg31'>
-                    <div className="col-lg-6 col-md-12 col-sm-12 text-white text-center mt-6 rounded">
+                    <div className="col-lg-6 col-md-12 col-sm-12 text-white text-center mt-5 rounded">
                         <h2 className='mb-4'>GASTAR Liquids Storage Module for
                             NGL & LNG Product Management</h2>
 

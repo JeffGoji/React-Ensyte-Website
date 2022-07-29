@@ -14,14 +14,14 @@ const GastarHosting = () => {
             <div div className="row justify-content-center blue-bg" >
                 <h1 className="text-center mt-3 mb-3 text-white">GASTAR Hosting</h1>
             </div >
-            <div className="row mt-5 justify-content-center">
-                <div className="col-lg-4 col-md-12 col-sm-12 mb-5">
+            <div className="row mt-3 justify-content-center">
+                <div className="col-lg-4 col-md-12 col-sm-12">
                     <img src={img1} alt="Hosting Options" className='img-fluid' style={{ maxWidth: "90%" }} />
                 </div>
 
-                <div className="col-lg-6 col-md-12 col-sm-12 text-justify mb-5">
-                    <h3 className="text-center mt-4">GASTAR Hosting Options</h3>
-                    <p className="mt-5">ENSYTE offers flexible options with regards to hosting environments for GASTAR. We have clients who house GASTAR on their own environment, as well as clients that host the solution using other services such as Amazon Web Services (AWS). ENSYTE also partners with Cyberlink ASP to provide a hosted environment for GASTAR for a monthly fee.</p>
+                <div className="col-lg-6 col-md-12 col-sm-12 text-justify">
+                    <h3 className="text-center">GASTAR Hosting Options</h3>
+                    <p className="mt-3">ENSYTE offers flexible options with regards to hosting environments for GASTAR. We have clients who house GASTAR on their own environment, as well as clients that host the solution using other services such as Amazon Web Services (AWS). ENSYTE also partners with Cyberlink ASP to provide a hosted environment for GASTAR for a monthly fee.</p>
                     <ul className="list justify-content-center">
                         <li>Client-Owned Environment</li>
                         <li>ENSYTE Hosted Environment</li>
@@ -32,7 +32,7 @@ const GastarHosting = () => {
             <div className="row blue-bg justify-content-center">
                 <div className="card blue-bg border-0 mt-4 text-white" style={{ maxWidth: "60rem" }}>
                     <div className="row justify-content-center">
-                        <div className="col-lg-10 col-md-12 col-sm-12 text-justify mb-5 mt-2">
+                        <div className="col-lg-10 col-md-12 col-sm-12 text-justify mb-5">
                             <h3 className="text-center">ENSYTE Hosted Environment Value</h3>
                             <h5 className=" mt-5 text-center">Expertise</h5>
                             <ul>
@@ -73,16 +73,16 @@ const GastarHosting = () => {
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center bg-lighter-grey">
-                <h3 className="text-center mt-4 mb-2">ENSYTE Hosted Environment Security Protocols</h3>
-                <div className="col-lg-12 col-md-12 col-sm-12 mb-5">
-                    <div className="card border-0 bg-lighter-grey">
+            <div className="row justify-content-center ">
+                <h3 className="text-center mt-4">ENSYTE Hosted Environment Security Protocols</h3>
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="card border-0">
                         <div className="card-body">
                             <div className="row justify-content-center">
-                                <div className="col-lg-3 col-md-12 col-sm-12 text-justify mb-5">
+                                <div className="col-lg-3 col-md-12 col-sm-12 text-justify">
                                     <img src={img2} alt="ENSYTE Hosted Environment Security Protocols" className='img-fluid mt-5' style={{ maxWidth: "100%" }} />
                                 </div>
-                                <div className="col-lg-3 col-md-12 col-sm-12 text-justify mb-5">
+                                <div className="col-lg-3 col-md-12 col-sm-12 text-justify">
                                     <ul className="check mt-5">
                                         <li>Dedicated facilities</li>
                                         <li>2 Factor Authentication access</li>
@@ -103,7 +103,7 @@ const GastarHosting = () => {
                 </div>
             </div>
 
-            <div className="text-center mt-5">
+            <div className="text-center mt-2">
                 <NavLink className="btn btn-lg text-center btn-primary m-2" to="../gastar-risk"><h2 className="text-center">Risk Management</h2></NavLink>
                 <NavLink className="btn btn-lg text-center btn-primary" to="../gastar-security"><h2 className="text-center">Data Security</h2></NavLink>
             </div>
