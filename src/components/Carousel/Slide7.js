@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { NavLink } from 'react-router-dom'
+
 export default class Slide7 extends React.Component {
 
     render() {
@@ -21,6 +23,11 @@ export default class Slide7 extends React.Component {
                                     <li><b>Reporting</b> – Reports Added for Nominations vs. Confirmations, Aggregate Consumption, City Gate Management, & More   </li>
                                 </ul>
                             </div>
+                        </div>
+                        <div className='text-center'>
+                            <NavLink to="/gastar-solutions-gas-supply">
+                                <button className='btn btn-primary btn-small mt-3 mb-2'>Click Here to Learn More</button>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

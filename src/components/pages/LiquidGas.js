@@ -65,7 +65,7 @@ class LiquidGas extends React.Component {
                                                                         <li>Liquid for Natural Gas Exchanges – Setup of specialty transfer with a capacity holder, with financial considerations, to conduct a physical swap with a counter party of LNG liquid for natural gas on a connecting pipeline;</li>
                                                                         <li>A Truck Terminal Module – Supports receipt and delivery of LNG for third party contract holders and for Operator sales transactions.  Fee variable may be applied per contract terms to secure a revenue position in each transfer; </li>
                                                                         <li>Inventory Reporting – Physical (total) LNG inventory is updated daily, along with the virtual inventory held by the Operator and each contract party.  Reporting includes:
-                                                                            <ul className=''>
+                                                                            <ul>
                                                                                 <li>Daily and Month to Date Beginning Inventory</li>
                                                                                 <li>Injections to Storage</li>
                                                                                 <li>Withdrawals</li>

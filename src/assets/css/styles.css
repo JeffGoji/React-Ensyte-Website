@@ -118,7 +118,7 @@ li {
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
     ),
-    url(../img/palms.jpg);
+    url(../img/slide2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -583,7 +583,8 @@ li {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -607,6 +608,10 @@ h4 {
 
 .list-padding li {
   padding: 6px;
+}
+
+.list-padding-sml li {
+  padding: 3px;
 }
 
 /* .dropdown-item:hover {
