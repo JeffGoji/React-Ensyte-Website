@@ -57,7 +57,7 @@ class LiquidGas extends React.Component {
                                                             <div className="mt-3 mb-3">
                                                                 <div className="p-2">
                                                                     <h4 className='text-center mb-3'>The GASTAR-LQ Solution manages Natural Gas Liquids (NGL) and Liquified Natural Gas (LNG) business processes with the following features:</h4>
-                                                                    <ul className="">
+                                                                    <ul className="list-padding">
                                                                         <li>Daily Update of Total Liquefaction, Vaporization and Gauged Ending Inventory with Daily Boil-Off Calculations</li>
                                                                         <li>Daily Balancing & Reconciliation of Contract Storage Inventory</li>
                                                                         <li>Sales to Third Parties – The operating business entity may sell LNG to Buyers and deliver through a truck terminal, via weight differential or metered volume, and issue an Invoice for Accounting</li>
