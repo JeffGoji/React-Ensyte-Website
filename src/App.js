@@ -35,6 +35,7 @@ import LiquidGas from './components/pages/LiquidGas'
 import CustomSolutions from './components/Services/Index'
 import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
+import Article1 from './components/NewsCards/Article1'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -86,6 +87,7 @@ function App() {
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
         <Route path='/gastar-liquid-storage' element={<LiquidGas />} />
+        <Route path='/article1' element={<Article1 />} />
 
       </Routes>
       <Footer />

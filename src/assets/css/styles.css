@@ -726,13 +726,13 @@ h5 {
 /**********Footer section*************************************/
 
 footer {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   color: white;
   background-color: #004b8d;
   position: relative;
-  left: 0;
+
   bottom: 0;
-  right: 0;
+
   font-size: 1rem;
 }
