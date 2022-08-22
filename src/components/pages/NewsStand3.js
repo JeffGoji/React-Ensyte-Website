@@ -1,16 +1,24 @@
 import { NavLink } from 'react-router-dom';
+import { useEffect } from 'react';
 
 import image1 from '../../assets/img/newsPic.jpg';
 
-
+import A11 from '../NewsCards/A11';
+import A12 from '../NewsCards/A12';
 import A13 from '../NewsCards/A13';
+
+//row 2
 import A14 from '../NewsCards/A14';
 import A15 from '../NewsCards/A15';
-//row 2
 import A16 from '../NewsCards/A16';
 
 
+
 function NewsStand() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
 
@@ -23,15 +31,17 @@ function NewsStand() {
                 {/************************ ROW 1 ******************/}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-2">
                     {/* CARD 1 */}
-                    <A13 />
+                    <A11 />
                     {/* CARD 2 */}
-                    <A14 />
+                    <A12 />
                     {/* CARD 3 */}
-                    <A15 />
+                    <A13 />
                 </div>
                 {/************************* ROW 2 ************************* */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* CARD 1 */}
+                    <A14 />
+                    <A15 />
                     <A16 />
                 </div>
                 <div>

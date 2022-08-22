@@ -1,7 +1,9 @@
 import image1 from '../../assets/img/newsPic.jpg';
+
+import A17 from './A17';
+import A18 from './A18';
 import A6 from './A6';
-import A2 from './A2';
-import A3 from './A3';
+
 
 import { useEffect } from 'react';
 
@@ -22,13 +24,13 @@ function NewsCards(props) {
             <img src={image1} className='img-fluid' alt='Ensyte News Releases' style={{ maxWidth: "350px" }} />
             <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3 g-0=4 mt-2 mb-5">
                 {/* <!-- Card 1 --> */}
-                <A6 />
+                <A17 />
                 {/* Card 2 */}
 
-                <A2 />
+                <A18 />
 
                 {/* Card 3 */}
-                <A3 />
+                <A6 />
 
 
                 {/* MODAL SECTION FOR ALL ARTICLES */}

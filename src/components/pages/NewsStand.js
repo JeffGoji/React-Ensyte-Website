@@ -1,16 +1,24 @@
 import { NavLink } from 'react-router-dom';
+import { useEffect } from 'react';
 
 import image1 from '../../assets/img/newsPic.jpg';
 
 import A2 from '../NewsCards/A2';
+import A17 from '../NewsCards/A17';
+import A18 from '../NewsCards/A18';
+
+// Row 2
 import A3 from '../NewsCards/A3';
 import A6 from '../NewsCards/A6';
-// Row 2
 import A1 from '../NewsCards/A1';
-import A4 from '../NewsCards/A4';
-import A5 from '../NewsCards/A5';
+
+
 
 function NewsStand() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
 
@@ -22,20 +30,20 @@ function NewsStand() {
                 {/* <Cards /> */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3 g-0=4 mt-2">
                     {/* <!-- Card 1 --> */}
-                    <A6 />
+                    <A17 />
                     {/* Card 2 */}
-                    <A2 />
+                    <A18 />
                     {/* Card 3 */}
-                    <A3 />
+                    <A2 />
                 </div>
                 {/************************ ROW 2 ******************/}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* Card 1 */}
-                    <A1 />
+                    <A3 />
                     {/* Card 2 */}
-                    <A4 />
+                    <A6 />
                     {/* Card 3 */}
-                    <A5 />
+                    <A1 />
                 </div>
                 <div>
                     <NavLink to="../newsstand2"><button className='btn btn-lg btn-warning m-2'>Next</button></NavLink>

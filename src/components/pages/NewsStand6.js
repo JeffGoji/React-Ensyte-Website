@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 import image1 from '../../assets/img/newsPic.jpg';
+import { useEffect } from 'react';
 
 
 import A16 from '../NewsCards/A16';
@@ -8,6 +9,10 @@ import A16 from '../NewsCards/A16';
 
 
 function NewsStand() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
 
