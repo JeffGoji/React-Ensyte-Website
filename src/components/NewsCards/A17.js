@@ -22,7 +22,7 @@ const A17 = (props) => {
                         </div>
                         <div className="modal-body fs-6 text-wrap">
                             <div className="text-center mb-4">
-                                <img src={img24} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxWidth: "650px" }} />
+                                <img src={img24} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxHeight: "25rem" }} />
                             </div>
                             <div className="card border-0 mt-5 ">
                                 <h2 className="text-center">ENSYTE Adds New Reports to GASTAR</h2>

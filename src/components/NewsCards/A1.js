@@ -10,10 +10,10 @@ const A1 = () => {
                         <img src={img13} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Enhances Producer Services Solution</h4>
                     </div>
-                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal16">Read More</button></div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal19">Read More</button></div>
                 </div>
             </div>
-            <div className="modal fade" id="modal16" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div className="modal fade" id="modal19" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
 
                     <div className="modal-content">

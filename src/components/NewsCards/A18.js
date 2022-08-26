@@ -22,7 +22,7 @@ const A18 = (props) => {
                         </div>
                         <div className="modal-body fs-6 text-wrap">
                             <div className="text-center mb-4">
-                                <img src={img25} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxWidth: "650px" }} />
+                                <img src={img25} alt="Accounting Solutions" className='imgShadow img-fluid rounded' style={{ maxHeight: "25rem" }} />
                             </div>
                             <div className="card border-0 mt-5 ">
                                 <h2 className="text-center">GASTAR Gas Accounting Module</h2>
