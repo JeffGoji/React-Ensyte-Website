@@ -58,8 +58,8 @@ const Producer = () => {
                                                     <div className="col-sm-12 col-md-12 col-lg-5">
                                                         <div className="mt-3 mb-3">
                                                             <div className="p-2">
-
-                                                                <ul><h4 className="">Producer / Operator features include:</h4>
+                                                                <h4 className="no-wrap">Producer / Operator features include:</h4>
+                                                                <ul>
                                                                     <li>Supply Forecasting</li>
                                                                     <li>Wellhead Purchase Contracts</li>
                                                                     <li>Lease Management</li>
