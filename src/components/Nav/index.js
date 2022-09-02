@@ -115,8 +115,9 @@ export const Nav = () => {
                                     <li><NavLink className="dropdown-item" to="/gastar-midstream">Midstream</NavLink></li>
                                     <li><NavLink className="dropdown-item" to="/gastar-natgas-producer">Producer Marketing</NavLink>
                                     </li>
-                                    <li><NavLink className="dropdown-item" to="/gastar-liquid-storage">Liquids Storage Inventory Mgmt</NavLink></li>
-                                    <li className="dropdown-item disabled" >Gas Accounting</li>
+                                    <li><NavLink className="dropdown-item" to="/gastar-liquid-storage">Liquids Storage Inventory Mgmt</NavLink ></li>
+                                    <li><NavLink className="dropdown-item" to="/gastar-accounting">Gas Accounting</NavLink>
+                                    </li>
 
                                 </ul>
                             </li>

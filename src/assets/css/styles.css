@@ -457,6 +457,20 @@ li {
   min-height: 30rem;
 }
 
+.imgBg32 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/Accounting.jpg);
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
 /* Background gradient colors for masking */
 
 .bg-opacity-85 {

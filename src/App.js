@@ -31,6 +31,7 @@ import RetailGas from './components/GastarSolutions/RetailGas'
 import Producer from './components/GastarSolutions/Producer'
 import Midstream from './components/GastarSolutions/Midstream'
 import Natgas from './components/GastarSolutions/Natgas'
+import Accounting from './components/GastarSolutions/Accounting'
 import LiquidGas from './components/pages/LiquidGas'
 import CustomSolutions from './components/Services/Index'
 import Consulting from './components/Services/Consulting'
@@ -87,6 +88,7 @@ function App() {
         <Route path='/gastar-consulting' element={<Consulting />} />
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
         <Route path='/gastar-liquid-storage' element={<LiquidGas />} />
+        <Route path='/gastar-accounting' element={<Accounting />} />
         <Route path='/article1' element={<Article1 />} />
 
       </Routes>
