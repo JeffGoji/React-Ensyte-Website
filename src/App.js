@@ -37,11 +37,13 @@ import CustomSolutions from './components/Services/Index'
 import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
 import Article1 from './components/NewsCards/Article1'
+import GastarDashboards from './components/pages/GastarDashboards'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap'
 import './assets/css/styles.css';
+
 
 
 function App() {
@@ -73,6 +75,7 @@ function App() {
         <Route path='/newsstand6' element={<NewsStand6 />} />
         <Route path='/gastar-overview' element={<GasStarOverview />} />
         <Route path='/gastar-value' element={<GastarValue />} />
+        <Route path='/gastar-dashboards' element={<GastarDashboards />} />
         <Route path='/gastar-risk' element={<GastarRisk />} />
         <Route path='/gastar-hosting' element={<GastarHosting />} />
         <Route path='/gastar-security' element={<GastarSecurity />} />
