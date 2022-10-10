@@ -3,10 +3,12 @@ import { useEffect } from 'react';
 
 import image1 from '../../assets/img/newsPic.jpg';
 
-
+import A12 from '../NewsCards/A12';
+import A13 from '../NewsCards/A13';
+import A14 from '../NewsCards/A14';
 import A10 from '../NewsCards/A10';
 import A11 from '../NewsCards/A11';
-import A12 from '../NewsCards/A12';
+import A16 from '../NewsCards/A16';
 
 
 function NewsStand() {
@@ -26,17 +28,31 @@ function NewsStand() {
                 {/************************* ROW 3 ************************* */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-2">
                     {/* CARD 1 */}
-                    <A10 />
+                    <A16 />
+
                     {/* CARD 2 */}
-                    <A11 />
+                    <A10 />
+
                     {/* {/* CARD 3 */}
+                    <A11 />
+
+                </div>
+                <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-2">
+                    {/* CARD 1 */}
                     <A12 />
+
+                    {/* CARD 2 */}
+                    <A13 />
+
+                    {/* CARD 3 */}
+                    <A14 />
+
                 </div>
                 <div>
                     <NavLink to="../newsstand3">
                         <button className='btn btn-lg btn-warning  m-2'>Prev</button>
                     </NavLink>
-                    <NavLink to="../newsstand5">
+                    <NavLink to="../newsstand6">
                         <button className='btn btn-lg btn-warning m-2'>Next </button>
                     </NavLink>
                 </div>

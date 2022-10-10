@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import image1 from '../../assets/img/newsPic.jpg';
 import { useEffect } from 'react';
 
-
+import A15 from '../NewsCards/A15';
 import A16 from '../NewsCards/A16';
 
 
@@ -25,6 +25,7 @@ function NewsStand() {
                 {/************************* ROW 3 ************************* */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-2">
                     {/* CARD 1 */}
+                    <A15 />
                     <A16 />
 
                 </div>

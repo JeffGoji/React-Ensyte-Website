@@ -48,7 +48,6 @@ const Article1 = () => {
                 </div>
             </div>
         </>
-
     )
 }
 

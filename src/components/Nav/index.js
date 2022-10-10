@@ -79,6 +79,7 @@ export const Nav = () => {
                                     <li><NavLink className="dropdown-item" to="gastar-overview">GASTAR Overview</NavLink></li>
 
                                     <li><NavLink className="dropdown-item" to="gastar-value">GASTAR Value</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to="gastar-dashboards">GASTAR Dashboards</NavLink></li>
                                     <li>
                                         <NavLink className="dropdown-item" to="gastar-risk">Enterprise Risk Management</NavLink>
                                     </li>
