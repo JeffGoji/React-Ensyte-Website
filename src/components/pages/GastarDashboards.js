@@ -12,10 +12,10 @@ function GastarDashboards() {
             </div>
             <div className='row justify-content-center mt-5'>
 
-                <div className='col-5'>
-                    <img src={dashboard1} alt='New Gastar Dashboard' className='img-fluid rounded imgShadow' />
+                <div className='col-lg-5 col-md-5 col-sm-12'>
+                    <img src={dashboard1} alt='New Gastar Dashboard' className='img-fluid rounded imgShadow mt-5' />
                 </div>
-                <div className='col-6 p-3'>
+                <div className='col-lg-6 col-md-6 col-sm-12 p-3'>
                     <h2 className='text-center'>New GASTAR Dashboard</h2>
                     <p>
                         ENSYTE is excited to announce a new dashboard to its GASTAR solution, the most comprehensive natural gas management solution on the market today.
@@ -28,15 +28,15 @@ function GastarDashboards() {
             </div>
             <div className='row mt-5 blue-bg text-white p-3 justify-content-center mb-6'>
 
-                <div className='col-6'>
+                <div className='col-lg-6 col-md-6 col-sm-12'>
                     <h2 className='text-center mb-4'>Interactive Visual Display</h2>
                     <p>
                         The Dashboard includes an Interactive Visual Gas and Fluid Flow Network, which provides clients with the ability to build interactive network nodes and links and setup intelligence for each part of the network.  The network manages Facilities, Wells, Composition Samples, Meters, Compressors, Liquid Sales Batteries, Gas Sales Meters, and more.
 
                     </p>
                 </div>
-                <div className='col-5'>
-                    <img src={dashboard2} alt='New Gastar Node Creator' className='img-fluid rounded' />
+                <div className='col-lg-5 col-md-5 col-sm-12'>
+                    <img src={dashboard2} alt='New Gastar Node Creator' className='img-fluid rounded mt-5' />
                 </div>
 
             </div>
