@@ -12,7 +12,7 @@ import A1 from '../NewsCards/A1';
 //Row 2
 import A8 from '../NewsCards/A8';
 import A9 from '../NewsCards/A9';
-import A10 from '../NewsCards/A10';
+// import A10 from '../NewsCards/A10';
 
 
 

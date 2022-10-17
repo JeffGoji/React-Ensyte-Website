@@ -11,7 +11,7 @@ import A13 from '../NewsCards/A13';
 //row 2
 import A14 from '../NewsCards/A14';
 import A15 from '../NewsCards/A15';
-import A16 from '../NewsCards/A16';
+// import A16 from '../NewsCards/A16';
 
 
 
