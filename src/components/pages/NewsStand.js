@@ -10,11 +10,11 @@ import A18 from '../NewsCards/A18';
 // Row 2
 import A3 from '../NewsCards/A3';
 import A6 from '../NewsCards/A6';
-import A1 from '../NewsCards/A1';
+// import A1 from '../NewsCards/A1';
 
 import A19 from '../NewsCards/A19';
 
-import Cards from './Cards';
+// import Cards from './Cards';
 
 function NewsStand() {
 
