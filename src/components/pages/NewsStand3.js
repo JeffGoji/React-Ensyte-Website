@@ -13,8 +13,6 @@ import A14 from '../NewsCards/A14';
 import A15 from '../NewsCards/A15';
 // import A16 from '../NewsCards/A16';
 
-
-
 function NewsStand() {
 
     useEffect(() => {
