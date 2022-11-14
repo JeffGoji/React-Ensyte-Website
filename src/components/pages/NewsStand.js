@@ -3,13 +3,15 @@ import { useEffect } from 'react';
 
 import image1 from '../../assets/img/newsPic.jpg';
 
+import A20 from '../NewsCards/A20';
+
 import A2 from '../NewsCards/A2';
 import A17 from '../NewsCards/A17';
 import A18 from '../NewsCards/A18';
 
 // Row 2
 import A3 from '../NewsCards/A3';
-import A6 from '../NewsCards/A6';
+
 // import A1 from '../NewsCards/A1';
 
 import A19 from '../NewsCards/A19';
@@ -32,23 +34,29 @@ function NewsStand() {
                 {/* <Cards /> */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3 g-0=4 mt-2">
                     {/* <!-- Card 1 --> */}
-                    <A19 />
+                    <A20 />
+
                     {/* Card 2 */}
-                    <A17 />
+                    <A19 />
+
                     {/* Card 3 */}
-                    <A18 />
+                    <A17 />
+
 
 
                 </div>
                 {/************************ ROW 2 ******************/}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* Card 1 */}
-                    <A2 />
+                    <A18 />
+
                     {/* Card 2 */}
-                    <A3 />
+                    <A2 />
+
 
                     {/* Card 3 */}
-                    <A6 />
+                    <A3 />
+
 
                 </div>
                 <div>

@@ -6,12 +6,11 @@ import image1 from '../../assets/img/newsPic.jpg';
 import A4 from '../NewsCards/A4';
 import A5 from '../NewsCards/A5';
 import A7 from '../NewsCards/A7';
-
+import A6 from '../NewsCards/A6';
 import A1 from '../NewsCards/A1';
 
 //Row 2
 import A8 from '../NewsCards/A8';
-import A9 from '../NewsCards/A9';
 // import A10 from '../NewsCards/A10';
 
 
@@ -32,24 +31,30 @@ function NewsStand() {
                 {/************************ ROW 1 ******************/}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-2">
                     {/* CARD 1 */}
-                    <A1 />
+                    <A6 />
+
 
                     {/* CARD 2 */}
-                    <A4 />
+
+                    <A1 />
 
                     {/* CARD 3 */}
-                    <A5 />
+
+                    <A4 />
 
                 </div>
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* CARD 1 */}
-                    <A7 />
+
+                    <A5 />
 
                     {/* CARD 2 */}
-                    <A8 />
+
+                    <A7 />
 
                     {/* {/* CARD 3 */}
-                    <A9 />
+
+                    <A8 />
 
                 </div>
                 <div>
