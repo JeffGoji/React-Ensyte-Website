@@ -38,6 +38,7 @@ import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
 import Article1 from './components/NewsCards/Article1'
 import GastarDashboards from './components/pages/GastarDashboards'
+import GastarEbb from './components/GastarSolutions/Ebb'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -77,6 +78,7 @@ function App() {
         <Route path='/gastar-value' element={<GastarValue />} />
         <Route path='/gastar-dashboards' element={<GastarDashboards />} />
         <Route path='/gastar-risk' element={<GastarRisk />} />
+        <Route path='/gastar-ebb' element={<GastarEbb />} />
         <Route path='/gastar-hosting' element={<GastarHosting />} />
         <Route path='/gastar-security' element={<GastarSecurity />} />
         <Route path='/gastar-solutions-gas-supply' element={<GasSupply />} />

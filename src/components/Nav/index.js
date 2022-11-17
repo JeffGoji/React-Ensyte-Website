@@ -103,7 +103,7 @@ export const Nav = () => {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
                                     <li><NavLink className="dropdown-item" to="gastar-solutions-gas-supply">Gas Supply</NavLink></li>
                                     <li><NavLink className="dropdown-item" to="/gastar-retail-choice">Retail Choice</NavLink></li>
-                                    <li className='dropdown-item disabled'>Electronic Bulletin Board
+                                    <li><NavLink className="dropdown-item" to="/gastar-ebb">Electronic Bulletin Board</NavLink>
                                     </li>
                                     <li>
                                         <NavLink className="dropdown-item" to="/gastar-natural-gas">Natural Gas Utility</NavLink>

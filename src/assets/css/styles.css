@@ -471,6 +471,20 @@ li {
   background-position: center;
   min-height: 30rem;
 }
+
+.imgBg33 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    /* url(../img/1114Release-1.png); */ url(../img/palm-trees.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: center;
+  min-height: 30rem;
+}
 /* Background gradient colors for masking */
 
 .bg-opacity-85 {
