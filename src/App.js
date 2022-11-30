@@ -36,7 +36,6 @@ import LiquidGas from './components/pages/LiquidGas'
 import CustomSolutions from './components/Services/Index'
 import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
-import Article1 from './components/NewsCards/Article1'
 import GastarDashboards from './components/pages/GastarDashboards'
 import GastarEbb from './components/GastarSolutions/Ebb'
 
@@ -94,7 +93,7 @@ function App() {
         <Route path='/gastar-customer-support' element={<CustomerSupport />} />
         <Route path='/gastar-liquid-storage' element={<LiquidGas />} />
         <Route path='/gastar-accounting' element={<Accounting />} />
-        <Route path='/article1' element={<Article1 />} />
+
 
       </Routes>
       <Footer />
