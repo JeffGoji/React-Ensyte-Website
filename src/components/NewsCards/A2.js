@@ -9,6 +9,7 @@ const A2 = () => {
                     <div className="card-body">
                         <img src={img13} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Adds a Liquids Storage Module to GASTAR for NGL & LNG Product Management</h4>
+                        <h6 className='text-center mt-3'>July 1st 2022</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal2">Read More</button></div>
                 </div>

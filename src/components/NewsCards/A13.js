@@ -8,6 +8,7 @@ const A13 = (props) => {
                     <div className="card-body">
                         <img src={img20} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">Why is GASTAR™ the Preferred Solution?</h4>
+                        <h6 className='text-center mt-3'>February 1st 2019</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal12">Read More</button></div>
                 </div>

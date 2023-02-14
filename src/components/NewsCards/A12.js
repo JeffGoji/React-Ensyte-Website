@@ -9,6 +9,7 @@ const A12 = (props) => {
                     <div className="card-body">
                         <img src={img19} alt='data Article' className='img-fluid mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">New Gas Supply / City Gate Planning Feature</h4>
+                        <h6 className='text-center mt-3'>October 1st 2019</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal11">Read More</button></div>
                 </div>

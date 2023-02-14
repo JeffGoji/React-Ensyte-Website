@@ -15,6 +15,7 @@ const A20 = () => {
                     <div className="card-body">
                         <img src={img1} alt='data Article' className='rounded img-fluid imgShadow mb-5' style={{ maxHeight: "60rem" }} />
                         <h4 className="card-title">New Electronic Bulletin Board</h4>
+                        <h6 className='text-center'>January 1st 2023</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal20">Read More</button></div>
                 </div>

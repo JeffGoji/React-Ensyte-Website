@@ -8,6 +8,7 @@ const A10 = () => {
                     <div className="card-body">
                         <img src={img18} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Celebrates 20 Years with UGI</h4>
+                        <h6 className='text-center mt-3'>August 1st 2015</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal10">Read More</button></div>
                 </div>

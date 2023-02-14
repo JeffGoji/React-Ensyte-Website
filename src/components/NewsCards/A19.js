@@ -10,6 +10,7 @@ const A19 = () => {
                     <div className="card-body">
                         <img src={dashboard1} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">GASTAR Dashboards</h4>
+                        <h6 className='text-center mt-3'>December 1st 2022</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal19">Read More</button></div>
                 </div>

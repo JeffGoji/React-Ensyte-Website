@@ -8,6 +8,7 @@ const A17 = (props) => {
                     <div className="card-body">
                         <img src={img24} alt='data Article' className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />
                         <h4 className="card-title">ENSYTE Adds New Reports to GASTAR</h4>
+                        <h6 className='text-center mt-3'>November 1st 2022</h6>
                     </div>
                     <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal15">Read More</button></div>
                 </div>
@@ -18,6 +19,7 @@ const A17 = (props) => {
                     <div className="modal-content text-center">
                         <div className="modal-header text-center blue-bg">
                             <h3 className="modal-title text-white center" id="staticBackdropLabel">ENSYTE Adds New Reports to GASTAR</h3>
+
                             <button type="button" className="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body fs-6 text-wrap">
@@ -26,6 +28,7 @@ const A17 = (props) => {
                             </div>
                             <div className="card border-0 mt-5 ">
                                 <h2 className="text-center">ENSYTE Adds New Reports to GASTAR</h2>
+
                                 <div className="card-body">
                                     <div className="row">
                                         <div className="col-sm-12 col-md-12 col-lg-12">

@@ -52,9 +52,9 @@ function NewsStand() {
                     <NavLink to="../newsstand3">
                         <button className='btn btn-lg btn-warning  m-2'>Prev</button>
                     </NavLink>
-                    <NavLink to="../newsstand6">
+                    {/* <NavLink to="../newsstand5">
                         <button className='btn btn-lg btn-warning m-2'>Next </button>
-                    </NavLink>
+                    </NavLink> */}
                 </div>
 
             </div>

@@ -7,7 +7,7 @@ import A4 from '../NewsCards/A4';
 import A5 from '../NewsCards/A5';
 import A7 from '../NewsCards/A7';
 import A6 from '../NewsCards/A6';
-import A1 from '../NewsCards/A1';
+import A9 from '../NewsCards/A9';
 
 //Row 2
 import A8 from '../NewsCards/A8';
@@ -36,17 +36,18 @@ function NewsStand() {
 
                     {/* CARD 2 */}
 
-                    <A1 />
+                    <A4 />
+
 
                     {/* CARD 3 */}
+                    <A5 />
 
-                    <A4 />
 
                 </div>
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3  g-0=4 mt-4">
                     {/* CARD 1 */}
 
-                    <A5 />
+                    <A9 />
 
                     {/* CARD 2 */}
 
