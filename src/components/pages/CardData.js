@@ -1,34 +1,31 @@
 import React, { useState } from 'react';
-import projects from '../../Articles';
+import data from '../data.json';
 
-function CardData(props) {
-    const [projectList] = useState(projects);
-    // let newsContent = [
-    //     {
-    //         title: "ENSYTE Enhances Producer Services Solution",
-    //     }
-    // ];
+function CardData() {
+    const [cardList] = useState(data);
 
     return (
 
         <div className="col" >
-
-            {props.children}
-            {/* Map through 'portfolioList' and render a 'Card' for each project */}
-            {projectList.map((projects) => (
+            {/* Map through 'portfolioList' and render a 'Card' for each card */}
+            {cardList.map((cards) => (
                 <CardData
-                    name={projects.name}
+                    key={cards.id}
+                    title={cards.name}
+                    image={cards.image}
+                    date={cards.date}
 
                 />
             ))}
 
 
-            {/* <div className="card mb-5">
+            <div className="card mb-5" key={data.id}>
                 <div className="card text-center">
                     <div className="card-header">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
                         <h5 className="card-title">
-                            {newsContent[0].title}
+                            {data.title}
+                            <img src={data.image} alt='Card' />
                         </h5>
                         <button href="#" className="btn btn-primary">Read More</button>
                     </div>
@@ -36,7 +33,7 @@ function CardData(props) {
 
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

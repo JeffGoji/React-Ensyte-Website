@@ -12,6 +12,8 @@ import A14 from '../NewsCards/A14';
 // import A15 from '../NewsCards/A15';
 // import A16 from '../NewsCards/A16';
 
+// import CardData from './Cards';
+
 function NewsStand() {
 
     useEffect(() => {
@@ -48,6 +50,8 @@ function NewsStand() {
 
                     <A11 />
                     {/* <A15 /> */}
+
+                    {/* <CardData /> */}
 
                 </div>
                 <div>
