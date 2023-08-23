@@ -38,7 +38,7 @@ const Execs = () => {
                                     <div className="card-body">
                                         <img src={image1} alt="Michael Smith" className="img-fluid rounded" style={{ maxHeight: "264px" }} />
                                         <h3 className="card-title mt-2">Michael Smith</h3>
-                                        <p className="card-text">Director / Visionary</p>
+                                        <p className="card-text">Founder / Visionary</p>
                                         <NavLink to="/michael-smith" className="link">Learn more about Mr. Smith</NavLink>
                                     </div>
                                 </div>
