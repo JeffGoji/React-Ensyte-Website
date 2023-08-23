@@ -21,7 +21,7 @@ const Michael = () => {
                             </div>
                             <div className="col-sm-12 col-md-12 col-lg-6 text-center">
                                 <h2>Michael Smith</h2>
-                                <h3>Director / Visionary</h3>
+                                <h3>Founder / Visionary</h3>
                                 <p className="text-start">Michael Smith has over 35 years of experience providing consulting services and software products to the international energy industry. Michael formed ENSYTE Energy Software, initially incorporated as Michael Smith & Associates, to offer consulting and technical software development services to the international oil and gas industry.
                                 </p>
                                 <p className="text-start">
