@@ -3,7 +3,11 @@ import { useEffect } from 'react';
 
 import image1 from '../../assets/img/newsPic.jpg';
 
-import A20 from '../NewsCards/A20';
+import A22 from '../NewsCards/A22';
+import A23 from '../NewsCards/A23';
+import A24 from '../NewsCards/A24';
+
+
 
 import A2 from '../NewsCards/A2';
 
@@ -13,9 +17,11 @@ import A18 from '../NewsCards/A18';
 import A17 from '../NewsCards/A17';
 // import A3 from '../NewsCards/A3';
 
-import A21 from '../NewsCards/A21';
+// import A21 from '../NewsCards/A21';
 
-import A19 from '../NewsCards/A19';
+// import A20 from '../NewsCards/A20';
+
+// import A19 from '../NewsCards/A19';
 
 // import Cards from './Cards';
 
@@ -35,14 +41,14 @@ function NewsStand() {
                 {/* <Cards /> */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3 g-0=4 mt-2">
                     {/* <!-- Card 1 --> */}
-                    <A21 />
+                    <A24 />
 
 
                     {/* Card 2 */}
-                    <A20 />
+                    <A23 />
 
                     {/* Card 3 */}
-                    <A19 />
+                    <A22 />
 
                 </div>
                 {/************************ ROW 2 ******************/}

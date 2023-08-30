@@ -12,7 +12,7 @@ const Tania = () => {
         <div className="container-fluid imgBg18">
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5 d-flex justify-content-center">
-                    <div className="card bg-white text-black mt-5 mb-5" style={{ maxWidth: "1200px" }}>
+                    <div className="card bg-white text-black mt-5 mb-5" style={{ maxWidth: "1000px" }}>
                         <div className="row p-2 text-center">
                             <div className="col-sm-12 col-md-12 col-lg-6">
 
@@ -28,7 +28,8 @@ const Tania = () => {
                                 </p>
                                 <p className="text-start">
                                     Tania joined ENSYTE in 2010 and implemented a strategic marketing plan to launch the upgraded GASTAR product to the natural gas market. Tania manages the day-to-day operations of ENSYTE and oversees all Project Management activities with clients, as well as software development and internal operations.
-                                    <br />
+                                </p>
+                                <p className="text-start">
                                     Tania works with all of ENSYTE’s prospects to manage the sales process and provide support to both current and potential clients as they build their case for implementing updated systems.</p>
                             </div>
                         </div>
