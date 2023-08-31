@@ -12,10 +12,10 @@ const A22 = () => {
                         <h4 className="card-title">ENSYTE Wins Natural Gas Utility / Midstream Client</h4>
                         <h6 className='text-center mt-3'>April 1st 2023</h6>
                     </div>
-                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal22">Read More</button></div>
+                    <div className='card-footer'><button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal23">Read More</button></div>
                 </div>
             </div>
-            <div className="modal fade" id="modal22" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div className="modal fade" id="modal23" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl">
 
                     <div className="modal-content">
