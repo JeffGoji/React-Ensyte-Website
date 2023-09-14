@@ -1,6 +1,8 @@
 import image1 from '../../assets/img/michael.png'
 import image2 from '../../assets/img/marilyn.png'
 import image3 from '../../assets/img/tania-md.jpg'
+import image4 from '../../assets/img/Allen.jpeg'
+import image5 from '../../assets/img/Pooja-1.png'
 
 import { NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
@@ -55,7 +57,31 @@ const Execs = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="row justify-content-center row-cols-1 row-cols-md-3 g-2 mt-5 fs-5 text-center">
+                            <div className="col-sm-12 col-md-12 col-lg-4">
+                                <div className="card h-100 bg-transparent border-0">
+                                    <div className="card-body">
+                                        <img src={image4} alt="Allen Williams" className="img-fluid rounded" style={{ maxHeight: "264px" }} />
+                                        <h3 className="card-title mt-2">Allen Williams</h3>
+                                        <p className="card-text">Chief Information Officer</p>
+                                        <NavLink to="/allen-williams" className="link">Learn more about Mr. Williams</NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-12 col-md-12 col-lg-4">
+                                <div className="card h-100 bg-transparent border-0">
+
+                                    <div className="card-body">
+                                        <img src={image5} alt="Pooja Agarwal" className="img-fluid rounded" style={{ maxHeight: "264px" }} />
+                                        <h3 className="card-title mt-2">Pooja Agarwal</h3>
+                                        <p className="card-text">Vice President</p>
+                                        <NavLink to="/pooja" className="link">Learn more about Mrs. Agarwal</NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div >
             </div>
         </div >

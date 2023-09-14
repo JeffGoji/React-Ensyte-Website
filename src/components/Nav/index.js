@@ -59,7 +59,7 @@ export const Nav = () => {
                                 </div>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" href="#">
                                     <li><NavLink className="dropdown-item" to="/about">About Us</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="/executive-team">Our Team</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to="/about">Our Team</NavLink></li>
                                 </ul>
                             </li> */}
                             <li className={"nav-item dropdown ms-lg-3"}>

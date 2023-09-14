@@ -97,7 +97,7 @@ const About = () => {
 
             {/* <div className="row justify-content-center text-center">
                 <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-5">
-                    <NavLink to="/executive-team"><button className="btn btn-lg btn-primary text-center">
+                    <NavLink to="/about"><button className="btn btn-lg btn-primary text-center">
                         Meet our Executive Team
                     </button></NavLink>
                 </div>

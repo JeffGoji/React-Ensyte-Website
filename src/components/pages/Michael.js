@@ -30,9 +30,9 @@ const Michael = () => {
                         </div>
                     </div>
                 </div>
-                <NavLink to="/executive-team" className="link-white"><h2 className="text-center">Back To Excutives</h2></NavLink>
+                <NavLink to="/about" className="link-white"><h2 className="text-center">Back To Excutives</h2></NavLink>
             </div>
-        </div>
+        </div >
 
     )
 }
