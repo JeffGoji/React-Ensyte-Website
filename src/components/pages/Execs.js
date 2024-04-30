@@ -61,17 +61,6 @@ const Execs = () => {
                             <div className="col-sm-12 col-md-12 col-lg-4">
                                 <div className="card h-100 bg-transparent border-0">
                                     <div className="card-body">
-                                        <img src={image4} alt="Allen Williams" className="img-fluid rounded" style={{ maxHeight: "264px" }} />
-                                        <h3 className="card-title mt-2">Allen Williams</h3>
-                                        <p className="card-text">Chief Information Officer</p>
-                                        <NavLink to="/allen-williams" className="link">Learn more about Mr. Williams</NavLink>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-12 col-md-12 col-lg-4">
-                                <div className="card h-100 bg-transparent border-0">
-
-                                    <div className="card-body">
                                         <img src={image5} alt="Pooja Agarwal" className="img-fluid rounded" style={{ maxHeight: "264px" }} />
                                         <h3 className="card-title mt-2">Pooja Agarwal</h3>
                                         <p className="card-text">Vice President</p>
