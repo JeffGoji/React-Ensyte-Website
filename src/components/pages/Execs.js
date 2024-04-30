@@ -1,7 +1,6 @@
 import image1 from '../../assets/img/michael.png'
 import image2 from '../../assets/img/marilyn.png'
 import image3 from '../../assets/img/Tania-1.jpg'
-import image4 from '../../assets/img/Allen.jpeg'
 import image5 from '../../assets/img/Pooja-1.png'
 
 import { NavLink } from 'react-router-dom'
