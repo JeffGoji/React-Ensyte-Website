@@ -5,7 +5,7 @@ import image1 from '../../assets/img/newsPic.jpg';
 
 import A22 from '../NewsCards/A22';
 import A23 from '../NewsCards/A23';
-import A24 from '../NewsCards/A24';
+import A21 from '../NewsCards/A21';
 
 
 
@@ -41,7 +41,7 @@ function NewsStand() {
                 {/* <Cards /> */}
                 <div className="row row-sm-cols-1 row-cols-md-1 row-cols-lg-3 g-0=4 mt-2">
                     {/* <!-- Card 1 --> */}
-                    <A24 />
+                    <A21 />
 
 
                     {/* Card 2 */}

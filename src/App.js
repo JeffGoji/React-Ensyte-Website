@@ -38,7 +38,6 @@ import Consulting from './components/Services/Consulting'
 import CustomerSupport from './components/Services/CustomerSupport'
 import GastarDashboards from './components/pages/GastarDashboards'
 import GastarEbb from './components/GastarSolutions/Ebb'
-import Allen from './components/pages/Allen'
 import Pooja from './components/pages/Pooja'
 
 import "slick-carousel/slick/slick.css";
@@ -67,7 +66,6 @@ function App() {
         <Route path='/tania-demeris' element={<Tania />} />
         <Route path='/michael-smith' element={<Michael />} />
         <Route path='/marilyn-smith' element={<Marilyn />} />
-        <Route path='/allen-williams' element={<Allen />} />
         <Route path='/pooja' element={<Pooja />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/success' element={<Success />} />
