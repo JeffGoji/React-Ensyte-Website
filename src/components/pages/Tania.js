@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { useEffect } from "react";
-import image1 from "../../assets/img/Image-from-iOS-768x1024.jpg"
+import image1 from "../../assets/img/Tania-1.jpg"
 
 const Tania = () => {
 
