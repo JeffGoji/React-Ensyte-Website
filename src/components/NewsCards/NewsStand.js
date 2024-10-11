@@ -14,7 +14,7 @@ function NewsStand() {
     }, []);
 
     // Calculate the start and end indices for slicing
-    const startIndex = 22 - (pageNum - 1) * PAGE_SIZE; // Starting from 22
+    const startIndex = 25 - (pageNum - 1) * PAGE_SIZE; // Starting from 22
     const endIndex = startIndex - PAGE_SIZE; // End index for slicing
 
     // Slice the news data to get only the current page's items

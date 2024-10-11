@@ -15,7 +15,7 @@ const NewsCard = ({ title, description, image, modalContent, buttonLabel }) => {
     return (
         <>
             <div className="col mb-4">
-                <div className="card mb-5 h-100 ">
+                <div className="card mb-5 h-100">
                     <div className="card-header text-center blue-bg text-white">FEATURED / NEWS RELEASE</div>
                     <div className="card-body">
                         <img src={image} alt={title} className='rounded img-fluid imgShadow mb-4' style={{ maxHeight: "14rem" }} />

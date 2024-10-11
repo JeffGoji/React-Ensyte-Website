@@ -1,6 +1,9 @@
 // src/data/newsData.js
 import React from "react";
+import { Link } from "react-router-dom";
 
+//Images
+import logo from '../../assets/img/logo.png'
 import rig1 from '../../assets/img/rig1.jpg'
 import lngTanker from '../../assets/img/lngTanker.jpg'
 import customizedSolutions02 from '../../assets/img/customized-solutions-02.jpg'
@@ -846,28 +849,83 @@ const newsData = [
             </>
         ),
     },
-    // {
-    //     index: 23,
-    //     title: " ",
-    //     description: " ",
-    //     image: ,
-    //     modalContent: (
-    //         <>
+    {
+        index: 23,
+        title: "GASTAR Product Upgrade",
+        description: "March 2024",
+        image: logo,
+        modalContent: (
+            <>
+                <p>
+                    <Link to={'/about'}>ENSYTE</Link> is excited to announce its latest upgrade of the <Link to={'/gastar-overview'}>GASTAR</Link> product, which has been managing complex natural gas business processes for natural gas utilities for over 40 years.  The product has been upgraded several times over the course of its lifecycle with this latest version offered as a fully web-based solution using the popular React programming language, coupled with a .NET 8 framework.  The software upgrade offers a modernized user experience, as well as enhanced responsiveness and high-speed performance.
+                </p>
 
-    //         </>
-    //     ),
-    // },
-    // {
-    //     index: 24,
-    //     title: " ",
-    //     description: " ",
-    //     image: ,
-    //     modalContent: (
-    //         <>
+                <p>
+                    The latest Microsoft .NET 8 framework provides thousands of performance, stability, and security improvements, as well as platform and tooling enhancements that help increase developer productivity and speed of innovation.  The use of React JS as a programming language radically changes the user experience through increased speed, flexibility, performance, and usability. The React language is used by many of the largest web applications in the world, including Facebook and Instagram.  React JS was developed by Meta and is an open system set of development tools.
+                </p>
+                <p>
+                    <Link to={'/about'}>ENSYTE</Link> offers flexible hosting options for clients, including on-premise hosting, hosting on a client’s web services environment (such as AWS), or a full Software as a Service (SaaS) model whereby ENSYTE hosts the solution on its Microsoft Azure environment.  The SaaS model provides numerous benefits to clients, most importantly the setup and maintenance of both the product’s hardware and infrastructure are handled by the ENSYTE Support team, saving clients significant time, expenses, and resources.  The SaaS environment provides optimal reliability, server configurations that minimize downtime, and the highest level of network security.
+                </p>
+                <p>
+                    <Link to={'/about'}>ENSYTE</Link> is proud to bring the longevity of experience and depth of understanding of the natural gas industry together with the latest technology to deliver a powerful and effective solution for natural gas companies to manage their business.
+                </p>
+                <p>
+                    <Link to={'/contact'}>Contact</Link> us for a demo of the new GASTAR!
+                </p>
+                {/* <Link to="/contact" className="btn btn-primary">Contact Us</Link> */}
+            </>
+        ),
+    },
+    {
+        index: 24,
+        title: "GASTAR Selected for Retail Choice Solution",
+        description: "August 2024",
+        image: logo,
+        modalContent: (
+            <>
 
-    //         </>
-    //     ),
-    // },
+                <p>
+                    <Link to={'/about'}>ENSYTE</Link> has been selected to implement the <Link to={'/gastar-retail-choice'}>GASTAR Choice Solution</Link> for a natural gas utility in Pennsylvania after the client evaluated current retail choice software providers.
+                </p>
+
+                <p>
+                    <Link to={'/gastar-overview'}>GASTAR</Link> is recognized throughout the industry as one of the most comprehensive and sophisticated solutions to handle the complexity of the Utilities Choice business, as noted below. ENSYTE is also one of the few vendors who offers an Integrated Gas Supply and Retail Choice Solution to manage both sides of these business processes for natural gas utilities. We have some customers who utilized the Gas Supply Solution, some who have implemented the Retail Choice Solution, and some who utilize the integrated system.
+                </p>
+
+                <p>
+                    The Retail Choice Solution for this client will manage all business processes pertaining to the company’s Gas Choice program, under which suppliers provide competitive natural gas supply to transportation customers on the company’s natural gas pipeline. GASTAR will contain business logic to handle both the Low Volume Transportation (LVT) and High Volume Transportation (HVT) customers.
+                </p>
+
+                <p>Key business process functionality includes:</p>
+
+                <ul>
+                    <li>Counterparty Setup</li>
+                    <li>Contracts Setup</li>
+                    <li>Pipeline Points</li>
+                    <li>Tariff Rates</li>
+                    <li>Upload of Index Prices Automation</li>
+                    <li>Supplier Pooling of LVT and HVT Customers, plus High Profiles Non-Pooled Customers</li>
+                    <li>Synchronization &amp; Integration of Customer Data with Company’s CIS System</li>
+                    <li>Interface with the Company’s Measurement Solution – Raw Data Feeds or from CIS</li>
+                    <li>Pool Demand Forecasting for ADDQ Choice Pools</li>
+                    <li>Supplier Natural Gas Pool Nomination Updates</li>
+                    <li>Automated Confirmation Process for Supplier Pool Nominations</li>
+                    <li>Nominations of Company Peaking Supply – Both LNG &amp; Propane with Storage Processing</li>
+                    <li>LVT and HVT Pool Settlements with Interruptions, Imbalance Trading, and Tiered Cashouts</li>
+                    <li>End of Month (EOM) Close Processes including Multi-Month Prior Period Adjustments</li>
+                    <li>Supplier Invoice Calculation with Manual Additions &amp; Interface to Company’s CIS Solution</li>
+                    <li>Ability to Issue &amp; Track Supplier Invoices</li>
+                    <li>Reports Generated as Excel Exports from Intensive Grid Data Presentations</li>
+                </ul>
+
+                <p>We are excited to continue growing our footprint of natural gas utility clients.</p>
+
+                <p><Link to={'/contact'}>Contact Us</Link> to learn more about our GASTAR Choice Solution.</p>
+
+
+            </>
+        ),
+    },
     // {
     //     index: 25,
     //     title: " ",
