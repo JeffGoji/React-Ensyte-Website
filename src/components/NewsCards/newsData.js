@@ -30,6 +30,9 @@ import img5R from '../../assets/img/1114Release-5.png'
 import img2123 from '../../assets/img/GasMeterSnow.jpeg'
 import pimage from '../../assets/img/Pooja-1.png'
 import imgHg1 from '../../assets/img/HG-01.jpeg'
+import Philly2024 from '../../assets/img/2024Philadelphia.jpeg'
+import Upgrade2024 from '../../assets/img/2024Upgrade.jpeg'
+
 
 
 const newsData = [
@@ -853,7 +856,7 @@ const newsData = [
         index: 23,
         title: "GASTAR Product Upgrade",
         description: "March 2024",
-        image: logo,
+        image: Upgrade2024,
         modalContent: (
             <>
                 <p>
@@ -880,7 +883,7 @@ const newsData = [
         index: 24,
         title: "GASTAR Selected for Retail Choice Solution",
         description: "August 2024",
-        image: logo,
+        image: Philly2024,
         modalContent: (
             <>
 

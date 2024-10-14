@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 
 
-import NewsCards from '../NewsCards';
+import NewsCards from '../NewsCards/NewsCards.js';
 import Carousel from '../Carousel'
 import Testimonials from './Testimonials'
 import GastarDemo1 from './GastarDemo1'
