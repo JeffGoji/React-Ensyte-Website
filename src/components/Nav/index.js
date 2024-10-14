@@ -45,23 +45,6 @@ export const Nav = () => {
                             <li className="nav-item ms-lg-3">
                                 <NavLink className={"nav-link active"} aria-current="page" to="/">Home</NavLink>
                             </li>
-
-                            {/* <li className="nav-item dropdown ms-lg-3">
-                                <div
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdownMenuLink"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-
-                                    About ENSYTE
-                                </div>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" href="#">
-                                    <li><NavLink className="dropdown-item" to="/about">About Us</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="/about">Our Team</NavLink></li>
-                                </ul>
-                            </li> */}
                             <li className={"nav-item dropdown ms-lg-3"}>
                                 <div
                                     className="nav-link dropdown-toggle"
@@ -150,7 +133,7 @@ export const Nav = () => {
                                 <NavLink className="nav-link" to="/about">About Us</NavLink>
                             </li>
                             <li className={"nav-item ms-lg-3"}>
-                                <NavLink className={"nav-link"} to="newsstand">Latest News</NavLink>
+                                <NavLink className={"nav-link"} to="/news/">Latest News</NavLink>
                             </li>
                             <li className={"nav-item ms-lg-3"}>
                                 <NavLink className={"nav-link"} to='contact'>Contact Us</NavLink>
