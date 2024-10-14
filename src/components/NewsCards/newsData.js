@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 //Images
-import logo from '../../assets/img/logo.png'
+//import logo from '../../assets/img/logo.png'
 import rig1 from '../../assets/img/rig1.jpg'
 import lngTanker from '../../assets/img/lngTanker.jpg'
 import customizedSolutions02 from '../../assets/img/customized-solutions-02.jpg'
@@ -24,9 +24,9 @@ import dashboard1 from '../../assets/img/visual-proto.jpg'
 import dashboard2 from '../../assets/img/node-proto.png'
 import img1R from '../../assets/img/1114Release-1.png'
 import img2R from '../../assets/img/1114Release-2.png'
-import img3R from '../../assets/img/1114Release-3.png'
+//import img3R from '../../assets/img/1114Release-3.png'
 import img4R from '../../assets/img/1114Release-4.png'
-import img5R from '../../assets/img/1114Release-5.png'
+//import img5R from '../../assets/img/1114Release-5.png'
 import img2123 from '../../assets/img/GasMeterSnow.jpeg'
 import pimage from '../../assets/img/Pooja-1.png'
 import imgHg1 from '../../assets/img/HG-01.jpeg'
