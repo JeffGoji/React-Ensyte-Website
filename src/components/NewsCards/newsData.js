@@ -24,9 +24,9 @@ import dashboard1 from '../../assets/img/visual-proto.jpg'
 import dashboard2 from '../../assets/img/node-proto.png'
 import img1R from '../../assets/img/1114Release-1.png'
 import img2R from '../../assets/img/1114Release-2.png'
-//import img3R from '../../assets/img/1114Release-3.png'
+import img3R from '../../assets/img/1114Release-3.png'
 import img4R from '../../assets/img/1114Release-4.png'
-//import img5R from '../../assets/img/1114Release-5.png'
+import img5R from '../../assets/img/1114Release-5.png'
 import img2123 from '../../assets/img/GasMeterSnow.jpeg'
 import pimage from '../../assets/img/Pooja-1.png'
 import imgHg1 from '../../assets/img/HG-01.jpeg'
@@ -729,7 +729,7 @@ const newsData = [
                 <h3 className="blue-text">Supplier / Marketer Management</h3>
                 <p>The GASTAR EBB enables Suppliers and Marketers to independently manage contacts and EBB access.</p>
                 <div className="text-center mb-5">
-                    <img src={img5} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxHeight: "60rem" }} />
+                    <img src={img5R} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxHeight: "60rem" }} />
                 </div>
 
                 <h3 className="blue-text">Daily Pool Reporting & Invoicing</h3>
@@ -740,6 +740,9 @@ const newsData = [
 
                 <h3 className="blue-text">Daily Imbalance Tolerance UI</h3>
                 <p>Suppliers and Marketers can view settlement reports for both interruptible pools and non-interruptible (displayed below) pools.</p>
+                <div className="text-center mb-5">
+                    <img src={img3R} alt="Services Solutions" className='imgShadow img-fluid rounded' style={{ maxHeight: "60rem" }} />
+                </div>
             </>
         ),
     },
