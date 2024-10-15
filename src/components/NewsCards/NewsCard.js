@@ -38,9 +38,9 @@ const NewsCard = ({ title, description, image, modalContent, buttonLabel }) => {
                                 <button type="button" className="btn-close text-white" onClick={handleCloseModal} aria-label="Close"></button>
                             </div>
                             <div className="modal-body fs-6 text-wrap">
-                                <div className="text-center mb-4">
+                                {/* <div className="text-center mb-4">
                                     <img src={image} alt={title} className='imgShadow img-fluid rounded' style={{ maxHeight: "35rem" }} />
-                                </div>
+                                </div> */}
                                 <p>{modalContent}</p>
                             </div>
                             <div className="modal-footer">
